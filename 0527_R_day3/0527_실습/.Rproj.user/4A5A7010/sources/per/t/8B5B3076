@@ -1,0 +1,32 @@
+{
+    "id": "8B5B3076",
+    "path": null,
+    "project_path": null,
+    "type": "r_dataframe",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1590557332153.0,
+    "source_on_save": false,
+    "relative_order": 5,
+    "properties": {
+        "expression": "welfare",
+        "caption": "welfare",
+        "totalObservations": 16664,
+        "displayedObservations": 16664,
+        "variables": 957,
+        "cacheKey": "8862803A",
+        "object": "welfare",
+        "environment": "",
+        "contentUrl": "grid_resource/gridviewer.html?env=&obj=welfare&cache_key=8862803A&max_cols=50",
+        "preview": 0
+    },
+    "folds": "",
+    "lastKnownWriteTime": 2983181927893460846,
+    "encoding": "",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1590557332153,
+    "read_only": false,
+    "read_only_alternatives": []
+}

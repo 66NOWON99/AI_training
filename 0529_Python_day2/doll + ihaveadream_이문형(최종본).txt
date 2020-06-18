@@ -1,0 +1,100 @@
+<Doll>
+#input data : board (뽑기기계 안의 인형 여부 및 종류), moves (기계 작동 로직)
+#output data : answers (없어진 인형의 수)
+
+import random
+
+board_rand_num = random.randint(5,30)
+#board_rand_num = 5
+moves_rand_num = random.randint(1,1000)
+#moves_rand_num = 8
+
+
+board = []
+moves = []
+
+for i in range(board_rand_num):
+    board.append([])
+    for j in range(board_rand_num):
+        board[i].append(0)
+
+for i in range(board_rand_num-1,-1,-1):
+    for j in range(board_rand_num-1,-1,-1):
+        if i == board_rand_num-1:
+            board[i][j] = random.randint(0,100)
+        if i < board_rand_num-1 and board[i+1][j] != 0:
+            board[i][j] = random.randint(1,100)
+
+"""            
+board = [[0,0,0,0,0],[0,0,1,0,3],[0,2,5,0,1],[4,2,4,4,2],[3,5,1,3,1]]
+moves = [1,5,3,5,1,2,1,4]
+"""
+for i in range(0, moves_rand_num):
+    moves.append(random.randint(1,board_rand_num))
+
+#print(board)
+#print(moves)
+#print(len(board))
+#print(len(moves))
+
+def solution(board, moves):
+    doll_lst = []
+    answer = 0
+    for i in range(len(moves)):
+        for j in range(len(board)):
+            if board[j][moves[i]-1] != 0:
+                doll_lst.append(board[j][moves[i]-1])
+                board[j][moves[i]-1] = 0
+                break
+        if len(doll_lst) >=2 and doll_lst[-1] == doll_lst[-2]:
+            doll_lst.pop()
+            doll_lst.pop()
+            answer = answer + 2
+        #print(doll_lst, answer)    
+    return answer
+
+
+solution(board, moves)
+################################################################################
+<단어와 단어 등장 횟수(최소 횟수 이상)를 사전객체로 반환하는 함수를 만들어 보세요>
+# 파라미터 : ihaveadream.txt, stopwords.txt, minimum number
+# 단어들 가운데 대소문자는 구분하지 않아야 합니다.
+# 단어들에 문장기호는 포함되지 않아야 합니다.
+# stopwords.txt 파일에 있는 단어들은 포함되지 않아야 합니다.
+
+def workshop(file_name, file_name2, min):
+    dic = {}
+    
+    f = open(file_name, 'r')
+    file_text = f.read()
+    f.close()
+
+    f2 = open(file_name2, 'r')
+    file_text2 = f2.read()
+    f2.close()
+    
+    lst = [".", ",", "?", "!", ":", ";", "-", "1", "2", "*", "'"]
+    for i in range(len(lst)):
+        file_text = file_text.replace(lst[i],"")
+        file_text2 = file_text2.replace(lst[i],"")
+
+    file_text = file_text.lower()
+    text_list = file_text.split()
+    file_text2 = file_text2.lower()
+    text_list2 = file_text2.split()
+
+    unique_list = []
+    for i in range(len(text_list)):        
+        unique_list.append(text_list[i])
+        if unique_list.count(text_list[i]) >= 2:
+            unique_list.pop()
+        elif text_list2.count(text_list[i]) >= 1:
+            unique_list.pop()
+    
+    for i in range(len(unique_list)):
+        if text_list.count(unique_list[i]) >= min:
+            dic[unique_list[i]]=text_list.count(unique_list[i])
+    
+    return dic
+
+workshop("ihaveadream.txt", "stopwords.txt", 5)

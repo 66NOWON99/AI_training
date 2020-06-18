@@ -1,0 +1,36 @@
+def knn(testData,trainData,trainLabels,k):
+    x=testData
+    gr=trainData
+    labels=trainLabels
+
+
+    ans=[]
+    for i in x:
+        ans.append(list(labels[dist(i,gr)[:k]]))
+
+    predLabels=[]
+
+    for j in ans:
+        num=[0,0,0]
+        num[0]=j.count(1.0)
+        num[1]=j.count(2.0)
+        num[2]=j.count(3.0)
+
+        max=num[0]
+        if max<num[1]: #num[0] < num[1]
+            max=num[1]
+            if max<num[2]: #num[1] < num[2]
+                predLabels.append(3)
+            else: #num[1]>num[2]
+                predLabels.append(2)
+
+        else: #num[0] >num[1]
+            if max>num[2]: #num[0]>num[2]
+                predLabels.append(1)
+            else: #num[0]<num[2] , num[1]<num[0] 
+                predLabels.append(3)
+
+
+
+    print(predLabels)
+    return predLabels

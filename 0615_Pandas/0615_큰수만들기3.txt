@@ -1,0 +1,40 @@
+def solution(number, k):
+    answer = ''
+    
+    
+    length=len(number)
+    goal=length-k
+    
+    while(k>0):
+        pre_num=number[:k]
+        max_n=max(pre_num)
+        print("pre_num",pre_num," num",number)
+        
+        if max_n<number[k]:
+            print("if")
+            answer=answer+number[k]
+
+            number=number[k:]
+            print("number",number)
+            
+        else:
+            print("else")
+            answer=answer+max_n
+            max_id=number.index(max(pre_num))+1
+            print("max-id",max_id)
+            number=number[max_id:]
+            print("number",number)
+            
+        goal-=1
+        length=len(number)
+        k=length-goal
+        
+        
+        print("answer:" ,answer,"\n")
+        
+        
+
+    
+    
+    print(answer)
+    return answer

@@ -1,0 +1,26 @@
+from itertools import combinations
+
+def solution(number, k):
+    answer = ''
+    numbers=[]
+    for i in number:
+        numbers.append(i)
+    combi=list(combinations(numbers,len(numbers)-k))
+    
+    num_list=[]
+    for j in combi:
+        str=""
+        for k in j:
+            str=str+k
+        # num_list.append(int(str))
+        num_list.append(str)
+        
+    num_list.sort(reverse=True)
+    max=num_list[0]
+    answer=answer+max
+        
+    
+    
+    
+    
+    return answer

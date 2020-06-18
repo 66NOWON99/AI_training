@@ -1,0 +1,33 @@
+def solution(number, k):
+    answer = ''
+    
+    
+    length=len(number)
+    goal=length-k
+    
+    while(len != goal):
+        pre_num=number[:k]
+        num=number[k:]
+        
+        max_n=max(pre_num)
+        # print("pre_num",pre_num," num",number)
+        if max_n<num[0]:
+            answer=answer+num[0]
+            number=number[2:]
+
+            
+        else:
+            answer=answer+max_n
+            max_id=number.index(max(number))
+            number=number[max_id:]
+            
+        goal-=1
+        length=len(number)
+        k=length-goal
+        
+        
+
+    
+    
+    
+    return answer

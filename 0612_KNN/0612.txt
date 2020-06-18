@@ -1,0 +1,39 @@
+def solution(n):
+    answer = ''
+    share = 3/
+    sequence = 0
+    seqNum=1
+    
+    while( n< sequence):
+        sequence=1/2*(3**seqNum-1)
+        seqNum+=1
+    print(seqNum," , ",sequence)
+    
+    
+    return answer
+
+
+
+////////////////////////
+def solution(n):
+    givenNum=n
+    answer = ''
+    # share = 3/
+    n=1
+    sequence = 3*(1/2*(3**n-1))
+
+    
+    while( givenNum< sequence):
+        n+=1
+        
+    print(n," , ",sequence)
+    
+    num2str=string(givenNum)
+    count=n
+    for i in range(count):
+        # chasu=n-i
+        n=n-1
+        target = givenNum-sequence
+        answer=answer+
+    
+    return answer

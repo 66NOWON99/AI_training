@@ -1,0 +1,19 @@
+import requests
+from bs4 import BeautifulSoup
+
+url="https://en.wikipedia.org/wiki/Main_Page"
+
+html_website = requests.get(url).text
+soup_website = BeautifulSoup(html_website,"lxml")
+website_search = soup_website.select('p a')
+
+
+link_list=[]
+
+for i in website_search:
+    if(str(i)[3:7]=="href"):
+        print(i)
+        link_list.append("https://en.wikipedia.org"+str(i).split('"')[1])
+
+print(link_list)
+len(link_list)

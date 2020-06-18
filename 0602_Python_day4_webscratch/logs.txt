@@ -1,0 +1,1956 @@
+오전 10:27:02 192.168.1.26:50123 Requested GET /shared_dir/R_Day3/?sort=t
+오전 10:27:02 192.168.1.26:50126 Requested GET /?mode=jquery
+오전 10:27:03 192.168.1.35:53562 Requested GET /shared_dir/
+오전 10:27:05 192.168.1.39:51165 Requested GET /
+오전 10:27:05 192.168.1.39:51165 Requested GET /shared_dir/
+오전 10:27:05 192.168.1.39:51164 Requested GET /?mode=jquery
+오전 10:27:08 192.168.1.39:51164 Requested GET /shared_dir/R_Day1/
+오전 10:27:08 192.168.1.39:51162 Requested GET /?mode=jquery
+오전 10:27:09 192.168.1.39:51167 Requested GET /shared_dir/
+오전 10:27:10 192.168.1.18:49984 Requested GET /shared_dir/
+오전 10:27:12 192.168.1.18:49984 Requested GET /shared_dir/R_Day2/
+오전 10:27:12 192.168.1.18:49983 Requested GET /?mode=jquery
+오전 10:27:15 192.168.1.18:49984 Requested GET /shared_dir/
+오전 10:27:21 192.168.1.18:49984 Requested GET /
+오전 10:27:27 192.168.1.35:53562 Requested POST /shared_dir/?mode=archive&recursive
+오전 10:27:27 192.168.1.26:50126 Requested GET /shared_dir/
+오전 10:27:27 192.168.1.26:50123 Requested GET /?mode=jquery
+오전 10:27:29 192.168.1.35:53562 Fully downloaded - 11.9 M @ 7.4 MB/s - /shared_dir/?mode=archive&recursive
+오전 10:27:29 192.168.1.26:50121 Requested GET /shared_dir/R_Day2/
+오전 10:27:29 192.168.1.26:50122 Requested GET /?mode=jquery
+오전 10:27:31 192.168.1.26:50122 Requested GET /shared_dir/R_Day2/?sort=t
+오전 10:27:31 192.168.1.39:51167 Requested POST /shared_dir/?mode=archive&recursive
+오전 10:27:31 192.168.1.26:50121 Requested GET /?mode=jquery
+오전 10:27:32 192.168.1.39:51167 Fully downloaded - 11.9 M @ 7.7 MB/s - /shared_dir/?mode=archive&recursive
+오전 10:27:42 192.168.1.26:50122 Requested GET /shared_dir/
+오전 10:27:42 192.168.1.26:50123 Requested GET /?mode=jquery
+오전 10:27:42 192.168.1.26:50123 Requested GET /shared_dir/R_Day1/
+오전 10:27:42 192.168.1.26:50125 Requested GET /?mode=jquery
+오전 10:27:43 192.168.1.26:50122 Requested GET /shared_dir/R_Day1/?sort=t
+오전 10:27:43 192.168.1.26:50126 Requested GET /?mode=jquery
+오전 10:27:49 192.168.1.26:50126 Requested GET /
+오전 10:27:49 192.168.1.26:50121 Requested GET /?mode=jquery
+오전 10:27:51 192.168.1.26:50126 Requested GET /shared_dir/
+오전 10:27:51 192.168.1.26:50121 Requested GET /?mode=jquery
+오전 10:27:53 192.168.1.26:50124 Requested GET /shared_dir/R_Day3/
+오전 10:27:53 192.168.1.26:50121 Requested GET /?mode=jquery
+오전 10:27:57 192.168.1.26:50126 Requested GET /shared_dir/R_Day3/?sort=t
+오전 10:27:57 192.168.1.26:50125 Requested GET /?mode=jquery
+오전 10:28:00 192.168.1.26:50123 Requested GET /shared_dir/R_Day3/Day3_Workshop1_노진서.pptx
+오전 10:28:00 192.168.1.26:50123 Fully downloaded - 818.0 K @ 5.7 MB/s - /shared_dir/R_Day3/Day3_Workshop1_노진서.pptx
+오전 10:28:11 192.168.1.39:51167 Requested POST /shared_dir/?mode=archive&recursive
+오전 10:28:11 192.168.1.39:51167 Fully downloaded - 23.5 K @ 1.4 MB/s - /shared_dir/?mode=archive&recursive
+오전 10:28:17 192.168.1.39:51167 Requested POST /shared_dir/?mode=archive&recursive
+오전 10:28:17 192.168.1.39:51167 Fully downloaded - 39.0 K @ 0B/s - /shared_dir/?mode=archive&recursive
+오전 10:28:23 192.168.1.39:51167 Requested POST /shared_dir/?mode=archive&recursive
+오전 10:28:23 192.168.1.39:51167 Fully downloaded - 11.8 M @ 21.6 MB/s - /shared_dir/?mode=archive&recursive
+오전 10:28:27 192.168.1.39:51167 Requested POST /shared_dir/?mode=archive&recursive
+오전 10:28:27 192.168.1.39:51167 Fully downloaded - 4.5 K @ 0B/s - /shared_dir/?mode=archive&recursive
+오전 10:29:51 192.168.1.26:50195 Requested GET /shared_dir/R_Day3/Day3_workshop1_엄지우.pptx
+오전 10:29:51 192.168.1.26:50195 Fully downloaded - 278.2 K @ 8.8 MB/s - /shared_dir/R_Day3/Day3_workshop1_엄지우.pptx
+오전 10:31:51 192.168.1.26:50233 Requested GET /shared_dir/R_Day3/Day3_workshop1_신영진.pptx
+오전 10:31:51 192.168.1.26:50233 Fully downloaded - 2.8 M @ 6.5 MB/s - /shared_dir/R_Day3/Day3_workshop1_신영진.pptx
+오전 10:33:41 192.168.1.26:50281 Requested GET /shared_dir/R_Day3/Day3_workshop1_박원우.pptx
+오전 10:33:41 192.168.1.26:50281 Fully downloaded - 769.1 K @ 6.9 MB/s - /shared_dir/R_Day3/Day3_workshop1_박원우.pptx
+오전 10:34:00 192.168.1.26:50281 Requested GET /shared_dir/R_Day3/Day3_workshop1_김도이.pptx
+오전 10:34:00 192.168.1.26:50281 Fully downloaded - 452.1 K @ 5.7 MB/s - /shared_dir/R_Day3/Day3_workshop1_김도이.pptx
+오전 10:34:51 192.168.1.26:50281 Requested GET /shared_dir/R_Day3/Day3_Workshop1_김서정.pptx
+오전 10:34:51 192.168.1.26:50281 Fully downloaded - 971.2 K @ 7.1 MB/s - /shared_dir/R_Day3/Day3_Workshop1_김서정.pptx
+오전 10:36:57 192.168.1.26:50362 Requested GET /shared_dir/R_Day3/Day3_workshop1_서소윤.pptx
+오전 10:36:57 192.168.1.26:50362 Fully downloaded - 656.5 K @ 5.9 MB/s - /shared_dir/R_Day3/Day3_workshop1_서소윤.pptx
+오전 10:38:29 192.168.1.26:50399 Requested GET /shared_dir/R_Day3/Day3_workshop1_김효섭.pptx
+오전 10:38:29 192.168.1.26:50399 Fully downloaded - 212.2 K @ 6.7 MB/s - /shared_dir/R_Day3/Day3_workshop1_김효섭.pptx
+오전 10:39:10 192.168.1.20:52873 Requested GET /shared_dir/R_Day3/
+오전 10:39:10 192.168.1.20:52874 Requested GET /?mode=jquery
+오전 10:39:12 192.168.1.20:52874 Requested GET /shared_dir/
+오전 10:46:57 192.168.1.44:51688 Requested GET /
+오전 10:46:57 192.168.1.44:51690 Requested GET /?mode=jquery
+오전 10:46:59 192.168.1.44:51690 Requested GET /upload/
+오전 10:46:59 192.168.1.44:51694 Requested GET /?mode=jquery
+오전 10:47:04 192.168.1.44:51692 Requested GET /
+오전 10:47:04 192.168.1.44:51690 Requested GET /?mode=jquery
+오전 10:47:06 192.168.1.44:51694 Requested GET /shared_dir/
+오전 10:47:06 192.168.1.44:51694 Requested GET /?mode=jquery
+오전 10:47:10 192.168.1.44:51693 Requested GET /shared_dir/R_Day3/
+오전 10:47:10 192.168.1.44:51694 Requested GET /?mode=jquery
+오전 10:47:16 192.168.1.44:51691 Requested GET /shared_dir/R_Day3/Day3_workshop1_김효섭.pptx
+오전 10:47:16 192.168.1.44:51691 Fully downloaded - 212.2 K @ 4.4 MB/s - /shared_dir/R_Day3/Day3_workshop1_김효섭.pptx
+오전 10:55:25 192.168.1.26:50558 Requested GET /shared_dir/R_Day3/Day_3_workshop1_강가영.pptx
+오전 10:55:25 192.168.1.26:50558 Fully downloaded - 292.0 K @ 4.5 MB/s - /shared_dir/R_Day3/Day_3_workshop1_강가영.pptx
+오전 10:56:35 192.168.1.57:55757 Requested GET /shared_dir/
+오전 10:56:35 192.168.1.57:55756 Requested GET /?mode=jquery
+오전 10:56:36 192.168.1.57:55760 Requested GET /shared_dir/
+오전 10:56:36 192.168.1.57:55758 Requested GET /?mode=jquery
+오전 10:56:52 192.168.1.29:50877 Requested GET /
+오전 10:56:53 192.168.1.29:50878 Requested GET /?mode=jquery
+오전 10:56:56 192.168.1.29:50879 Requested GET /upload/
+오전 10:56:56 192.168.1.29:50878 Requested GET /?mode=jquery
+오전 10:56:59 192.168.1.29:50879 Requested GET /
+오전 10:57:02 192.168.1.29:50879 Requested GET /shared_dir/
+오전 10:57:02 192.168.1.29:50878 Requested GET /?mode=jquery
+오전 10:57:04 192.168.1.29:50881 Requested GET /shared_dir/R_Day3/
+오전 10:57:04 192.168.1.29:50878 Requested GET /?mode=jquery
+오전 10:57:07 192.168.1.29:50878 Requested GET /shared_dir/
+오전 10:57:09 192.168.1.29:50878 Requested GET /shared_dir/R_day3.R
+오전 10:57:09 192.168.1.29:50878 Fully downloaded - 3.4 K @ 108.9 KB/s - /shared_dir/R_day3.R
+오전 11:13:36 192.168.1.3:61278 Requested GET /
+오전 11:13:36 192.168.1.3:61281 Requested GET /?mode=jquery
+오전 11:13:37 192.168.1.3:61283 Requested GET /shared_dir/
+오전 11:13:37 192.168.1.3:61283 Requested GET /?mode=jquery
+오전 11:13:39 192.168.1.3:61280 Requested GET /
+오전 11:13:39 192.168.1.3:61278 Requested GET /?mode=jquery
+오전 11:13:40 192.168.1.3:61284 Requested GET /upload/
+오전 11:13:40 192.168.1.3:61282 Requested GET /?mode=jquery
+오전 11:13:45 192.168.1.3:61278 Requested GET /
+오전 11:13:45 192.168.1.3:61280 Requested GET /?mode=jquery
+오전 11:13:46 192.168.1.3:61278 Requested GET /shared_dir/
+오전 11:13:46 192.168.1.3:61283 Requested GET /?mode=jquery
+오전 11:13:49 192.168.1.3:61283 Requested GET /shared_dir/R_Day3/
+오전 11:13:49 192.168.1.3:61282 Requested GET /?mode=jquery
+오전 11:13:56 192.168.1.3:61283 Requested GET /shared_dir/
+오전 11:13:56 192.168.1.3:61281 Requested GET /?mode=jquery
+오전 11:14:08 192.168.1.6:51239 Requested GET /
+오전 11:14:09 192.168.1.6:51240 Requested GET /?mode=jquery
+오전 11:43:22 192.168.1.47:49652 Requested GET /
+오전 11:43:22 192.168.1.47:49653 Requested GET /?mode=jquery
+오전 11:43:24 192.168.1.47:49655 Requested GET /upload/
+오전 11:43:24 192.168.1.47:49654 Requested GET /?mode=jquery
+오전 11:43:26 192.168.1.47:49649 Requested GET /
+오전 11:43:26 192.168.1.47:49649 Requested GET /shared_dir/
+오전 11:43:26 192.168.1.47:49652 Requested GET /?mode=jquery
+오전 11:47:33 192.168.1.47:49776 Requested GET /shared_dir/R_Day3/
+오전 11:47:33 192.168.1.47:49777 Requested GET /?mode=jquery
+오전 11:47:54 192.168.1.47:49779 Requested GET /shared_dir/
+오전 11:47:58 192.168.1.47:49779 Requested GET /shared_dir/R_Day3/
+오전 11:47:58 192.168.1.47:49781 Requested GET /?mode=jquery
+오전 11:48:00 192.168.1.47:49779 Requested GET /shared_dir/
+오전 11:48:02 192.168.1.47:49779 Requested GET /shared_dir/
+오전 11:48:02 192.168.1.47:49776 Requested GET /?mode=jquery
+오전 11:48:04 192.168.1.47:49777 Requested GET /
+오전 11:48:04 192.168.1.47:49780 Requested GET /?mode=jquery
+오전 11:48:04 192.168.1.47:49778 Requested GET /upload/
+오전 11:48:04 192.168.1.47:49780 Requested GET /?mode=jquery
+오전 11:48:10 192.168.1.47:49779 Requested GET /
+오전 11:48:10 192.168.1.47:49781 Requested GET /?mode=jquery
+오전 11:48:12 192.168.1.47:49779 Requested GET /
+오전 11:48:12 192.168.1.47:49781 Requested GET /?mode=jquery
+오전 11:48:13 192.168.1.47:49778 Requested GET /shared_dir/
+오전 11:48:13 192.168.1.47:49780 Requested GET /?mode=jquery
+오후 3:59:53 Check update: no new version
+오후 5:34:10 192.168.1.4:52272 Requested GET /
+오후 5:34:11 192.168.1.4:52273 Requested GET /?mode=jquery
+오후 5:34:12 192.168.1.10:57091 Requested GET /
+오후 5:34:12 192.168.1.10:57095 Requested GET /?mode=jquery
+오후 5:34:12 192.168.1.52:57832 Requested GET /
+오후 5:34:12 192.168.1.52:57832 Requested GET /?mode=jquery
+오후 5:34:13 192.168.1.4:52273 Requested GET /upload/
+오후 5:34:14 192.168.1.4:52276 Requested GET /?mode=jquery
+오후 5:34:14 192.168.1.50:59553 Requested GET /shared_dir/
+오후 5:34:14 192.168.1.50:59554 Requested GET /?mode=jquery
+오후 5:34:15 192.168.1.52:57834 Requested GET /upload/
+오후 5:34:15 192.168.1.52:57833 Requested GET /?mode=jquery
+오후 5:34:16 192.168.1.10:57095 Requested GET /upload/
+오후 5:34:16 192.168.1.10:57095 Requested GET /?mode=jquery
+오후 5:34:17 192.168.1.10:57094 Requested GET /
+오후 5:34:17 192.168.1.10:57097 Requested GET /?mode=jquery
+오후 5:34:18 192.168.1.4:52273 Requested GET /upload/
+오후 5:34:18 192.168.1.4:52276 Requested GET /?mode=jquery
+오후 5:34:18 192.168.1.10:57097 Requested GET /shared_dir/
+오후 5:34:18 192.168.1.10:57091 Requested GET /?mode=jquery
+오후 5:34:22 192.168.1.10:57091 Requested GET /
+오후 5:34:22 192.168.1.10:57097 Requested GET /?mode=jquery
+오후 5:34:23 192.168.1.10:57096 Requested GET /upload/
+오후 5:34:23 192.168.1.10:57096 Requested GET /?mode=jquery
+오후 5:34:39 192.168.1.60:50439 Requested GET /
+오후 5:34:39 192.168.1.60:50441 Requested GET /?mode=jquery
+오후 5:34:41 192.168.1.60:50443 Requested GET /upload/
+오후 5:34:41 192.168.1.60:50441 Requested GET /?mode=jquery
+오후 5:35:00 192.168.1.4:52274 Uploading baseball_엄지우.txt
+오후 5:35:00 192.168.1.4:52274 Fully uploaded baseball_엄지우.txt - 677 @ 21.3 KB/s
+오후 5:35:00 192.168.1.4:52274 Requested POST /upload/
+오후 5:35:01 192.168.1.4:52273 Requested GET /upload/
+오후 5:35:01 192.168.1.4:52276 Requested GET /?mode=jquery
+오후 5:35:51 192.168.1.17:56745 Requested GET /
+오후 5:35:51 192.168.1.17:56746 Requested GET /?mode=jquery
+오후 5:35:52 192.168.1.60:50456 Uploading Baseball_김도이.txt
+오후 5:35:52 192.168.1.60:50456 Fully uploaded Baseball_김도이.txt - 421 @ 17.9 KB/s
+오후 5:35:52 192.168.1.60:50456 Requested POST /upload/
+오후 5:35:53 192.168.1.52:57851 Uploading Baseball_김서정.txt
+오후 5:35:53 192.168.1.52:57851 Fully uploaded Baseball_김서정.txt - 994 @ 33.5 KB/s
+오후 5:35:53 192.168.1.52:57851 Requested POST /upload/
+오후 5:35:54 192.168.1.60:50456 Requested GET /upload/
+오후 5:35:54 192.168.1.52:57851 Requested GET /upload/
+오후 5:35:54 192.168.1.52:57850 Requested GET /?mode=jquery
+오후 5:35:54 192.168.1.60:50459 Requested GET /?mode=jquery
+오후 5:36:12 192.168.1.17:56746 Requested GET /upload/
+오후 5:36:12 192.168.1.17:56745 Requested GET /?mode=jquery
+오후 5:36:14 192.168.1.4:52285 Uploading baseball_엄지우(1).txt
+오후 5:36:14 192.168.1.4:52285 Fully uploaded baseball_엄지우(1).txt - 678 @ 41.4 KB/s
+오후 5:36:14 192.168.1.4:52285 Requested POST /upload/
+오후 5:36:15 192.168.1.4:52286 Requested GET /upload/
+오후 5:36:16 192.168.1.4:52284 Requested GET /?mode=jquery
+오후 5:36:23 192.168.1.4:52288 Requested GET /upload/baseball_엄지우(1).txt
+오후 5:36:23 192.168.1.4:52288 Fully downloaded - 678 @ 44.1 KB/s - /upload/baseball_엄지우(1).txt
+오후 5:36:25 192.168.1.4:52288 Requested GET /upload/
+오후 5:36:32 192.168.1.4:52285 Requested GET /upload/
+오후 5:36:32 192.168.1.17:56744 Uploading baseball_권준형.txt
+오후 5:36:32 192.168.1.17:56744 Fully uploaded baseball_권준형.txt - 821 @ 32.1 KB/s
+오후 5:36:32 192.168.1.17:56744 Requested POST /upload/
+오후 5:36:33 192.168.1.4:52285 Requested GET /upload/Baseball_김서정.txt
+오후 5:36:33 192.168.1.4:52285 Fully downloaded - 994 @ 31.3 KB/s - /upload/Baseball_김서정.txt
+오후 5:36:34 192.168.1.17:56748 Requested GET /upload/baseball_권준형.txt
+오후 5:36:34 192.168.1.17:56748 Fully downloaded - 821 @ 53.5 KB/s - /upload/baseball_권준형.txt
+오후 5:36:36 192.168.1.17:56748 Requested GET /upload/
+오후 5:36:39 192.168.1.17:56747 Requested GET /upload/
+오후 5:36:44 192.168.1.17:56747 Requested GET /upload/
+오후 5:36:51 192.168.1.4:52285 Requested GET /upload/
+오후 5:36:54 192.168.1.4:52285 Requested GET /upload/
+오후 5:36:54 192.168.1.4:52290 Requested GET /?mode=jquery
+오후 5:36:57 192.168.1.4:52286 Requested GET /upload/?sort=t
+오후 5:36:57 192.168.1.4:52289 Requested GET /?mode=jquery
+오후 5:37:23 192.168.1.17:56747 Requested GET /upload/
+오후 5:37:23 192.168.1.17:56744 Requested GET /?mode=jquery
+오후 5:37:33 192.168.1.17:56744 Requested GET /upload/Day3_workshop1_이희선.zip
+오후 5:37:33 192.168.1.17:56744 Fully downloaded - 431.9 K @ 4.5 MB/s - /upload/Day3_workshop1_이희선.zip
+오후 5:37:57 192.168.1.17:56744 Requested GET /
+오후 5:37:59 192.168.1.17:56744 Requested GET /upload/
+오후 5:38:00 192.168.1.17:56744 Requested GET /
+오후 5:41:54 192.168.1.60:50468 Requested GET /upload/Baseball_김도이.txt
+오후 5:41:54 192.168.1.60:50468 Fully downloaded - 421 @ 0B/s - /upload/Baseball_김도이.txt
+오후 5:41:58 192.168.1.60:50468 Requested GET /upload/
+오후 5:41:58 192.168.1.60:50471 Requested GET /?mode=jquery
+오후 5:42:46 192.168.1.60:50470 Uploading Baseball_김도이_최종.txt
+오후 5:42:46 192.168.1.60:50470 Fully uploaded Baseball_김도이_최종.txt - 469 @ 30.5 KB/s
+오후 5:42:46 192.168.1.60:50470 Requested POST /upload/
+오후 5:42:48 192.168.1.60:50470 Requested GET /upload/
+오후 5:42:48 192.168.1.60:50469 Requested GET /?mode=jquery
+오후 5:45:18 192.168.1.52:57883 Uploading Baseball_김서정_수정본.txt
+오후 5:45:18 192.168.1.52:57883 Fully uploaded Baseball_김서정_수정본.txt - 1017 @ 33.1 KB/s
+오후 5:45:18 192.168.1.52:57883 Requested POST /upload/
+오후 5:45:19 192.168.1.52:57883 Requested GET /upload/
+오후 5:45:19 192.168.1.52:57884 Requested GET /?mode=jquery
+오후 5:51:54 192.168.1.3:61031 Requested GET /
+오후 5:51:54 192.168.1.3:61031 Requested GET /?mode=jquery
+오후 5:52:15 192.168.1.3:61036 Requested GET /upload/
+오후 5:52:15 192.168.1.3:61035 Requested GET /?mode=jquery
+오후 5:52:23 192.168.1.3:61035 Requested GET /upload/baseball_권준형.txt
+오후 5:52:23 192.168.1.3:61035 Fully downloaded - 821 @ 50.1 KB/s - /upload/baseball_권준형.txt
+오후 5:52:33 192.168.1.3:61035 Requested GET /upload/
+오후 5:52:33 192.168.1.3:61033 Requested GET /?mode=jquery
+오후 5:52:34 192.168.1.3:61033 Requested GET /upload/Baseball_김도이.txt
+오후 5:52:34 192.168.1.3:61033 Fully downloaded - 421 @ 27.4 KB/s - /upload/Baseball_김도이.txt
+오후 5:52:39 192.168.1.3:61033 Requested GET /upload/
+오후 5:52:39 192.168.1.3:61031 Requested GET /?mode=jquery
+오후 5:52:44 192.168.1.3:61034 Requested GET /upload/baseball_엄지우(1).txt
+오후 5:52:44 192.168.1.3:61034 Fully downloaded - 678 @ 0B/s - /upload/baseball_엄지우(1).txt
+오후 5:52:59 192.168.1.3:61034 Requested GET /upload/
+오후 5:53:00 192.168.1.3:61034 Requested GET /?mode=jquery
+오후 5:53:01 192.168.1.3:61031 Requested GET /upload/Baseball_김서정_수정본.txt
+오후 5:53:01 192.168.1.3:61031 Fully downloaded - 1017 @ 66.2 KB/s - /upload/Baseball_김서정_수정본.txt
+오후 5:53:03 192.168.1.3:61031 Requested GET /upload/
+오후 5:53:03 192.168.1.3:61031 Requested GET /?mode=jquery
+오후 5:53:07 192.168.1.3:61031 Requested GET /upload/Baseball_김도이_최종.txt
+오후 5:53:07 192.168.1.3:61031 Fully downloaded - 469 @ 15.3 KB/s - /upload/Baseball_김도이_최종.txt
+오후 5:54:54 192.168.1.3:61075 Requested GET /upload/
+오후 5:54:54 192.168.1.3:61079 Requested GET /?mode=jquery
+오후 5:54:56 192.168.1.3:61079 Requested GET /upload/baseball_엄지우.txt
+오후 5:54:56 192.168.1.3:61079 Fully downloaded - 677 @ 27.5 KB/s - /upload/baseball_엄지우.txt
+오후 5:55:00 192.168.1.3:61079 Requested GET /upload/
+오후 5:55:00 192.168.1.3:61079 Requested GET /?mode=jquery
+오후 5:55:02 192.168.1.3:61079 Requested GET /upload/
+오후 5:55:02 192.168.1.3:61077 Requested GET /?mode=jquery
+오후 5:55:10 192.168.1.3:61074 Requested GET /upload/
+오후 5:55:10 192.168.1.3:61074 Requested GET /?mode=jquery
+오후 5:55:14 192.168.1.3:61075 Requested GET /upload/
+오후 5:55:14 192.168.1.3:61084 Requested GET /?mode=jquery
+오후 5:55:23 192.168.1.3:61079 Requested GET /upload/
+오후 5:55:23 192.168.1.3:61075 Requested GET /?mode=jquery
+오후 5:57:18 192.168.1.3:61090 Requested GET /upload/
+오후 5:57:18 192.168.1.3:61091 Requested GET /?mode=jquery
+오후 5:57:21 192.168.1.3:61092 Requested GET /upload/
+오후 5:57:21 192.168.1.3:61096 Requested GET /?mode=jquery
+오후 5:57:24 192.168.1.3:61090 Requested GET /upload/
+오후 5:57:24 192.168.1.3:61096 Requested GET /?mode=jquery
+오후 5:59:20 192.168.1.55:52159 Requested GET /
+오후 5:59:20 192.168.1.55:52160 Requested GET /?mode=jquery
+오후 5:59:21 192.168.1.55:52161 Requested GET /upload/
+오후 5:59:21 192.168.1.55:52163 Requested GET /?mode=jquery
+오후 5:59:32 192.168.1.55:52159 Uploading Baseball_김성현.txt
+오후 5:59:32 192.168.1.55:52159 Fully uploaded Baseball_김성현.txt - 1.0 K @ 67.6 KB/s
+오후 5:59:32 192.168.1.55:52159 Requested POST /upload/
+오후 5:59:33 192.168.1.55:52160 Requested GET /upload/
+오후 5:59:33 192.168.1.55:52161 Requested GET /?mode=jquery
+오후 6:02:05 192.168.1.3:61194 Requested GET /upload/
+오후 6:02:05 192.168.1.3:61194 Requested GET /?mode=jquery
+오후 6:02:08 192.168.1.3:61199 Requested GET /upload/Baseball_김서정.txt
+오후 6:02:08 192.168.1.3:61199 Fully downloaded - 994 @ 64.7 KB/s - /upload/Baseball_김서정.txt
+오후 6:02:11 192.168.1.3:61199 Requested GET /upload/
+오후 6:02:11 192.168.1.3:61195 Requested GET /?mode=jquery
+오후 6:02:21 192.168.1.3:61199 Requested GET /upload/
+오후 6:02:21 192.168.1.3:61194 Requested GET /?mode=jquery
+오후 6:05:06 192.168.1.55:52328 Requested GET /upload/
+오후 6:05:06 192.168.1.55:52329 Requested GET /?mode=jquery
+오후 6:05:07 192.168.1.55:52328 Requested GET /upload/
+오후 6:05:07 192.168.1.55:52333 Requested GET /?mode=jquery
+오후 6:07:54 192.168.1.3:52542 Requested GET /
+오후 6:07:54 192.168.1.3:52542 Requested GET /?mode=jquery
+오후 6:07:55 192.168.1.3:52544 Requested GET /upload/
+오후 6:07:55 192.168.1.3:52544 Requested GET /?mode=jquery
+오후 6:08:03 192.168.1.3:52543 Requested GET /upload/
+오후 6:08:03 192.168.1.3:52543 Requested GET /?mode=jquery
+오후 6:10:18 192.168.1.49:57023 Requested GET /shared_dir/
+오후 6:10:18 192.168.1.49:57024 Requested GET /?mode=jquery
+오후 6:10:20 192.168.1.49:57025 Requested GET /shared_dir/
+오후 6:10:20 192.168.1.49:57027 Requested GET /?mode=jquery
+오후 6:10:27 192.168.1.49:57027 Requested GET /
+오후 6:10:27 192.168.1.49:57022 Requested GET /?mode=jquery
+오후 6:10:28 192.168.1.49:57027 Requested GET /upload/
+오후 6:10:28 192.168.1.49:57024 Requested GET /?mode=jquery
+오후 6:10:32 192.168.1.49:57022 Requested GET /upload/Baseball_김서정_수정본.txt
+오후 6:10:32 192.168.1.49:57022 Fully downloaded - 1017 @ 0B/s - /upload/Baseball_김서정_수정본.txt
+오후 6:10:47 192.168.1.49:57022 Requested GET /upload/
+오후 6:10:57 192.168.1.49:57022 Requested GET /upload/Baseball_김성현.txt
+오후 6:10:57 192.168.1.49:57022 Fully downloaded - 1.0 K @ 67.6 KB/s - /upload/Baseball_김성현.txt
+오후 6:13:43 192.168.1.3:52763 Requested GET /upload/
+오후 6:13:43 192.168.1.3:52768 Requested GET /?mode=jquery
+오후 6:15:21 192.168.1.52:58119 Requested GET /
+오후 6:15:21 192.168.1.52:58119 Requested GET /?mode=jquery
+오후 6:15:22 192.168.1.52:58124 Requested GET /upload/
+오후 6:15:22 192.168.1.52:58123 Requested GET /?mode=jquery
+오후 6:15:32 192.168.1.52:58121 Requested GET /upload/
+오후 6:15:32 192.168.1.52:58123 Requested GET /?mode=jquery
+오후 6:15:33 192.168.1.52:58120 Requested GET /upload/
+오후 6:15:33 192.168.1.52:58119 Requested GET /?mode=jquery
+오후 6:15:52 192.168.1.17:56919 Requested GET /upload/
+오후 6:15:52 192.168.1.17:56918 Requested GET /?mode=jquery
+오후 6:16:06 192.168.1.17:56918 Uploading mystring_권준형.txt
+오후 6:16:06 192.168.1.17:56918 Fully uploaded mystring_권준형.txt - 1.2 K @ 54.4 KB/s
+오후 6:16:06 192.168.1.17:56918 Requested POST /upload/
+오후 6:16:07 192.168.1.17:56923 Requested GET /upload/
+오후 6:17:25 192.168.1.50:50223 Requested GET /
+오후 6:17:25 192.168.1.50:50224 Requested GET /?mode=jquery
+오후 6:17:26 192.168.1.50:50223 Requested GET /upload/
+오후 6:17:26 192.168.1.50:50227 Requested GET /?mode=jquery
+오후 6:17:40 192.168.1.50:50222 Uploading my_string_노진서.txt
+오후 6:17:40 192.168.1.50:50222 Fully uploaded my_string_노진서.txt - 2.0 K @ 72.3 KB/s
+오후 6:17:40 192.168.1.50:50222 Requested POST /upload/
+오후 6:17:41 192.168.1.50:50225 Requested GET /upload/
+오후 6:17:41 192.168.1.50:50224 Requested GET /?mode=jquery
+오후 6:17:43 192.168.1.50:50227 Requested GET /upload/
+오후 6:17:43 192.168.1.50:50226 Requested GET /?mode=jquery
+오후 6:17:50 192.168.1.50:50224 Requested GET /upload/?sort=t
+오후 6:17:50 192.168.1.50:50222 Requested GET /?mode=jquery
+오후 6:18:25 192.168.1.50:50226 Requested GET /upload/Baseball_김도이_최종.txt
+오후 6:18:25 192.168.1.50:50226 Fully downloaded - 469 @ 30.5 KB/s - /upload/Baseball_김도이_최종.txt
+오후 6:18:31 192.168.1.50:50226 Requested GET /upload/?sort=t
+오후 6:18:38 192.168.1.50:50226 Requested GET /upload/mystring_권준형.txt
+오후 6:18:38 192.168.1.50:50226 Fully downloaded - 1.2 K @ 0B/s - /upload/mystring_권준형.txt
+오후 6:19:46 192.168.1.50:50246 Requested GET /upload/?sort=t
+오후 6:19:51 192.168.1.50:50246 Uploading Baseball_노진서.txt
+오후 6:19:51 192.168.1.50:50246 Fully uploaded Baseball_노진서.txt - 884 @ 57.6 KB/s
+오후 6:19:51 192.168.1.50:50246 Requested POST /upload/
+오후 6:19:53 192.168.1.50:50248 Requested GET /upload/?sort=t
+오후 6:20:01 192.168.1.50:50248 Requested GET /upload/?sort=t
+오후 6:20:08 192.168.1.50:50248 Requested GET /upload/baseball_권준형.txt
+오후 6:20:08 192.168.1.50:50248 Fully downloaded - 821 @ 0B/s - /upload/baseball_권준형.txt
+오후 6:20:30 192.168.1.17:56942 Requested GET /upload/
+오후 6:20:30 192.168.1.17:56943 Requested GET /?mode=jquery
+오후 6:23:31 192.168.1.10:58030 Requested GET /upload/
+오후 6:23:31 192.168.1.10:58030 Requested GET /?mode=jquery
+오후 6:23:45 192.168.1.17:56962 Requested GET /upload/
+오후 6:23:45 192.168.1.17:56963 Requested GET /?mode=jquery
+오후 6:23:51 192.168.1.10:58032 Requested GET /upload/Baseball_김서정_수정본.txt
+오후 6:23:51 192.168.1.10:58032 Fully downloaded - 1017 @ 66.2 KB/s - /upload/Baseball_김서정_수정본.txt
+오후 6:24:35 192.168.1.10:58032 Requested GET /upload/
+오후 6:24:35 192.168.1.10:58039 Requested GET /?mode=jquery
+오후 6:25:09 192.168.1.47:54538 Requested GET /
+오후 6:25:09 192.168.1.47:54539 Requested GET /?mode=jquery
+오후 6:25:10 192.168.1.47:54540 Requested GET /shared_dir/
+오후 6:25:10 192.168.1.47:54538 Requested GET /?mode=jquery
+오후 6:25:15 192.168.1.47:54542 Requested GET /
+오후 6:25:16 192.168.1.47:54542 Requested GET /upload/
+오후 6:25:16 192.168.1.47:54537 Requested GET /?mode=jquery
+오후 6:25:34 192.168.1.10:58040 Requested GET /upload/
+오후 6:25:34 192.168.1.10:58039 Requested GET /?mode=jquery
+오후 6:25:52 192.168.1.47:54540 Uploading Baseball_신영진.txt
+오후 6:25:52 192.168.1.47:54540 Fully uploaded Baseball_신영진.txt - 1.3 K @ 78.6 KB/s
+오후 6:25:52 192.168.1.47:54540 Requested POST /upload/
+오후 6:25:54 192.168.1.47:54537 Requested GET /upload/
+오후 6:25:54 192.168.1.47:54539 Requested GET /?mode=jquery
+오후 6:25:57 192.168.1.47:54541 Requested GET /upload/?sort=t
+오후 6:25:57 192.168.1.47:54540 Requested GET /?mode=jquery
+오후 6:27:38 192.168.1.3:53257 Requested GET /upload/
+오후 6:27:38 192.168.1.3:53258 Requested GET /?mode=jquery
+오후 6:27:39 192.168.1.3:53258 Requested GET /upload/
+오후 6:27:39 192.168.1.3:53259 Requested GET /?mode=jquery
+오후 6:27:58 192.168.1.3:53255 Uploading Baseball_전혜진.txt
+오후 6:27:58 192.168.1.3:53255 Fully uploaded Baseball_전혜진.txt - 656 @ 19.4 KB/s
+오후 6:27:58 192.168.1.3:53255 Requested POST /upload/
+오후 6:27:58 192.168.1.17:56979 Requested GET /upload/
+오후 6:27:58 192.168.1.17:56980 Requested GET /?mode=jquery
+오후 6:29:49 192.168.1.3:53317 Requested GET /
+오후 6:29:49 192.168.1.3:53317 Requested GET /?mode=jquery
+오후 6:29:50 192.168.1.3:53316 Requested GET /upload/
+오후 6:29:50 192.168.1.3:53320 Requested GET /?mode=jquery
+오후 6:31:39 192.168.1.49:57807 Requested GET /upload/
+오후 6:31:48 192.168.1.49:57807 Uploading Baseball_김승연.txt
+오후 6:31:48 192.168.1.49:57807 Fully uploaded Baseball_김승연.txt - 666 @ 40.6 KB/s
+오후 6:31:48 192.168.1.49:57807 Requested POST /upload/
+오후 6:31:50 192.168.1.49:57809 Requested GET /upload/
+오후 6:31:56 192.168.1.17:57000 Requested GET /upload/
+오후 6:31:56 192.168.1.17:57001 Requested GET /?mode=jquery
+오후 6:32:58 192.168.1.56:60886 Requested GET /
+오후 6:32:58 192.168.1.56:60886 Requested GET /?mode=jquery
+오후 6:33:00 192.168.1.56:60886 Requested GET /upload/
+오후 6:33:00 192.168.1.56:60886 Requested GET /?mode=jquery
+오후 6:35:07 192.168.1.3:53415 Requested GET /
+오후 6:35:07 192.168.1.3:53415 Requested GET /?mode=jquery
+오후 6:35:09 192.168.1.3:53420 Requested GET /upload/
+오후 6:35:09 192.168.1.3:53415 Requested GET /?mode=jquery
+오후 6:35:46 192.168.1.56:60897 Requested GET /
+오후 6:35:46 192.168.1.56:60897 Requested GET /?mode=jquery
+오후 6:35:58 192.168.1.56:60904 Uploading Baseball_박원우.txt
+오후 6:35:58 192.168.1.56:60904 Fully uploaded Baseball_박원우.txt - 1.1 K @ 70.3 KB/s
+오후 6:35:58 192.168.1.56:60904 Requested POST /upload/
+오후 6:36:00 192.168.1.56:60905 Requested GET /upload/
+오후 6:36:00 192.168.1.56:60905 Requested GET /?mode=jquery
+오후 6:36:03 192.168.1.3:53419 Requested GET /upload/
+오후 6:36:03 192.168.1.3:53420 Requested GET /?mode=jquery
+오후 6:37:36 192.168.1.10:58425 Requested GET /upload/
+오후 6:37:36 192.168.1.10:58428 Requested GET /?mode=jquery
+오후 6:37:37 192.168.1.10:58427 Requested GET /upload/
+오후 6:37:37 192.168.1.10:58425 Requested GET /?mode=jquery
+오후 6:38:11 192.168.1.47:54605 Requested GET /upload/?sort=t
+오후 6:38:11 192.168.1.47:54604 Requested GET /?mode=jquery
+오후 6:38:13 192.168.1.47:54606 Requested GET /upload/?sort=t
+오후 6:38:13 192.168.1.47:54607 Requested GET /?mode=jquery
+오후 6:38:14 192.168.1.47:54604 Requested GET /upload/?sort=t
+오후 6:38:14 192.168.1.47:54605 Requested GET /?mode=jquery
+오후 6:38:16 192.168.1.47:54609 Requested GET /upload/?sort=t
+오후 6:38:16 192.168.1.47:54604 Requested GET /?mode=jquery
+오후 6:38:51 192.168.1.17:57032 Requested GET /upload/
+오후 6:38:51 192.168.1.17:57031 Requested GET /?mode=jquery
+오후 6:38:55 192.168.1.17:57032 Requested GET /upload/my_string_노진서.txt
+오후 6:38:55 192.168.1.17:57032 Fully downloaded - 2.0 K @ 63.0 KB/s - /upload/my_string_노진서.txt
+오후 6:39:06 192.168.1.10:58439 Requested GET /upload/
+오후 6:39:06 192.168.1.10:58444 Requested GET /?mode=jquery
+오후 6:39:14 192.168.1.17:57032 Requested GET /upload/
+오후 6:39:52 192.168.1.47:54625 Requested GET /upload/?sort=t
+오후 6:39:52 192.168.1.47:54624 Requested GET /?mode=jquery
+오후 6:41:04 192.168.1.4:53603 Requested GET /
+오후 6:41:04 192.168.1.4:53602 Requested GET /?mode=jquery
+오후 6:41:06 192.168.1.4:53607 Requested GET /
+오후 6:41:06 192.168.1.4:53603 Requested GET /?mode=jquery
+오후 6:41:07 192.168.1.4:53604 Requested GET /upload/
+오후 6:41:07 192.168.1.4:53603 Requested GET /?mode=jquery
+오후 6:41:12 192.168.1.4:53606 Requested GET /upload/my_string_노진서.txt
+오후 6:41:12 192.168.1.4:53606 Fully downloaded - 2.0 K @ 130.1 KB/s - /upload/my_string_노진서.txt
+오후 6:41:32 192.168.1.4:53606 Requested GET /
+오후 6:41:32 192.168.1.4:53607 Requested GET /?mode=jquery
+오후 6:41:35 192.168.1.4:53607 Requested GET /upload/
+오후 6:41:35 192.168.1.4:53605 Requested GET /?mode=jquery
+오후 6:41:44 192.168.1.4:53607 Uploading mystring_엄지우.txt
+오후 6:41:44 192.168.1.4:53607 Fully uploaded mystring_엄지우.txt - 361 @ 11.4 KB/s
+오후 6:41:44 192.168.1.4:53607 Requested POST /upload/
+오후 6:41:45 192.168.1.4:53602 Requested GET /upload/
+오후 6:41:45 192.168.1.4:53603 Requested GET /?mode=jquery
+오후 6:41:47 192.168.1.4:53606 Requested GET /upload/mystring_권준형.txt
+오후 6:41:47 192.168.1.4:53606 Fully downloaded - 1.2 K @ 0B/s - /upload/mystring_권준형.txt
+오후 6:45:06 192.168.1.10:58678 Requested GET /upload/
+오후 6:45:06 192.168.1.10:58678 Requested GET /?mode=jquery
+오후 6:45:14 192.168.1.10:58678 Requested GET /upload/mystring_엄지우.txt
+오후 6:45:14 192.168.1.10:58678 Fully downloaded - 361 @ 0B/s - /upload/mystring_엄지우.txt
+오후 6:45:18 192.168.1.10:58678 Requested GET /upload/
+오후 6:45:18 192.168.1.10:58683 Requested GET /?mode=jquery
+오후 6:57:32 192.168.1.14:61079 Requested GET /
+오후 6:57:32 192.168.1.14:61080 Requested GET /?mode=jquery
+오후 6:57:33 192.168.1.14:61080 Requested GET /upload/
+오후 6:57:33 192.168.1.14:61081 Requested GET /?mode=jquery
+오후 6:58:44 192.168.1.14:61088 Uploading my_string_이문형.txt
+오후 6:58:44 192.168.1.14:61088 Fully uploaded my_string_이문형.txt - 1.7 K @ 59.9 KB/s
+오후 6:58:44 192.168.1.14:61088 Requested POST /upload/
+오후 6:58:46 192.168.1.14:61089 Requested GET /upload/
+오후 6:58:46 192.168.1.14:61090 Requested GET /?mode=jquery
+오후 7:06:28 192.168.1.19:64692 Requested GET /
+오후 7:06:28 192.168.1.19:64696 Requested GET /?mode=jquery
+오후 7:06:30 192.168.1.19:64692 Requested GET /upload/
+오후 7:06:30 192.168.1.19:64692 Requested GET /?mode=jquery
+오후 7:06:41 192.168.1.19:64694 Requested GET /upload/Baseball_김승연.txt
+오후 7:06:41 192.168.1.19:64694 Fully downloaded - 666 @ 43.4 KB/s - /upload/Baseball_김승연.txt
+오후 7:06:45 192.168.1.19:64694 Requested GET /upload/
+오후 7:06:45 192.168.1.19:64698 Requested GET /?mode=jquery
+오후 7:07:41 192.168.1.10:59011 Requested GET /upload/
+오후 7:07:41 192.168.1.10:59009 Requested GET /?mode=jquery
+오후 7:07:59 192.168.1.10:59012 Requested GET /upload/
+오후 7:07:59 192.168.1.10:59009 Requested GET /?mode=jquery
+오후 7:09:25 192.168.1.10:59093 Requested GET /upload/
+오후 7:09:25 192.168.1.10:59092 Requested GET /?mode=jquery
+오후 7:09:31 192.168.1.50:51628 Requested GET /upload/?sort=t
+오후 7:09:42 192.168.1.10:59093 Requested GET /upload/
+오후 7:09:42 192.168.1.10:59093 Requested GET /?mode=jquery
+오후 7:09:47 192.168.1.10:59093 Requested GET /upload/my_string_노진서.txt
+오후 7:09:47 192.168.1.10:59093 Fully downloaded - 2.0 K @ 130.1 KB/s - /upload/my_string_노진서.txt
+오후 7:10:01 192.168.1.10:59093 Requested GET /upload/
+오후 7:10:01 192.168.1.10:59091 Requested GET /?mode=jquery
+오후 7:10:04 192.168.1.10:59095 Requested GET /upload/my_string_이문형.txt
+오후 7:10:04 192.168.1.10:59095 Fully downloaded - 1.7 K @ 115.8 KB/s - /upload/my_string_이문형.txt
+오후 7:10:08 192.168.1.50:51628 Uploading baseball_노진서_list version.txt
+오후 7:10:08 192.168.1.50:51628 Fully uploaded baseball_노진서_list version.txt - 840 @ 29.3 KB/s
+오후 7:10:08 192.168.1.50:51628 Requested POST /upload/
+오후 7:10:10 192.168.1.50:51639 Requested GET /upload/?sort=t
+오후 7:10:13 192.168.1.10:59095 Requested GET /upload/
+오후 7:10:13 192.168.1.10:59093 Requested GET /?mode=jquery
+오후 7:10:14 192.168.1.50:51639 Requested GET /upload/?sort=t
+오후 7:10:14 192.168.1.50:51638 Requested GET /?mode=jquery
+오후 7:10:14 192.168.1.50:51628 Requested GET /upload/?sort=t&rev=1
+오후 7:10:15 192.168.1.50:51640 Requested GET /?mode=jquery
+오후 7:10:16 192.168.1.10:59091 Requested GET /upload/
+오후 7:10:16 192.168.1.10:59095 Requested GET /?mode=jquery
+오후 7:10:19 192.168.1.50:51628 Requested GET /upload/?sort=t
+오후 7:10:19 192.168.1.50:51639 Requested GET /?mode=jquery
+오후 7:10:21 192.168.1.10:59092 Requested GET /upload/mystring_권준형.txt
+오후 7:10:21 192.168.1.10:59092 Fully downloaded - 1.2 K @ 79.8 KB/s - /upload/mystring_권준형.txt
+오후 7:10:47 192.168.1.10:59092 Requested GET /upload/
+오후 7:10:47 192.168.1.10:59096 Requested GET /?mode=jquery
+오후 7:10:47 192.168.1.12:56880 Requested GET /
+오후 7:10:47 192.168.1.12:56881 Requested GET /?mode=jquery
+오후 7:10:49 192.168.1.12:56880 Requested GET /upload/
+오후 7:10:49 192.168.1.12:56882 Requested GET /?mode=jquery
+오후 7:10:50 192.168.1.10:59092 Requested GET /upload/
+오후 7:10:51 192.168.1.10:59095 Requested GET /?mode=jquery
+오후 7:10:58 192.168.1.10:59095 Requested GET /upload/baseball_노진서_list version.txt
+오후 7:10:58 192.168.1.10:59095 Fully downloaded - 840 @ 54.7 KB/s - /upload/baseball_노진서_list version.txt
+오후 7:11:05 192.168.1.12:56881 Uploading Baseball_서소윤.txt
+오후 7:11:05 192.168.1.12:56881 Fully uploaded Baseball_서소윤.txt - 986 @ 64.2 KB/s
+오후 7:11:05 192.168.1.12:56881 Requested POST /upload/
+오후 7:11:07 192.168.1.12:56884 Requested GET /upload/
+오후 7:12:04 192.168.1.52:58424 Requested GET /
+오후 7:12:05 192.168.1.52:58425 Requested GET /?mode=jquery
+오후 7:12:09 192.168.1.52:58429 Requested GET /upload/
+오후 7:12:09 192.168.1.52:58428 Requested GET /?mode=jquery
+오후 7:12:14 192.168.1.52:58427 Requested GET /upload/mystring_엄지우.txt
+오후 7:12:14 192.168.1.52:58427 Fully downloaded - 361 @ 23.5 KB/s - /upload/mystring_엄지우.txt
+오후 7:12:17 192.168.1.52:58427 Requested GET /upload/
+오후 7:12:18 192.168.1.52:58427 Requested GET /upload/mystring_권준형.txt
+오후 7:12:18 192.168.1.52:58427 Fully downloaded - 1.2 K @ 79.8 KB/s - /upload/mystring_권준형.txt
+오후 7:19:36 192.168.1.50:51754 Requested GET /upload/?sort=t
+오후 7:20:19 192.168.1.52:58462 Requested GET /upload/
+오후 7:20:39 192.168.1.52:58462 Uploading my_string_김서정.txt
+오후 7:20:39 192.168.1.52:58462 Fully uploaded my_string_김서정.txt - 1.9 K @ 117.3 KB/s
+오후 7:20:39 192.168.1.52:58462 Requested POST /upload/
+오후 7:20:40 192.168.1.52:58462 Requested GET /upload/
+오후 7:20:40 192.168.1.52:58465 Requested GET /?mode=jquery
+오후 7:33:40 192.168.1.19:65166 Uploading Baseball_강가영.txt
+오후 7:33:40 192.168.1.19:65166 Fully uploaded Baseball_강가영.txt - 663 @ 40.5 KB/s
+오후 7:33:40 192.168.1.19:65166 Requested POST /upload/
+오후 7:33:41 192.168.1.19:65169 Requested GET /upload/
+오후 7:33:41 192.168.1.19:65169 Requested GET /?mode=jquery
+오후 7:38:01 192.168.1.62:54302 Requested GET /
+오후 7:38:02 192.168.1.62:54303 Requested GET /?mode=jquery
+오후 7:38:03 192.168.1.62:54304 Requested GET /upload/
+오후 7:38:03 192.168.1.62:54302 Requested GET /?mode=jquery
+오후 7:38:17 192.168.1.62:54305 Uploading Baseball_오재환.txt
+오후 7:38:17 192.168.1.62:54305 Fully uploaded Baseball_오재환.txt - 1.6 K @ 54.0 KB/s
+오후 7:38:17 192.168.1.62:54305 Requested POST /upload/
+오후 7:38:19 192.168.1.62:54303 Requested GET /upload/
+오후 7:38:19 192.168.1.62:54306 Requested GET /?mode=jquery
+오후 7:44:00 192.168.1.55:52653 Requested GET /upload/
+오후 7:44:00 192.168.1.55:52654 Requested GET /?mode=jquery
+오후 7:44:09 192.168.1.55:52654 Uploading my_string_김성현.txt
+오후 7:44:09 192.168.1.55:52654 Fully uploaded my_string_김성현.txt - 1.8 K @ 59.6 KB/s
+오후 7:44:09 192.168.1.55:52654 Requested POST /upload/
+오후 7:44:10 192.168.1.55:52655 Requested GET /upload/
+오후 7:44:10 192.168.1.55:52656 Requested GET /?mode=jquery
+오후 7:48:13 192.168.1.50:52083 Uploading my_string_노진서_rev.txt
+오후 7:48:13 192.168.1.50:52083 Fully uploaded my_string_노진서_rev.txt - 1.0 K @ 63.2 KB/s
+오후 7:48:13 192.168.1.50:52083 Requested POST /upload/
+오후 7:48:14 192.168.1.50:52084 Requested GET /upload/?sort=t
+오후 7:48:17 192.168.1.50:52084 Requested GET /upload/?sort=t&rev=1
+오후 7:48:17 192.168.1.50:52082 Requested GET /?mode=jquery
+오후 7:48:18 192.168.1.50:52085 Requested GET /upload/?sort=t
+오후 7:48:18 192.168.1.50:52087 Requested GET /?mode=jquery
+오후 7:48:30 192.168.1.50:52085 Requested GET /upload/my_string_김성현.txt
+오후 7:48:30 192.168.1.50:52085 Fully downloaded - 1.8 K @ 0B/s - /upload/my_string_김성현.txt
+오후 8:11:06 192.168.1.62:54637 Uploading my_string_오재환.txt
+오후 8:11:06 192.168.1.62:54637 Fully uploaded my_string_오재환.txt - 1.1 K @ 69.0 KB/s
+오후 8:11:06 192.168.1.62:54637 Requested POST /upload/
+오후 8:11:07 192.168.1.62:54639 Requested GET /upload/
+오후 8:11:07 192.168.1.62:54638 Requested GET /?mode=jquery
+오후 8:31:53 192.168.1.14:61738 Requested GET /
+오후 8:31:53 192.168.1.14:61739 Requested GET /?mode=jquery
+오후 8:31:54 192.168.1.14:61743 Requested GET /upload/
+오후 8:31:54 192.168.1.14:61742 Requested GET /?mode=jquery
+오후 8:32:04 192.168.1.14:61742 Uploading my_string_이문형(수정).txt
+오후 8:32:04 192.168.1.14:61742 Fully uploaded my_string_이문형(수정).txt - 3.9 K @ 260.9 KB/s
+오후 8:32:04 192.168.1.14:61742 Requested POST /upload/
+오후 8:32:05 192.168.1.14:61743 Requested GET /upload/
+오후 8:32:05 192.168.1.14:61741 Requested GET /?mode=jquery
+오전 9:42:11 192.168.1.49:58036 Requested GET /shared_dir/
+오전 9:42:11 192.168.1.49:58037 Requested GET /?mode=jquery
+오전 9:42:13 192.168.1.49:58038 Requested GET /shared_dir/
+오전 9:42:13 192.168.1.49:58040 Requested GET /?mode=jquery
+오전 9:42:15 192.168.1.49:58035 Requested GET /
+오전 9:42:15 192.168.1.49:58036 Requested GET /?mode=jquery
+오전 9:42:15 192.168.1.49:58035 Requested GET /upload/
+오전 9:42:15 192.168.1.49:58036 Requested GET /?mode=jquery
+오전 9:43:00 192.168.1.49:58037 Uploading my_string_김승연.txt
+오전 9:43:00 192.168.1.49:58037 Fully uploaded my_string_김승연.txt - 1.7 K @ 53.2 KB/s
+오전 9:43:00 192.168.1.49:58037 Requested POST /upload/
+오전 9:43:01 192.168.1.49:58040 Requested GET /upload/
+오전 9:44:18 192.168.1.55:52786 Requested GET /
+오전 9:44:18 192.168.1.55:52787 Requested GET /?mode=jquery
+오전 9:44:20 192.168.1.55:52786 Requested GET /upload/
+오전 9:44:20 192.168.1.55:52788 Requested GET /?mode=jquery
+오전 9:45:22 192.168.1.55:52794 Requested GET /
+오전 9:45:22 192.168.1.55:52793 Requested GET /?mode=jquery
+오전 9:45:41 192.168.1.14:50301 Requested GET /
+오전 9:45:41 192.168.1.14:50302 Requested GET /?mode=jquery
+오전 9:46:47 192.168.1.55:52812 Requested GET /shared_dir/
+오전 9:46:47 192.168.1.55:52813 Requested GET /?mode=jquery
+오전 9:46:49 192.168.1.55:52816 Requested GET /shared_dir/Python_Day1/
+오전 9:46:49 192.168.1.55:52817 Requested GET /?mode=jquery
+오전 9:47:07 192.168.1.55:52814 Requested GET /shared_dir/
+오전 9:48:02 192.168.1.55:52814 Requested GET /shared_dir/
+오전 9:48:02 192.168.1.55:52824 Requested GET /?mode=jquery
+오전 9:48:03 192.168.1.55:52827 Requested GET /shared_dir/
+오전 9:48:03 192.168.1.55:52828 Requested GET /?mode=jquery
+오전 9:48:04 192.168.1.55:52814 Requested GET /
+오전 9:48:04 192.168.1.55:52825 Requested GET /?mode=jquery
+오전 9:48:04 192.168.1.55:52825 Requested GET /upload/
+오전 9:48:04 192.168.1.55:52826 Requested GET /?mode=jquery
+오전 9:48:06 192.168.1.55:52826 Requested GET /
+오전 9:48:06 192.168.1.55:52824 Requested GET /?mode=jquery
+오전 9:48:07 192.168.1.55:52824 Requested GET /shared_dir/
+오전 9:48:07 192.168.1.55:52825 Requested GET /?mode=jquery
+오전 9:48:09 192.168.1.55:52825 Requested GET /shared_dir/Python_Day1/
+오전 9:48:09 192.168.1.55:52814 Requested GET /?mode=jquery
+오전 9:48:22 192.168.1.55:52825 Requested GET /
+오전 9:48:23 192.168.1.55:52814 Requested GET /?mode=jquery
+오전 9:57:37 192.168.1.17:57617 Requested GET /
+오전 9:57:37 192.168.1.17:57618 Requested GET /?mode=jquery
+오전 9:57:39 192.168.1.17:57619 Requested GET /upload/
+오전 9:57:39 192.168.1.17:57618 Requested GET /?mode=jquery
+오전 9:57:41 192.168.1.17:57617 Requested GET /
+오전 9:57:42 192.168.1.17:57617 Requested GET /shared_dir/
+오전 9:57:42 192.168.1.17:57619 Requested GET /?mode=jquery
+오전 9:57:44 192.168.1.17:57615 Requested GET /
+오전 9:57:46 192.168.1.17:57615 Requested GET /upload/
+오전 9:57:46 192.168.1.17:57619 Requested GET /?mode=jquery
+오전 9:57:47 192.168.1.17:57618 Requested GET /
+오전 9:57:48 192.168.1.17:57618 Requested GET /shared_dir/
+오전 9:57:48 192.168.1.17:57615 Requested GET /?mode=jquery
+오전 9:57:53 192.168.1.17:57615 Requested GET /shared_dir/Python_Day1/
+오전 9:57:53 192.168.1.17:57619 Requested GET /?mode=jquery
+오전 9:58:43 192.168.1.17:57616 Requested GET /shared_dir/
+오전 9:58:47 192.168.1.17:57616 Requested GET /
+오전 9:59:17 192.168.1.68:62049 Requested GET /
+오전 9:59:17 192.168.1.68:62050 Requested GET /?mode=jquery
+오전 9:59:20 192.168.1.68:62054 Requested GET /upload/
+오전 9:59:20 192.168.1.68:62053 Requested GET /?mode=jquery
+오전 9:59:22 192.168.1.68:62053 Requested GET /
+오전 9:59:23 192.168.1.68:62053 Requested GET /shared_dir/
+오전 9:59:23 192.168.1.68:62054 Requested GET /?mode=jquery
+오전 10:04:03 192.168.1.63:38242 Requested GET /
+오전 10:04:03 192.168.1.63:38244 Requested GET /?mode=jquery
+오전 10:04:05 192.168.1.63:38252 Requested GET /upload/
+오전 10:04:05 192.168.1.63:38246 Requested GET /?mode=jquery
+오전 10:04:27 192.168.1.63:38276 Uploading Baseball_이희선.txt
+오전 10:04:27 192.168.1.63:38276 Fully uploaded Baseball_이희선.txt - 509 @ 33.1 KB/s
+오전 10:04:27 192.168.1.63:38276 Uploading my_string_이희선.txt
+오전 10:04:27 192.168.1.63:38276 Fully uploaded my_string_이희선.txt - 1.6 K @ 103.5 KB/s
+오전 10:04:27 192.168.1.63:38276 Requested POST /upload/
+오전 10:04:29 192.168.1.63:38278 Requested GET /upload/
+오전 10:04:30 192.168.1.63:38276 Requested GET /?mode=jquery
+오전 10:04:31 192.168.1.63:38276 Requested GET /upload/my_string_이희선.txt
+오전 10:04:31 192.168.1.63:38276 Fully downloaded - 1.6 K @ 97.0 KB/s - /upload/my_string_이희선.txt
+오전 10:04:34 192.168.1.63:38276 Requested GET /upload/
+오전 10:04:34 192.168.1.63:38276 Requested GET /upload/Baseball_이희선.txt
+오전 10:04:34 192.168.1.63:38276 Fully downloaded - 509 @ 33.1 KB/s - /upload/Baseball_이희선.txt
+오전 10:04:37 192.168.1.63:38276 Requested GET /upload/
+오전 10:04:39 192.168.1.63:38284 Requested GET /upload/
+오전 10:04:40 192.168.1.63:38300 Requested GET /
+오전 10:04:40 192.168.1.63:38302 Requested GET /?mode=jquery
+오전 10:04:41 192.168.1.63:38300 Requested GET /upload/
+오전 10:04:41 192.168.1.63:38310 Requested GET /?mode=jquery
+오전 10:04:42 192.168.1.63:38308 Requested GET /
+오전 10:04:43 192.168.1.63:38316 Requested GET /shared_dir/
+오전 10:04:43 192.168.1.63:38318 Requested GET /?mode=jquery
+오전 10:06:02 192.168.1.3:50944 Requested GET /
+오전 10:06:02 192.168.1.3:50945 Requested GET /?mode=jquery
+오전 10:06:05 192.168.1.3:50948 Requested GET /shared_dir/
+오전 10:06:05 192.168.1.3:50947 Requested GET /?mode=jquery
+오전 10:06:11 192.168.1.3:50949 Requested GET /
+오전 10:06:11 192.168.1.3:50946 Requested GET /?mode=jquery
+오전 10:06:13 192.168.1.3:50946 Requested GET /upload/
+오전 10:06:13 192.168.1.3:50947 Requested GET /?mode=jquery
+오전 10:06:27 192.168.1.3:50948 Requested GET /upload/Baseball_이희선.txt
+오전 10:06:27 192.168.1.3:50948 Fully downloaded - 509 @ 33.1 KB/s - /upload/Baseball_이희선.txt
+오전 10:06:43 192.168.1.63:38434 Requested GET /shared_dir/
+오전 10:06:43 192.168.1.63:38436 Requested GET /?mode=jquery
+오전 10:06:45 192.168.1.63:38436 Requested GET /
+오전 10:06:46 192.168.1.63:38436 Requested GET /upload/
+오전 10:06:46 192.168.1.63:38440 Requested GET /?mode=jquery
+오전 10:07:29 192.168.1.63:38480 Requested GET /upload/
+오전 10:07:29 192.168.1.63:38482 Requested GET /?mode=jquery
+오전 10:07:46 192.168.1.56:50305 Requested GET /upload/
+오전 10:07:46 192.168.1.56:50305 Requested GET /?mode=jquery
+오전 10:09:32 192.168.1.4:54020 Requested GET /
+오전 10:09:32 192.168.1.4:54020 Requested GET /
+오전 10:09:32 192.168.1.4:54021 Requested GET /?mode=jquery
+오전 10:09:34 192.168.1.4:54023 Requested GET /upload/
+오전 10:09:34 192.168.1.4:54022 Requested GET /?mode=jquery
+오전 10:09:36 192.168.1.4:54019 Requested GET /upload/
+오전 10:09:36 192.168.1.4:54020 Requested GET /?mode=jquery
+오전 10:15:12 192.168.1.4:54046 Requested GET /
+오전 10:15:12 192.168.1.4:54047 Requested GET /?mode=jquery
+오전 10:15:14 192.168.1.4:54051 Requested GET /shared_dir/
+오전 10:15:14 192.168.1.4:54046 Requested GET /?mode=jquery
+오전 10:15:19 192.168.1.4:54046 Requested GET /shared_dir/Python_Day1/
+오전 10:15:19 192.168.1.4:54048 Requested GET /?mode=jquery
+오전 10:15:59 192.168.1.4:54046 Requested GET /shared_dir/Python_Day1/mystring_엄지우.txt
+오전 10:15:59 192.168.1.4:54046 Fully downloaded - 361 @ 23.5 KB/s - /shared_dir/Python_Day1/mystring_엄지우.txt
+오전 10:16:03 192.168.1.4:54046 Requested GET /shared_dir/Python_Day1/
+오전 10:16:06 192.168.1.4:54046 Requested GET /shared_dir/Python_Day1/baseball_엄지우.txt
+오전 10:16:06 192.168.1.4:54046 Fully downloaded - 677 @ 44.1 KB/s - /shared_dir/Python_Day1/baseball_엄지우.txt
+오전 10:17:12 192.168.1.14:50878 Requested GET /upload/
+오전 10:17:12 192.168.1.14:50877 Requested GET /?mode=jquery
+오전 10:19:00 192.168.1.4:54053 Requested GET /shared_dir/Python_Day1/
+오전 10:19:06 192.168.1.68:62544 Requested GET /
+오전 10:19:06 192.168.1.68:62543 Requested GET /?mode=jquery
+오전 10:19:07 192.168.1.49:58587 Requested GET /upload/
+오전 10:19:07 192.168.1.68:62544 Requested GET /shared_dir/
+오전 10:19:07 192.168.1.68:62548 Requested GET /?mode=jquery
+오전 10:19:08 192.168.1.4:54053 Requested GET /shared_dir/Python_Day1/?tpl=list&folders-filter=\&recursive
+오전 10:19:09 192.168.1.68:62547 Requested GET /shared_dir/Python_Day1/
+오전 10:19:09 192.168.1.68:62548 Requested GET /?mode=jquery
+오전 10:19:12 192.168.1.4:54057 Requested GET /shared_dir/Python_Day1/
+오전 10:19:13 192.168.1.68:62545 Requested GET /shared_dir/Python_Day1/Baseball_서소윤.txt
+오전 10:19:13 192.168.1.68:62545 Fully downloaded - 986 @ 64.2 KB/s - /shared_dir/Python_Day1/Baseball_서소윤.txt
+오전 10:19:15 192.168.1.68:62545 Requested GET /shared_dir/Python_Day1/
+오전 10:19:24 192.168.1.4:54057 Requested GET /shared_dir/Python_Day1/mystring_권준형.txt
+오전 10:19:24 192.168.1.4:54057 Fully downloaded - 1.2 K @ 0B/s - /shared_dir/Python_Day1/mystring_권준형.txt
+오전 10:19:25 192.168.1.4:54057 Requested GET /shared_dir/Python_Day1/
+오전 10:19:28 192.168.1.4:54057 Requested GET /shared_dir/Python_Day1/my_string_노진서.txt
+오전 10:19:28 192.168.1.4:54057 Fully downloaded - 2.0 K @ 63.0 KB/s - /shared_dir/Python_Day1/my_string_노진서.txt
+오전 10:19:30 192.168.1.4:54057 Requested GET /shared_dir/Python_Day1/
+오전 10:19:32 192.168.1.4:54057 Requested GET /shared_dir/Python_Day1/Baseball_김성현.txt
+오전 10:19:32 192.168.1.4:54057 Fully downloaded - 1.0 K @ 67.6 KB/s - /shared_dir/Python_Day1/Baseball_김성현.txt
+오전 10:19:35 192.168.1.68:62545 Requested GET /shared_dir/Python_Day1/
+오전 10:19:37 192.168.1.4:54057 Requested GET /shared_dir/Python_Day1/
+오전 10:19:37 192.168.1.68:62545 Requested GET /shared_dir/
+오전 10:19:39 192.168.1.4:54057 Requested GET /shared_dir/Python_Day1/Baseball_강가영.txt
+오전 10:19:39 192.168.1.4:54057 Fully downloaded - 663 @ 0B/s - /shared_dir/Python_Day1/Baseball_강가영.txt
+오전 10:19:41 192.168.1.4:54057 Requested GET /shared_dir/Python_Day1/
+오전 10:19:46 192.168.1.4:54057 Requested GET /shared_dir/Python_Day1/my_string_김서정.txt
+오전 10:19:46 192.168.1.4:54057 Fully downloaded - 1.9 K @ 125.1 KB/s - /shared_dir/Python_Day1/my_string_김서정.txt
+오전 10:19:53 192.168.1.4:54057 Requested GET /shared_dir/Python_Day1/
+오전 10:20:01 192.168.1.4:54057 Requested GET /shared_dir/Python_Day1/baseball_노진서_list version.txt
+오전 10:20:01 192.168.1.4:54057 Fully downloaded - 840 @ 26.5 KB/s - /shared_dir/Python_Day1/baseball_노진서_list version.txt
+오전 10:20:21 192.168.1.4:54057 Requested GET /shared_dir/Python_Day1/
+오전 10:23:48 192.168.1.49:58605 Requested GET /upload/my_string_이희선.txt
+오전 10:23:48 192.168.1.49:58605 Fully downloaded - 1.6 K @ 103.5 KB/s - /upload/my_string_이희선.txt
+오전 10:25:21 192.168.1.63:39486 Requested GET /upload/
+오전 10:27:08 192.168.1.4:54115 Requested GET /shared_dir/Python_Day1/
+오전 10:27:08 192.168.1.4:54114 Requested GET /?mode=jquery
+오전 10:28:50 192.168.1.63:39694 Requested GET /upload/
+오전 10:28:53 192.168.1.63:39694 Requested GET /upload/
+오전 10:28:53 192.168.1.63:39696 Requested GET /?mode=jquery
+오전 10:28:53 192.168.1.62:50738 Requested GET /
+오전 10:28:53 192.168.1.62:50739 Requested GET /?mode=jquery
+오전 10:28:55 192.168.1.62:50741 Requested GET /upload/
+오전 10:28:55 192.168.1.62:50739 Requested GET /?mode=jquery
+오전 10:28:57 192.168.1.62:50741 Requested GET /
+오전 10:28:59 192.168.1.3:51165 Requested GET /upload/
+오전 10:28:59 192.168.1.3:51165 Requested GET /?mode=jquery
+오전 10:29:01 192.168.1.3:51167 Requested GET /
+오전 10:29:01 192.168.1.3:51167 Requested GET /?mode=jquery
+오전 10:29:02 192.168.1.3:51168 Requested GET /shared_dir/
+오전 10:29:03 192.168.1.3:51165 Requested GET /?mode=jquery
+오전 10:29:04 192.168.1.3:51166 Requested GET /shared_dir/Python_Day1/
+오전 10:29:04 192.168.1.3:51166 Requested GET /?mode=jquery
+오전 10:29:05 192.168.1.63:39704 Requested GET /upload/
+오전 10:29:05 192.168.1.63:39702 Requested GET /?mode=jquery
+오전 10:29:12 192.168.1.3:51166 Requested GET /shared_dir/Python_Day1/Baseball_강가영.txt
+오전 10:29:12 192.168.1.3:51166 Fully downloaded - 663 @ 43.2 KB/s - /shared_dir/Python_Day1/Baseball_강가영.txt
+오전 10:29:26 192.168.1.4:54128 Requested GET /shared_dir/Python_Day1/
+오전 10:29:26 192.168.1.4:54129 Requested GET /?mode=jquery
+오전 10:29:27 192.168.1.4:54131 Requested GET /shared_dir/
+오전 10:29:27 192.168.1.4:54128 Requested GET /?mode=jquery
+오전 10:34:45 192.168.1.4:54176 Requested GET /shared_dir/Python_Day1/
+오전 10:34:45 192.168.1.4:54177 Requested GET /?mode=jquery
+오전 10:34:48 192.168.1.4:54178 Requested GET /shared_dir/Python_Day1/?sort=t
+오전 10:34:48 192.168.1.4:54182 Requested GET /?mode=jquery
+오전 10:34:52 192.168.1.4:54176 Requested GET /shared_dir/Python_Day1/?sort=t&rev=1
+오전 10:34:52 192.168.1.4:54182 Requested GET /?mode=jquery
+오전 10:35:26 192.168.1.3:51262 Requested GET /shared_dir/Python_Day1/
+오전 10:35:26 192.168.1.3:51262 Requested GET /?mode=jquery
+오전 10:35:37 192.168.1.4:54176 Requested GET /shared_dir/Python_Day1/?sort=e&rev=1
+오전 10:35:37 192.168.1.4:54182 Requested GET /?mode=jquery
+오전 10:35:40 192.168.1.4:54176 Requested GET /shared_dir/Python_Day1/?sort=e
+오전 10:35:40 192.168.1.4:54182 Requested GET /?mode=jquery
+오전 10:35:42 192.168.1.4:54180 Requested GET /shared_dir/Python_Day1/?sort=n
+오전 10:35:42 192.168.1.4:54176 Requested GET /?mode=jquery
+오전 10:35:42 192.168.1.4:54177 Requested GET /shared_dir/Python_Day1/?sort=n&rev=1
+오전 10:35:43 192.168.1.4:54180 Requested GET /?mode=jquery
+오전 10:35:43 192.168.1.4:54177 Requested GET /shared_dir/Python_Day1/?sort=n
+오전 10:35:43 192.168.1.4:54178 Requested GET /?mode=jquery
+오전 10:35:48 192.168.1.4:54181 Requested GET /shared_dir/Python_Day1/?sort=d
+오전 10:35:48 192.168.1.4:54182 Requested GET /?mode=jquery
+오전 10:35:49 192.168.1.4:54180 Requested GET /shared_dir/Python_Day1/?sort=d&rev=1
+오전 10:35:49 192.168.1.4:54178 Requested GET /?mode=jquery
+오전 10:35:51 192.168.1.4:54182 Requested GET /shared_dir/Python_Day1/?sort=s&rev=1
+오전 10:35:51 192.168.1.4:54177 Requested GET /?mode=jquery
+오전 10:35:52 192.168.1.4:54182 Requested GET /shared_dir/Python_Day1/?sort=s
+오전 10:35:52 192.168.1.4:54180 Requested GET /?mode=jquery
+오전 10:35:58 192.168.1.4:54177 Requested GET /
+오전 10:35:58 192.168.1.4:54176 Requested GET /?mode=jquery
+오전 10:36:37 192.168.1.4:54182 Requested GET /
+오전 10:36:37 192.168.1.4:54178 Requested GET /?mode=jquery
+오전 10:36:39 192.168.1.4:54182 Requested GET /
+오전 10:36:39 192.168.1.4:54178 Requested GET /?mode=jquery
+오전 10:36:40 192.168.1.4:54182 Requested GET /
+오전 10:36:40 192.168.1.4:54181 Requested GET /?mode=jquery
+오전 10:38:13 192.168.1.3:51365 Requested GET /shared_dir/Python_Day1/my_string_김서정.txt
+오전 10:38:13 192.168.1.3:51365 Fully downloaded - 1.9 K @ 117.3 KB/s - /shared_dir/Python_Day1/my_string_김서정.txt
+오전 10:38:17 192.168.1.3:51365 Requested GET /shared_dir/Python_Day1/
+오전 10:38:17 192.168.1.3:51365 Requested GET /?mode=jquery
+오전 10:38:24 192.168.1.3:51367 Requested GET /shared_dir/Python_Day1/my_string_김승연.txt
+오전 10:38:24 192.168.1.3:51367 Fully downloaded - 1.7 K @ 54.9 KB/s - /shared_dir/Python_Day1/my_string_김승연.txt
+오전 10:38:33 192.168.1.3:51367 Requested GET /shared_dir/Python_Day1/
+오전 10:38:33 192.168.1.3:51367 Requested GET /?mode=jquery
+오전 10:38:38 192.168.1.3:51367 Requested GET /shared_dir/Python_Day1/Baseball_김도이.txt
+오전 10:38:38 192.168.1.3:51367 Fully downloaded - 421 @ 27.4 KB/s - /shared_dir/Python_Day1/Baseball_김도이.txt
+오전 10:38:40 192.168.1.3:51367 Requested GET /shared_dir/Python_Day1/
+오전 10:38:40 192.168.1.3:51365 Requested GET /?mode=jquery
+오전 10:38:41 192.168.1.3:51366 Requested GET /shared_dir/Python_Day1/Baseball_김도이_최종.txt
+오전 10:38:41 192.168.1.3:51366 Fully downloaded - 469 @ 28.6 KB/s - /shared_dir/Python_Day1/Baseball_김도이_최종.txt
+오전 10:38:43 192.168.1.4:54185 Requested GET /upload/
+오전 10:38:44 192.168.1.4:54186 Requested GET /?mode=jquery
+오전 10:38:46 192.168.1.4:54188 Requested GET /upload/Baseball_이희선.txt
+오전 10:38:46 192.168.1.4:54188 Fully downloaded - 509 @ 33.1 KB/s - /upload/Baseball_이희선.txt
+오전 10:38:52 192.168.1.4:54188 Requested GET /upload/
+오전 10:38:54 192.168.1.4:54188 Requested GET /
+오전 10:38:54 192.168.1.4:54189 Requested GET /?mode=jquery
+오전 10:38:58 192.168.1.3:51366 Requested GET /shared_dir/Python_Day1/
+오전 10:38:58 192.168.1.3:51365 Requested GET /?mode=jquery
+오전 10:38:59 192.168.1.3:51368 Requested GET /shared_dir/
+오전 10:38:59 192.168.1.3:51369 Requested GET /?mode=jquery
+오전 10:49:45 192.168.1.49:58844 Requested GET /upload/
+오전 10:49:46 192.168.1.49:58844 Requested GET /
+오전 10:49:46 192.168.1.49:58845 Requested GET /?mode=jquery
+오전 10:49:47 192.168.1.49:58844 Requested GET /
+오전 10:49:47 192.168.1.49:58845 Requested GET /?mode=jquery
+오전 10:49:48 192.168.1.49:58844 Requested GET /upload/
+오전 10:49:48 192.168.1.49:58845 Requested GET /?mode=jquery
+오전 10:49:49 192.168.1.49:58847 Requested GET /
+오전 10:49:49 192.168.1.49:58846 Requested GET /?mode=jquery
+오전 10:49:50 192.168.1.49:58846 Requested GET /shared_dir/
+오전 10:49:50 192.168.1.49:58848 Requested GET /?mode=jquery
+오전 10:50:04 192.168.1.49:58844 Requested POST /shared_dir/?mode=archive&recursive
+오전 10:50:04 192.168.1.49:58844 Fully downloaded - 484.0 K @ 6.1 MB/s - /shared_dir/?mode=archive&recursive
+오전 10:50:58 192.168.1.50:53923 Requested GET /
+오전 10:50:58 192.168.1.50:53924 Requested GET /?mode=jquery
+오전 10:51:00 192.168.1.50:53924 Requested GET /upload/
+오전 10:51:00 192.168.1.50:53925 Requested GET /?mode=jquery
+오전 10:51:04 192.168.1.50:53921 Requested GET /upload/Baseball_이희선.txt
+오전 10:51:04 192.168.1.50:53921 Fully downloaded - 509 @ 27.6 KB/s - /upload/Baseball_이희선.txt
+오전 10:51:20 192.168.1.50:53921 Requested GET /upload/
+오전 10:51:22 192.168.1.50:53921 Requested GET /upload/my_string_이희선.txt
+오전 10:51:22 192.168.1.50:53921 Fully downloaded - 1.6 K @ 97.0 KB/s - /upload/my_string_이희선.txt
+오전 10:51:27 192.168.1.50:53921 Requested GET /upload/
+오전 10:51:28 192.168.1.50:53921 Requested GET /
+오전 10:51:29 192.168.1.50:53921 Requested GET /shared_dir/
+오전 10:51:29 192.168.1.50:53926 Requested GET /?mode=jquery
+오전 10:51:34 192.168.1.50:53921 Requested GET /shared_dir/Python_Day1/
+오전 10:51:34 192.168.1.50:53926 Requested GET /?mode=jquery
+오전 10:51:57 192.168.1.50:53924 Requested GET /shared_dir/Python_Day1/my_string_노진서_rev.txt
+오전 10:51:57 192.168.1.50:53924 Fully downloaded - 1.0 K @ 32.6 KB/s - /shared_dir/Python_Day1/my_string_노진서_rev.txt
+오전 10:52:14 192.168.1.50:53924 Requested GET /shared_dir/Python_Day1/
+오전 10:52:17 192.168.1.50:53924 Requested GET /shared_dir/Python_Day1/?sort=t
+오전 10:52:17 192.168.1.50:53925 Requested GET /?mode=jquery
+오전 10:52:19 192.168.1.50:53926 Requested GET /shared_dir/Python_Day1/?sort=t&rev=1
+오전 10:52:19 192.168.1.50:53922 Requested GET /?mode=jquery
+오전 10:52:21 192.168.1.50:53925 Requested GET /shared_dir/Python_Day1/?sort=t
+오전 10:52:21 192.168.1.50:53926 Requested GET /?mode=jquery
+오전 10:52:47 192.168.1.50:53924 Requested GET /shared_dir/Python_Day1/baseball_엄지우.txt
+오전 10:52:47 192.168.1.50:53924 Fully downloaded - 677 @ 44.1 KB/s - /shared_dir/Python_Day1/baseball_엄지우.txt
+오전 10:53:05 192.168.1.50:53924 Requested GET /shared_dir/Python_Day1/?sort=t
+오전 10:53:14 192.168.1.50:53924 Requested GET /shared_dir/Python_Day1/baseball_권준형.txt
+오전 10:53:14 192.168.1.50:53924 Fully downloaded - 821 @ 0B/s - /shared_dir/Python_Day1/baseball_권준형.txt
+오전 10:53:51 192.168.1.50:53924 Requested GET /shared_dir/Python_Day1/?sort=t
+오전 10:53:56 192.168.1.50:53924 Requested GET /shared_dir/Python_Day1/Baseball_김성현.txt
+오전 10:53:56 192.168.1.50:53924 Fully downloaded - 1.0 K @ 67.6 KB/s - /shared_dir/Python_Day1/Baseball_김성현.txt
+오전 11:39:26 192.168.1.50:54134 Requested GET /shared_dir/Python_Day1/?sort=t
+오후 12:07:42 192.168.1.17:58397 Requested GET /shared_dir/
+오후 12:07:42 192.168.1.17:58396 Requested GET /?mode=jquery
+오후 12:07:42 192.168.1.49:60203 Requested GET /shared_dir/
+오후 12:07:42 192.168.1.49:60204 Requested GET /?mode=jquery
+오후 12:07:43 192.168.1.49:60208 Requested GET /
+오후 12:07:43 192.168.1.49:60207 Requested GET /?mode=jquery
+오후 12:07:44 192.168.1.49:60207 Requested GET /shared_dir/
+오후 12:07:44 192.168.1.49:60206 Requested GET /?mode=jquery
+오후 12:07:44 192.168.1.68:62942 Requested GET /
+오후 12:07:44 192.168.1.68:62944 Requested GET /?mode=jquery
+오후 12:07:46 192.168.1.55:53514 Requested GET /
+오후 12:07:46 192.168.1.55:53515 Requested GET /?mode=jquery
+오후 12:07:46 192.168.1.3:51861 Requested GET /shared_dir/
+오후 12:07:47 192.168.1.3:51861 Requested GET /?mode=jquery
+오후 12:07:47 192.168.1.55:53519 Requested GET /upload/
+오후 12:07:47 192.168.1.55:53515 Requested GET /?mode=jquery
+오후 12:07:50 192.168.1.50:56106 Requested GET /shared_dir/Python_Day1/?sort=t
+오후 12:07:50 192.168.1.3:51862 Requested GET /
+오후 12:07:50 192.168.1.3:51862 Requested GET /?mode=jquery
+오후 12:07:51 192.168.1.3:51857 Requested GET /shared_dir/
+오후 12:07:51 192.168.1.3:51858 Requested GET /?mode=jquery
+오후 12:07:51 192.168.1.50:56106 Requested GET /shared_dir/Python_Day1/?sort=t&rev=1
+오후 12:07:51 192.168.1.55:53516 Requested GET /
+오후 12:07:52 192.168.1.55:53516 Requested GET /shared_dir/
+오후 12:07:52 192.168.1.55:53518 Requested GET /?mode=jquery
+오후 12:07:52 192.168.1.68:62947 Requested GET /shared_dir/
+오후 12:07:52 192.168.1.68:62946 Requested GET /?mode=jquery
+오후 12:07:53 192.168.1.63:45122 Requested GET /upload/
+오후 12:07:55 192.168.1.56:52331 Requested GET /
+오후 12:07:55 192.168.1.56:52332 Requested GET /?mode=jquery
+오후 12:07:55 192.168.1.63:45122 Requested GET /upload/
+오후 12:07:55 192.168.1.63:45124 Requested GET /?mode=jquery
+오후 12:07:55 192.168.1.3:51861 Requested GET /shared_dir/ihaveadream.txt
+오후 12:07:55 192.168.1.3:51861 Fully downloaded - 9.0 K @ 602.7 KB/s - /shared_dir/ihaveadream.txt
+오후 12:07:56 192.168.1.63:45124 Requested GET /
+오후 12:07:56 192.168.1.63:45134 Requested GET /?mode=jquery
+오후 12:07:56 192.168.1.55:53515 Requested GET /shared_dir/ihaveadream.txt
+오후 12:07:56 192.168.1.55:53515 Fully downloaded - 9.0 K @ 565.1 KB/s - /shared_dir/ihaveadream.txt
+오후 12:07:57 192.168.1.56:52334 Requested GET /shared_dir/
+오후 12:07:57 192.168.1.56:52336 Requested GET /?mode=jquery
+오후 12:07:57 192.168.1.3:51861 Requested GET /shared_dir/
+오후 12:07:57 192.168.1.3:51860 Requested GET /?mode=jquery
+오후 12:07:57 192.168.1.63:45134 Requested GET /shared_dir/
+오후 12:07:57 192.168.1.62:59134 Requested GET /
+오후 12:07:57 192.168.1.63:45128 Requested GET /?mode=jquery
+오후 12:07:57 192.168.1.62:59135 Requested GET /?mode=jquery
+오후 12:07:59 192.168.1.50:56106 Requested GET /shared_dir/Python_Day1/?sort=t
+오후 12:07:59 192.168.1.50:56107 Requested GET /?mode=jquery
+오후 12:07:59 192.168.1.62:59139 Requested GET /shared_dir/
+오후 12:07:59 192.168.1.62:59138 Requested GET /?mode=jquery
+오후 12:07:59 192.168.1.68:62943 Requested GET /shared_dir/ihaveadream.txt
+오후 12:07:59 192.168.1.68:62943 Fully downloaded - 9.0 K @ 192.4 KB/s - /shared_dir/ihaveadream.txt
+오후 12:07:59 192.168.1.50:56111 Requested GET /shared_dir/Python_Day1/?sort=t&rev=1
+오후 12:07:59 192.168.1.50:56107 Requested GET /?mode=jquery
+오후 12:08:01 192.168.1.63:45124 Requested GET /
+오후 12:08:01 192.168.1.19:50498 Requested GET /
+오후 12:08:01 192.168.1.19:50498 Requested GET /?mode=jquery
+오후 12:08:01 192.168.1.63:45124 Requested GET /shared_dir/
+오후 12:08:02 192.168.1.4:54628 Requested GET /
+오후 12:08:02 192.168.1.4:54629 Requested GET /?mode=jquery
+오후 12:08:02 192.168.1.66:52449 Requested GET /
+오후 12:08:02 192.168.1.63:45124 Requested GET /
+오후 12:08:02 192.168.1.66:52449 Requested GET /?mode=jquery
+오후 12:08:03 192.168.1.63:45124 Requested GET /upload/
+오후 12:08:03 192.168.1.63:45132 Requested GET /?mode=jquery
+오후 12:08:03 192.168.1.4:54633 Requested GET /shared_dir/
+오후 12:08:03 192.168.1.4:54630 Requested GET /?mode=jquery
+오후 12:08:04 192.168.1.63:45142 Requested GET /
+오후 12:08:04 192.168.1.19:50498 Requested GET /shared_dir/
+오후 12:08:04 192.168.1.19:50498 Requested GET /?mode=jquery
+오후 12:08:05 192.168.1.63:45142 Requested GET /shared_dir/
+오후 12:08:05 192.168.1.63:45144 Requested GET /?mode=jquery
+오후 12:08:06 192.168.1.66:52453 Requested GET /upload/
+오후 12:08:06 192.168.1.66:52452 Requested GET /?mode=jquery
+오후 12:08:06 192.168.1.50:56110 Requested GET /shared_dir/
+오후 12:08:06 192.168.1.50:56107 Requested GET /?mode=jquery
+오후 12:08:07 192.168.1.49:60206 Requested GET /shared_dir/ihaveadream.txt
+오후 12:08:07 192.168.1.49:60206 Fully downloaded - 9.0 K @ 0B/s - /shared_dir/ihaveadream.txt
+오후 12:08:08 192.168.1.19:50498 Requested GET /shared_dir/ihaveadream.txt
+오후 12:08:08 192.168.1.19:50498 Fully downloaded - 9.0 K @ 0B/s - /shared_dir/ihaveadream.txt
+오후 12:08:09 192.168.1.63:45162 Requested GET /shared_dir/ihaveadream.txt
+오후 12:08:09 192.168.1.63:45162 Fully downloaded - 9.0 K @ 291.6 KB/s - /shared_dir/ihaveadream.txt
+오후 12:08:09 192.168.1.49:60206 Requested GET /shared_dir/
+오후 12:08:10 192.168.1.50:56107 Requested GET /shared_dir/ihaveadream.txt
+오후 12:08:10 192.168.1.50:56107 Fully downloaded - 9.0 K @ 565.1 KB/s - /shared_dir/ihaveadream.txt
+오후 12:08:10 192.168.1.66:52451 Requested GET /
+오후 12:08:10 192.168.1.3:63750 Requested GET /
+오후 12:08:10 192.168.1.3:63751 Requested GET /?mode=jquery
+오후 12:08:10 192.168.1.66:52451 Requested GET /shared_dir/
+오후 12:08:10 192.168.1.66:52452 Requested GET /?mode=jquery
+오후 12:08:11 192.168.1.3:63750 Requested GET /
+오후 12:08:12 192.168.1.50:56107 Requested GET /shared_dir/
+오후 12:08:12 192.168.1.3:63750 Requested GET /shared_dir/
+오후 12:08:12 192.168.1.3:63754 Requested GET /?mode=jquery
+오후 12:08:16 192.168.1.49:60206 Requested POST /shared_dir/?mode=archive&recursive
+오후 12:08:16 192.168.1.49:60206 Fully downloaded - 10.5 K @ 656.3 KB/s - /shared_dir/?mode=archive&recursive
+오후 12:08:18 192.168.1.66:52450 Requested GET /shared_dir/ihaveadream.txt
+오후 12:08:18 192.168.1.66:52450 Fully downloaded - 9.0 K @ 602.7 KB/s - /shared_dir/ihaveadream.txt
+오후 12:08:18 192.168.1.55:53515 Requested GET /shared_dir/
+오후 12:08:18 192.168.1.19:50498 Requested GET /shared_dir/
+오후 12:08:18 192.168.1.19:50498 Requested GET /?mode=jquery
+오후 12:08:23 192.168.1.3:63755 Requested GET /shared_dir/ihaveadream.txt
+오후 12:08:23 192.168.1.3:63755 Fully downloaded - 9.0 K @ 565.1 KB/s - /shared_dir/ihaveadream.txt
+오후 12:08:24 192.168.1.60:51659 Requested GET /
+오후 12:08:24 192.168.1.60:51659 Requested GET /?mode=jquery
+오후 12:08:24 192.168.1.3:63755 Requested GET /shared_dir/
+오후 12:08:25 192.168.1.60:51659 Requested GET /shared_dir/
+오후 12:08:25 192.168.1.60:51657 Requested GET /?mode=jquery
+오후 12:08:29 192.168.1.60:51656 Requested GET /shared_dir/ihaveadream.txt
+오후 12:08:29 192.168.1.60:51656 Fully downloaded - 9.0 K @ 602.7 KB/s - /shared_dir/ihaveadream.txt
+오후 12:08:32 192.168.1.3:63755 Requested GET /shared_dir/
+오후 12:08:38 192.168.1.51:53020 Requested GET /
+오후 12:08:38 192.168.1.51:53021 Requested GET /?mode=jquery
+오후 12:08:39 192.168.1.3:63755 Requested GET /shared_dir/
+오후 12:08:40 192.168.1.55:53515 Requested GET /shared_dir/
+오후 12:08:40 192.168.1.51:53020 Requested GET /shared_dir/
+오후 12:08:40 192.168.1.51:53024 Requested GET /?mode=jquery
+오후 12:08:42 192.168.1.56:52336 Requested GET /shared_dir/ihaveadream.txt
+오후 12:08:42 192.168.1.56:52336 Fully downloaded - 9.0 K @ 602.7 KB/s - /shared_dir/ihaveadream.txt
+오후 12:08:44 192.168.1.51:53024 Requested GET /shared_dir/ihaveadream.txt
+오후 12:08:44 192.168.1.51:53024 Fully downloaded - 9.0 K @ 602.7 KB/s - /shared_dir/ihaveadream.txt
+오후 12:08:44 192.168.1.56:52336 Requested GET /shared_dir/
+오후 12:08:44 192.168.1.56:52332 Requested GET /?mode=jquery
+오후 12:08:44 192.168.1.60:51663 Requested GET /shared_dir/ihaveadream.txt
+오후 12:08:44 192.168.1.60:51663 Fully downloaded - 9.0 K @ 291.6 KB/s - /shared_dir/ihaveadream.txt
+오후 12:08:45 192.168.1.66:52450 Requested GET /shared_dir/
+오후 12:09:02 192.168.1.4:54632 Requested POST /shared_dir/?mode=archive&recursive
+오후 12:09:02 192.168.1.4:54632 Fully downloaded - 10.5 K @ 700.0 KB/s - /shared_dir/?mode=archive&recursive
+오후 12:09:08 192.168.1.4:54632 Requested GET /shared_dir/?tpl=list&folders-filter=\&recursive
+오후 12:09:10 192.168.1.4:54630 Requested GET /shared_dir/
+오후 12:09:13 192.168.1.4:54630 Requested GET /shared_dir/ihaveadream.txt
+오후 12:09:13 192.168.1.4:54630 Fully downloaded - 9.0 K @ 602.7 KB/s - /shared_dir/ihaveadream.txt
+오후 12:09:24 192.168.1.4:54630 Requested GET /shared_dir/
+오후 12:10:12 192.168.1.22:59031 Requested GET /
+오후 12:10:12 192.168.1.22:59031 Requested GET /?mode=jquery
+오후 12:10:14 192.168.1.22:59035 Requested GET /upload/
+오후 12:10:15 192.168.1.22:59031 Requested GET /?mode=jquery
+오후 12:10:52 192.168.1.22:59032 Uploading stopwords.txt
+오후 12:10:52 192.168.1.22:59032 Fully uploaded stopwords.txt - 4.7 K @ 121.1 KB/s
+오후 12:10:52 192.168.1.22:59032 Requested POST /upload/
+오후 12:10:55 192.168.1.22:59031 Requested GET /upload/
+오후 12:10:55 192.168.1.22:59035 Requested GET /?mode=jquery
+오후 12:10:56 192.168.1.22:59030 Requested GET /
+오후 12:10:57 192.168.1.22:59034 Requested GET /?mode=jquery
+오후 12:15:21 192.168.1.22:59051 Requested GET /shared_dir/
+오후 12:15:21 192.168.1.22:59050 Requested GET /?mode=jquery
+오후 12:15:23 192.168.1.22:59051 Requested GET /
+오후 12:15:24 192.168.1.22:59051 Requested GET /upload/
+오후 12:15:24 192.168.1.22:59052 Requested GET /?mode=jquery
+오후 12:15:26 192.168.1.22:59050 Requested GET /
+오후 12:16:06 192.168.1.63:45624 Requested GET /shared_dir/
+오후 12:16:06 192.168.1.19:50592 Requested GET /shared_dir/
+오후 12:16:06 192.168.1.19:50595 Requested GET /?mode=jquery
+오후 12:16:07 192.168.1.4:54747 Requested GET /
+오후 12:16:07 192.168.1.4:54746 Requested GET /?mode=jquery
+오후 12:16:09 192.168.1.4:54747 Requested GET /shared_dir/
+오후 12:16:09 192.168.1.4:54751 Requested GET /?mode=jquery
+오후 12:16:09 192.168.1.63:45624 Requested GET /shared_dir/stopwords.txt
+오후 12:16:09 192.168.1.63:45624 Fully downloaded - 4.7 K @ 0B/s - /shared_dir/stopwords.txt
+오후 12:16:11 192.168.1.19:50597 Requested GET /shared_dir/stopwords.txt
+오후 12:16:11 192.168.1.19:50597 Fully downloaded - 4.7 K @ 314.8 KB/s - /shared_dir/stopwords.txt
+오후 12:16:12 192.168.1.17:58424 Requested GET /
+오후 12:16:14 192.168.1.17:58424 Requested GET /shared_dir/
+오후 12:16:14 192.168.1.17:58425 Requested GET /?mode=jquery
+오후 12:16:14 192.168.1.4:54748 Requested GET /shared_dir/stopwords.txt
+오후 12:16:14 192.168.1.4:54748 Fully downloaded - 4.7 K @ 295.1 KB/s - /shared_dir/stopwords.txt
+오후 12:16:19 192.168.1.17:58429 Requested GET /shared_dir/stopwords.txt
+오후 12:16:19 192.168.1.17:58429 Fully downloaded - 4.7 K @ 314.8 KB/s - /shared_dir/stopwords.txt
+오후 12:16:22 192.168.1.50:56316 Requested GET /shared_dir/
+오후 12:16:23 192.168.1.60:51702 Requested GET /
+오후 12:16:23 192.168.1.60:51701 Requested GET /?mode=jquery
+오후 12:16:24 192.168.1.60:51706 Requested GET /shared_dir/
+오후 12:16:24 192.168.1.60:51705 Requested GET /?mode=jquery
+오후 12:16:25 192.168.1.50:56316 Requested GET /shared_dir/stopwords.txt
+오후 12:16:25 192.168.1.50:56316 Fully downloaded - 4.7 K @ 295.1 KB/s - /shared_dir/stopwords.txt
+오후 12:16:26 192.168.1.60:51705 Requested GET /shared_dir/stopwords.txt
+오후 12:16:26 192.168.1.60:51705 Fully downloaded - 4.7 K @ 152.3 KB/s - /shared_dir/stopwords.txt
+오후 12:16:27 192.168.1.22:59061 Requested GET /shared_dir/
+오후 12:16:27 192.168.1.22:59060 Requested GET /?mode=jquery
+오후 12:16:29 192.168.1.19:50597 Requested GET /shared_dir/
+오후 12:16:29 192.168.1.19:50592 Requested GET /?mode=jquery
+오후 12:16:32 192.168.1.4:54748 Requested GET /shared_dir/
+오후 12:16:53 192.168.1.63:45682 Requested GET /shared_dir/
+오후 12:19:56 192.168.1.63:45894 Requested GET /shared_dir/
+오후 12:23:10 192.168.1.62:59461 Requested GET /shared_dir/
+오후 12:23:10 192.168.1.62:59460 Requested GET /?mode=jquery
+오후 12:23:12 192.168.1.62:59460 Requested GET /shared_dir/stopwords.txt
+오후 12:23:12 192.168.1.62:59460 Fully downloaded - 4.7 K @ 314.8 KB/s - /shared_dir/stopwords.txt
+오후 12:23:38 192.168.1.62:59460 Requested GET /shared_dir/
+오후 12:52:21 192.168.1.14:51701 Requested GET /
+오후 12:52:21 192.168.1.14:51700 Requested GET /?mode=jquery
+오후 12:52:26 192.168.1.14:51705 Requested GET /shared_dir/
+오후 12:52:26 192.168.1.14:51704 Requested GET /?mode=jquery
+오후 12:52:29 192.168.1.14:51704 Requested GET /shared_dir/stopwords.txt
+오후 12:52:29 192.168.1.14:51704 Fully downloaded - 4.7 K @ 314.8 KB/s - /shared_dir/stopwords.txt
+오후 1:17:28 192.168.1.51:53627 Requested GET /
+오후 1:17:28 192.168.1.51:53628 Requested GET /?mode=jquery
+오후 1:17:30 192.168.1.51:53630 Requested GET /shared_dir/
+오후 1:17:30 192.168.1.51:53629 Requested GET /?mode=jquery
+오후 1:17:57 192.168.1.51:53626 Requested GET /shared_dir/stopwords.txt
+오후 1:17:57 192.168.1.51:53626 Fully downloaded - 4.7 K @ 314.8 KB/s - /shared_dir/stopwords.txt
+오후 1:31:45 192.168.1.19:51643 Requested GET /shared_dir/ihaveadream.txt
+오후 1:31:45 192.168.1.19:51643 Fully downloaded - 9.0 K @ 565.1 KB/s - /shared_dir/ihaveadream.txt
+오후 1:31:51 192.168.1.19:51643 Requested GET /shared_dir/
+오후 1:31:51 192.168.1.19:51648 Requested GET /?mode=jquery
+오후 1:31:59 192.168.1.19:51651 Requested POST /shared_dir/?mode=archive&recursive
+오후 1:31:59 192.168.1.19:51651 Fully downloaded - 10.5 K @ 656.2 KB/s - /shared_dir/?mode=archive&recursive
+오후 1:32:18 192.168.1.19:51651 Requested POST /shared_dir/?mode=archive&recursive
+오후 1:32:18 192.168.1.19:51651 Fully downloaded - 10.5 K @ 700.0 KB/s - /shared_dir/?mode=archive&recursive
+오후 1:35:10 192.168.1.14:51967 Requested GET /
+오후 1:35:10 192.168.1.14:51966 Requested GET /?mode=jquery
+오후 1:35:12 192.168.1.14:51971 Requested GET /upload/
+오후 1:35:12 192.168.1.14:51967 Requested GET /?mode=jquery
+오후 1:35:13 192.168.1.14:51971 Requested GET /
+오후 1:40:29 192.168.1.49:60679 Requested GET /shared_dir/testconcorda.txt
+오후 1:40:29 192.168.1.49:60679 Fully downloaded - 355 @ 23.1 KB/s - /shared_dir/testconcorda.txt
+오후 1:40:33 192.168.1.49:60679 Requested GET /shared_dir/
+오후 1:42:22 192.168.1.19:51856 Requested GET /shared_dir/
+오후 1:42:22 192.168.1.19:51857 Requested GET /?mode=jquery
+오후 1:42:23 192.168.1.19:51857 Requested GET /
+오후 1:42:24 192.168.1.19:51854 Requested GET /?mode=jquery
+오후 1:42:25 192.168.1.19:51854 Requested GET /upload/
+오후 1:42:25 192.168.1.19:51856 Requested GET /?mode=jquery
+오후 1:42:27 192.168.1.19:51852 Requested GET /
+오후 1:42:28 192.168.1.19:51854 Requested GET /?mode=jquery
+오후 1:42:29 192.168.1.19:51854 Requested GET /shared_dir/
+오후 1:42:29 192.168.1.19:51856 Requested GET /?mode=jquery
+오후 1:42:36 192.168.1.19:51856 Requested GET /shared_dir/Python_Day1/
+오후 1:42:36 192.168.1.19:51852 Requested GET /?mode=jquery
+오후 1:42:41 192.168.1.19:51856 Requested GET /shared_dir/
+오후 1:42:41 192.168.1.19:51856 Requested GET /?mode=jquery
+오후 1:42:42 192.168.1.19:51857 Requested GET /shared_dir/R_Day1/
+오후 1:42:42 192.168.1.19:51857 Requested GET /?mode=jquery
+오후 1:42:43 192.168.1.19:51856 Requested GET /shared_dir/
+오후 1:42:43 192.168.1.19:51853 Requested GET /?mode=jquery
+오후 1:42:45 192.168.1.19:51855 Requested GET /shared_dir/R_Day2/
+오후 1:42:45 192.168.1.19:51854 Requested GET /?mode=jquery
+오후 1:42:46 192.168.1.19:51857 Requested GET /shared_dir/
+오후 1:42:46 192.168.1.19:51857 Requested GET /?mode=jquery
+오후 1:42:47 192.168.1.19:51853 Requested GET /shared_dir/R_Day2/
+오후 1:42:48 192.168.1.19:51855 Requested GET /?mode=jquery
+오후 1:42:49 192.168.1.19:51854 Requested GET /shared_dir/
+오후 1:42:49 192.168.1.19:51853 Requested GET /?mode=jquery
+오후 1:42:51 192.168.1.19:51854 Requested GET /shared_dir/R_Day3/
+오후 1:42:51 192.168.1.19:51852 Requested GET /?mode=jquery
+오후 1:42:52 192.168.1.19:51856 Requested GET /shared_dir/
+오후 1:42:53 192.168.1.19:51853 Requested GET /?mode=jquery
+오후 1:43:37 192.168.1.14:52096 Requested GET /upload/
+오후 1:43:37 192.168.1.14:52095 Requested GET /?mode=jquery
+오후 1:43:38 192.168.1.14:52100 Requested GET /
+오후 1:45:51 192.168.1.68:63236 Requested GET /
+오후 1:45:52 192.168.1.68:63237 Requested GET /?mode=jquery
+오후 1:45:54 192.168.1.68:63240 Requested GET /shared_dir/
+오후 1:45:55 192.168.1.68:63238 Requested GET /?mode=jquery
+오후 1:46:00 192.168.1.68:63240 Requested GET /shared_dir/stopwords.txt
+오후 1:46:01 192.168.1.68:63240 Fully downloaded - 4.7 K @ 295.1 KB/s - /shared_dir/stopwords.txt
+오후 1:46:15 192.168.1.55:53799 Requested GET /
+오후 1:46:15 192.168.1.55:53800 Requested GET /?mode=jquery
+오후 1:46:16 192.168.1.55:53799 Requested GET /shared_dir/
+오후 1:46:16 192.168.1.55:53801 Requested GET /?mode=jquery
+오후 1:46:19 192.168.1.55:53801 Requested GET /shared_dir/stopwords.txt
+오후 1:46:19 192.168.1.55:53801 Fully downloaded - 4.7 K @ 152.3 KB/s - /shared_dir/stopwords.txt
+오후 1:46:29 192.168.1.55:53801 Requested GET /shared_dir/
+오후 1:46:58 192.168.1.52:64435 Requested GET /
+오후 1:46:58 192.168.1.52:64436 Requested GET /?mode=jquery
+오후 1:47:00 192.168.1.52:64436 Requested GET /
+오후 1:47:02 192.168.1.52:64436 Requested GET /shared_dir/
+오후 1:47:02 192.168.1.52:64435 Requested GET /?mode=jquery
+오후 1:47:03 192.168.1.52:64435 Requested GET /shared_dir/stopwords.txt
+오후 1:47:03 192.168.1.52:64435 Fully downloaded - 4.7 K @ 314.8 KB/s - /shared_dir/stopwords.txt
+오후 1:47:24 192.168.1.63:51842 Requested GET /shared_dir/
+오후 1:47:29 192.168.1.63:51850 Requested GET /shared_dir/
+오후 1:47:29 192.168.1.63:51852 Requested GET /?mode=jquery
+오후 1:47:54 192.168.1.63:51884 Requested GET /shared_dir/
+오후 1:47:54 192.168.1.63:51886 Requested GET /?mode=jquery
+오후 1:47:55 192.168.1.63:51892 Requested GET /
+오후 1:47:55 192.168.1.63:51894 Requested GET /?mode=jquery
+오후 1:47:57 192.168.1.63:51898 Requested GET /upload/
+오후 1:47:57 192.168.1.63:51900 Requested GET /?mode=jquery
+오후 1:47:58 192.168.1.63:51908 Requested GET /
+오후 1:47:59 192.168.1.63:51908 Requested GET /shared_dir/
+오후 1:48:12 192.168.1.17:58755 Requested GET /shared_dir/
+오후 1:48:14 192.168.1.17:58755 Requested GET /
+오후 1:49:10 192.168.1.14:52114 Requested GET /upload/
+오후 1:49:11 192.168.1.14:52115 Requested GET /?mode=jquery
+오후 1:49:37 192.168.1.17:58765 Requested GET /upload/
+오후 1:49:37 192.168.1.17:58766 Requested GET /?mode=jquery
+오후 1:49:38 192.168.1.17:58770 Requested GET /
+오후 1:49:39 192.168.1.17:58770 Requested GET /upload/
+오후 1:49:39 192.168.1.17:58767 Requested GET /?mode=jquery
+오후 1:49:40 192.168.1.17:58765 Requested GET /
+오후 1:49:41 192.168.1.17:58765 Requested GET /upload/
+오후 1:49:41 192.168.1.17:58770 Requested GET /?mode=jquery
+오후 1:49:43 192.168.1.17:58769 Requested GET /
+오후 1:49:43 192.168.1.17:58769 Requested GET /shared_dir/
+오후 1:49:43 192.168.1.17:58765 Requested GET /?mode=jquery
+오후 1:49:47 192.168.1.17:58769 Requested GET /
+오후 1:49:48 192.168.1.17:58769 Requested GET /upload/
+오후 1:49:48 192.168.1.17:58765 Requested GET /?mode=jquery
+오후 1:50:05 192.168.1.17:58768 Uploading day2_workshop1_권준형.txt
+오후 1:50:05 192.168.1.17:58768 Fully uploaded day2_workshop1_권준형.txt - 1.2 K @ 73.6 KB/s
+오후 1:50:05 192.168.1.17:58768 Requested POST /upload/
+오후 1:50:07 192.168.1.17:58765 Requested GET /upload/
+오후 1:50:08 192.168.1.17:58765 Requested GET /upload/day2_workshop1_권준형.txt
+오후 1:50:08 192.168.1.17:58765 Fully downloaded - 1.2 K @ 38.0 KB/s - /upload/day2_workshop1_권준형.txt
+오후 1:50:40 192.168.1.17:58765 Requested GET /upload/
+오후 1:50:41 192.168.1.17:58765 Requested GET /
+오후 1:50:43 192.168.1.17:58765 Requested GET /upload/
+오후 1:50:43 192.168.1.17:58768 Requested GET /?mode=jquery
+오후 1:50:44 192.168.1.17:58770 Requested GET /
+오후 1:50:47 192.168.1.17:58770 Requested GET /upload/
+오후 1:50:47 192.168.1.17:58766 Requested GET /?mode=jquery
+오후 1:51:00 192.168.1.63:52070 Requested GET /shared_dir/
+오후 1:51:00 192.168.1.63:52072 Requested GET /?mode=jquery
+오후 1:51:01 192.168.1.63:52080 Requested GET /shared_dir/
+오후 1:51:01 192.168.1.63:52078 Requested GET /?mode=jquery
+오후 1:51:02 192.168.1.63:52078 Requested GET /
+오후 1:51:02 192.168.1.63:52070 Requested GET /?mode=jquery
+오후 1:51:03 192.168.1.63:52074 Requested GET /upload/
+오후 1:51:03 192.168.1.63:52070 Requested GET /?mode=jquery
+오후 1:51:05 192.168.1.63:52078 Requested GET /upload/day2_workshop1_권준형.txt
+오후 1:51:05 192.168.1.63:52078 Fully downloaded - 1.2 K @ 73.6 KB/s - /upload/day2_workshop1_권준형.txt
+오후 1:52:23 192.168.1.55:53839 Requested GET /
+오후 1:52:23 192.168.1.55:53838 Requested GET /?mode=jquery
+오후 1:52:24 192.168.1.55:53843 Requested GET /upload/
+오후 1:52:24 192.168.1.55:53839 Requested GET /?mode=jquery
+오후 1:52:54 192.168.1.55:53842 Uploading 김성현.txt
+오후 1:52:54 192.168.1.55:53842 Fully uploaded 김성현.txt - 1.5 K @ 32.8 KB/s
+오후 1:52:54 192.168.1.55:53842 Requested POST /upload/
+오후 1:52:56 192.168.1.55:53843 Requested GET /upload/
+오후 1:52:56 192.168.1.55:53838 Requested GET /?mode=jquery
+오후 1:52:57 192.168.1.49:60872 Requested GET /
+오후 1:52:57 192.168.1.49:60871 Requested GET /?mode=jquery
+오후 1:52:59 192.168.1.49:60876 Requested GET /shared_dir/
+오후 1:52:59 192.168.1.49:60872 Requested GET /?mode=jquery
+오후 1:53:04 192.168.1.49:60871 Requested GET /shared_dir/stopwords.txt
+오후 1:53:04 192.168.1.49:60871 Fully downloaded - 4.7 K @ 295.1 KB/s - /shared_dir/stopwords.txt
+오후 1:53:25 192.168.1.3:58406 Requested GET /
+오후 1:53:25 192.168.1.3:58406 Requested GET /?mode=jquery
+오후 1:53:26 192.168.1.3:58408 Requested GET /upload/
+오후 1:53:26 192.168.1.3:58403 Requested GET /?mode=jquery
+오후 1:53:31 192.168.1.3:58403 Requested GET /upload/day2_workshop1_권준형.txt
+오후 1:53:31 192.168.1.3:58403 Fully downloaded - 1.2 K @ 78.5 KB/s - /upload/day2_workshop1_권준형.txt
+오후 1:53:57 192.168.1.49:60871 Requested GET /shared_dir/
+오후 1:54:01 192.168.1.49:60871 Requested GET /shared_dir/
+오후 1:54:10 192.168.1.49:60871 Requested GET /shared_dir/?tpl=list&folders-filter=\&recursive
+오후 1:54:11 192.168.1.49:60884 Requested GET /shared_dir/
+오후 1:54:13 192.168.1.49:60884 Requested POST /shared_dir/?mode=archive&recursive
+오후 1:54:13 192.168.1.49:60884 Fully downloaded - 6.0 K @ 500.0 KB/s - /shared_dir/?mode=archive&recursive
+오후 1:55:30 192.168.1.55:53855 Requested GET /upload/
+오후 1:55:30 192.168.1.55:53854 Requested GET /?mode=jquery
+오후 1:55:31 192.168.1.55:53858 Requested GET /upload/
+오후 1:55:31 192.168.1.55:53857 Requested GET /?mode=jquery
+오후 1:55:32 192.168.1.55:53859 Requested GET /upload/
+오후 1:55:32 192.168.1.55:53854 Requested GET /?mode=jquery
+오후 1:55:42 192.168.1.55:53855 Requested GET /
+오후 1:55:42 192.168.1.55:53857 Requested GET /?mode=jquery
+오후 1:56:57 192.168.1.17:58862 Requested GET /upload/
+오후 1:57:01 192.168.1.17:58862 Requested GET /
+오후 1:57:04 192.168.1.17:58862 Requested GET /upload/
+오후 1:57:04 192.168.1.17:58861 Requested GET /?mode=jquery
+오후 1:57:07 192.168.1.17:58862 Requested GET /upload/
+오후 1:57:08 192.168.1.17:58862 Requested GET /upload/김성현.txt
+오후 1:57:08 192.168.1.17:58862 Fully downloaded - 1.5 K @ 100.7 KB/s - /upload/김성현.txt
+오후 1:57:28 192.168.1.17:58862 Requested GET /upload/
+오후 1:57:53 192.168.1.55:53861 Requested GET /upload/
+오후 1:57:53 192.168.1.55:53860 Requested GET /?mode=jquery
+오후 1:57:59 192.168.1.17:58862 Requested GET /upload/
+오후 1:58:04 192.168.1.17:58862 Requested GET /
+오후 1:58:18 192.168.1.63:52476 Requested GET /upload/
+오후 1:58:21 192.168.1.63:52476 Requested GET /upload/김성현.txt
+오후 1:58:21 192.168.1.63:52476 Fully downloaded - 1.5 K @ 94.4 KB/s - /upload/김성현.txt
+오후 1:58:44 192.168.1.63:52504 Requested GET /upload/
+오후 1:58:45 192.168.1.63:52504 Requested GET /upload/
+오후 1:58:45 192.168.1.63:52506 Requested GET /?mode=jquery
+오후 2:00:40 192.168.1.63:52630 Requested GET /upload/
+오후 2:00:40 192.168.1.63:52632 Requested GET /?mode=jquery
+오후 2:00:54 192.168.1.14:52152 Uploading doll + ihaveadream_이문형.txt
+오후 2:00:54 192.168.1.14:52152 Fully uploaded doll + ihaveadream_이문형.txt - 2.8 K @ 59.5 KB/s
+오후 2:00:54 192.168.1.14:52152 Requested POST /upload/
+오후 2:00:55 192.168.1.14:52153 Requested GET /upload/
+오후 2:00:55 192.168.1.14:52152 Requested GET /?mode=jquery
+오후 2:01:10 192.168.1.63:52670 Requested GET /
+오후 2:01:10 192.168.1.63:52672 Requested GET /?mode=jquery
+오후 2:01:11 192.168.1.63:52680 Requested GET /shared_dir/
+오후 2:01:11 192.168.1.63:52674 Requested GET /?mode=jquery
+오후 2:01:24 192.168.1.60:51988 Requested GET /
+오후 2:01:24 192.168.1.60:51990 Requested GET /?mode=jquery
+오후 2:01:26 192.168.1.60:51988 Requested GET /upload/
+오후 2:01:26 192.168.1.60:51991 Requested GET /?mode=jquery
+오후 2:01:33 192.168.1.60:51988 Requested POST /upload/
+오후 2:01:34 192.168.1.17:58883 Requested GET /upload/
+오후 2:01:34 192.168.1.17:58882 Requested GET /?mode=jquery
+오후 2:01:35 192.168.1.60:51992 Requested GET /upload/
+오후 2:01:35 192.168.1.60:51994 Requested GET /?mode=jquery
+오후 2:01:38 192.168.1.17:58886 Requested GET /
+오후 2:01:40 192.168.1.17:58886 Requested GET /
+오후 2:05:07 192.168.1.55:53901 Requested GET /upload/
+오후 2:05:07 192.168.1.55:53902 Requested GET /?mode=jquery
+오후 2:12:12 192.168.1.17:58955 Requested GET /upload/
+오후 2:12:12 192.168.1.17:58954 Requested GET /?mode=jquery
+오후 2:12:20 192.168.1.17:58956 Requested GET /
+오후 2:12:21 192.168.1.17:58956 Requested GET /upload/
+오후 2:12:24 192.168.1.17:58956 Requested GET /
+오후 2:13:09 192.168.1.55:53975 Requested GET /upload/
+오후 2:13:09 192.168.1.55:53974 Requested GET /?mode=jquery
+오후 2:13:10 192.168.1.55:53978 Requested GET /upload/
+오후 2:13:10 192.168.1.55:53975 Requested GET /?mode=jquery
+오후 2:13:16 192.168.1.55:53979 Requested GET /
+오후 2:13:16 192.168.1.55:53977 Requested GET /?mode=jquery
+오후 2:31:12 192.168.1.63:54310 Requested GET /shared_dir/
+오후 2:31:12 192.168.1.63:54312 Requested GET /?mode=jquery
+오후 2:31:14 192.168.1.63:54314 Requested GET /
+오후 2:31:14 192.168.1.63:54318 Requested GET /?mode=jquery
+오후 2:31:15 192.168.1.63:54314 Requested GET /upload/
+오후 2:31:15 192.168.1.63:54316 Requested GET /?mode=jquery
+오후 2:31:23 192.168.1.63:54312 Requested GET /upload/Day2_문자_김도이.txt
+오후 2:31:23 192.168.1.63:54312 Fully downloaded - 544 @ 17.1 KB/s - /upload/Day2_문자_김도이.txt
+오후 2:31:25 192.168.1.63:54312 Requested GET /upload/
+오후 2:33:22 192.168.1.17:59076 Requested GET /upload/
+오후 2:33:22 192.168.1.17:59075 Requested GET /?mode=jquery
+오후 2:33:26 192.168.1.17:59080 Requested GET /upload/
+오후 2:33:27 192.168.1.17:59080 Requested GET /upload/Day2_문자_김도이.txt
+오후 2:33:27 192.168.1.17:59080 Fully downloaded - 544 @ 35.4 KB/s - /upload/Day2_문자_김도이.txt
+오후 2:33:29 192.168.1.17:59080 Requested GET /upload/
+오후 2:33:30 192.168.1.17:59080 Requested GET /upload/
+오후 2:33:31 192.168.1.17:59077 Requested GET /?mode=jquery
+오후 2:33:33 192.168.1.17:59078 Requested GET /upload/doll + ihaveadream_이문형.txt
+오후 2:33:33 192.168.1.17:59078 Fully downloaded - 2.8 K @ 186.3 KB/s - /upload/doll + ihaveadream_이문형.txt
+오후 2:34:02 192.168.1.17:59078 Requested GET /upload/
+오후 2:34:18 192.168.1.17:59079 Requested GET /upload/
+오후 2:34:21 192.168.1.17:59079 Requested GET /
+오후 2:34:23 192.168.1.17:59079 Requested GET /shared_dir/
+오후 2:34:23 192.168.1.17:59080 Requested GET /?mode=jquery
+오후 2:34:25 192.168.1.17:59085 Requested GET /
+오후 2:42:23 192.168.1.17:59123 Requested GET /
+오후 2:42:23 192.168.1.17:59122 Requested GET /?mode=jquery
+오후 2:42:26 192.168.1.17:59127 Requested GET /upload/
+오후 2:42:26 192.168.1.17:59123 Requested GET /?mode=jquery
+오후 2:42:28 192.168.1.17:59125 Requested GET /
+오후 2:48:21 192.168.1.55:54211 Requested GET /
+오후 2:48:21 192.168.1.55:54210 Requested GET /?mode=jquery
+오후 2:48:24 192.168.1.55:54215 Requested GET /shared_dir/
+오후 2:48:24 192.168.1.55:54210 Requested GET /?mode=jquery
+오후 2:48:30 192.168.1.55:54210 Requested GET /shared_dir/
+오후 2:48:30 192.168.1.55:54214 Requested GET /?mode=jquery
+오후 2:48:31 192.168.1.55:54211 Requested GET /
+오후 2:48:31 192.168.1.55:54214 Requested GET /?mode=jquery
+오후 2:48:32 192.168.1.55:54211 Requested GET /upload/
+오후 2:48:32 192.168.1.55:54214 Requested GET /?mode=jquery
+오후 2:48:33 192.168.1.55:54213 Requested GET /
+오후 2:48:33 192.168.1.55:54210 Requested GET /?mode=jquery
+오후 2:51:28 192.168.1.17:59207 Requested GET /upload/
+오후 2:51:28 192.168.1.17:59206 Requested GET /?mode=jquery
+오후 2:51:34 192.168.1.17:59206 Requested GET /
+오후 2:51:35 192.168.1.17:59206 Requested GET /shared_dir/
+오후 2:51:35 192.168.1.17:59211 Requested GET /?mode=jquery
+오후 2:51:36 192.168.1.55:54227 Requested GET /upload/
+오후 2:51:36 192.168.1.55:54228 Requested GET /?mode=jquery
+오후 2:51:44 192.168.1.55:54231 Requested GET /
+오후 2:51:44 192.168.1.55:54227 Requested GET /?mode=jquery
+오후 2:51:51 192.168.1.17:59211 Requested GET /shared_dir/Python_Day1/
+오후 2:51:51 192.168.1.17:59210 Requested GET /?mode=jquery
+오후 2:51:54 192.168.1.55:54231 Requested GET /shared_dir/
+오후 2:51:54 192.168.1.55:54227 Requested GET /?mode=jquery
+오후 2:51:56 192.168.1.55:54227 Requested GET /
+오후 2:51:56 192.168.1.55:54230 Requested GET /?mode=jquery
+오후 2:51:57 192.168.1.55:54228 Requested GET /shared_dir/
+오후 2:51:57 192.168.1.55:54230 Requested GET /?mode=jquery
+오후 2:52:06 192.168.1.55:54230 Requested GET /
+오후 2:52:06 192.168.1.55:54227 Requested GET /?mode=jquery
+오후 2:52:12 192.168.1.17:59206 Requested GET /shared_dir/Python_Day1/Day3_workshop1_이희선.zip
+오후 2:52:12 192.168.1.17:59206 Fully downloaded - 431.9 K @ 4.4 MB/s - /shared_dir/Python_Day1/Day3_workshop1_이희선.zip
+오후 2:52:24 192.168.1.17:59206 Requested GET /shared_dir/Python_Day1/my_string_이희선.txt
+오후 2:52:24 192.168.1.17:59206 Fully downloaded - 1.6 K @ 50.1 KB/s - /shared_dir/Python_Day1/my_string_이희선.txt
+오후 2:52:27 192.168.1.17:59206 Requested GET /shared_dir/Python_Day1/
+오후 2:52:36 192.168.1.17:59206 Requested GET /shared_dir/Python_Day1/my_string_김성현.txt
+오후 2:52:36 192.168.1.17:59206 Fully downloaded - 1.8 K @ 59.6 KB/s - /shared_dir/Python_Day1/my_string_김성현.txt
+오후 2:52:43 192.168.1.17:59206 Requested GET /shared_dir/Python_Day1/
+오후 2:53:06 192.168.1.17:59206 Requested GET /shared_dir/
+오후 2:53:07 192.168.1.17:59206 Requested GET /
+오후 3:15:19 192.168.1.17:59274 Requested GET /upload/
+오후 3:15:19 192.168.1.17:59275 Requested GET /?mode=jquery
+오후 3:15:21 192.168.1.17:59278 Requested GET /
+오후 3:15:21 192.168.1.17:59278 Requested GET /shared_dir/
+오후 3:15:22 192.168.1.17:59276 Requested GET /?mode=jquery
+오후 3:15:24 192.168.1.17:59279 Requested GET /shared_dir/Python_Day1/
+오후 3:15:24 192.168.1.17:59277 Requested GET /?mode=jquery
+오후 3:15:39 192.168.1.17:59274 Requested GET /shared_dir/Python_Day1/Baseball_김성현.txt
+오후 3:15:39 192.168.1.17:59274 Fully downloaded - 1.0 K @ 63.4 KB/s - /shared_dir/Python_Day1/Baseball_김성현.txt
+오후 3:15:43 192.168.1.17:59274 Requested GET /shared_dir/Python_Day1/
+오후 3:15:44 192.168.1.17:59274 Requested GET /shared_dir/Python_Day1/baseball_권준형.txt
+오후 3:15:45 192.168.1.17:59274 Fully downloaded - 821 @ 50.1 KB/s - /shared_dir/Python_Day1/baseball_권준형.txt
+오후 3:15:52 192.168.1.17:59274 Requested GET /shared_dir/Python_Day1/
+오후 3:15:54 192.168.1.17:59274 Requested GET /shared_dir/
+오후 3:20:40 192.168.1.63:56928 Requested GET /upload/
+오후 3:20:40 192.168.1.63:56930 Requested GET /?mode=jquery
+오후 3:20:50 192.168.1.17:59305 Requested GET /
+오후 3:20:51 192.168.1.17:59305 Requested GET /upload/
+오후 3:20:51 192.168.1.17:59306 Requested GET /?mode=jquery
+오후 3:21:03 192.168.1.17:59308 Uploading trans_hangul_권준형.txt
+오후 3:21:03 192.168.1.17:59308 Fully uploaded trans_hangul_권준형.txt - 463 @ 28.3 KB/s
+오후 3:21:03 192.168.1.17:59308 Requested POST /upload/
+오후 3:21:05 192.168.1.17:59310 Requested GET /upload/
+오후 3:21:09 192.168.1.17:59310 Requested GET /upload/trans_hangul_권준형.txt
+오후 3:21:09 192.168.1.17:59310 Fully downloaded - 463 @ 28.3 KB/s - /upload/trans_hangul_권준형.txt
+오후 3:21:20 192.168.1.17:59310 Requested GET /upload/
+오후 3:21:50 192.168.1.63:57002 Requested GET /upload/
+오후 3:21:50 192.168.1.63:57004 Requested GET /?mode=jquery
+오후 3:22:00 192.168.1.63:57004 Requested GET /upload/trans_hangul_권준형.txt
+오후 3:22:00 192.168.1.63:57004 Fully downloaded - 463 @ 30.1 KB/s - /upload/trans_hangul_권준형.txt
+오후 3:23:17 192.168.1.4:55042 Requested GET /
+오후 3:23:17 192.168.1.4:55042 Requested GET /
+오후 3:23:17 192.168.1.4:55044 Requested GET /?mode=jquery
+오후 3:23:18 192.168.1.4:55044 Requested GET /upload/
+오후 3:23:19 192.168.1.4:55043 Requested GET /?mode=jquery
+오후 3:23:26 192.168.1.17:59320 Requested GET /upload/
+오후 3:23:26 192.168.1.17:59321 Requested GET /?mode=jquery
+오후 3:23:40 192.168.1.3:59807 Requested GET /
+오후 3:23:40 192.168.1.3:59806 Requested GET /?mode=jquery
+오후 3:23:42 192.168.1.3:59807 Requested GET /upload/
+오후 3:23:42 192.168.1.3:59807 Requested GET /?mode=jquery
+오후 3:23:45 192.168.1.3:59806 Requested GET /
+오후 3:23:45 192.168.1.3:59808 Requested GET /?mode=jquery
+오후 3:23:45 192.168.1.4:55046 Uploading transhangle엄지우.txt
+오후 3:23:46 192.168.1.4:55046 Fully uploaded transhangle엄지우.txt - 432 @ 28.1 KB/s
+오후 3:23:46 192.168.1.4:55046 Requested POST /upload/
+오후 3:23:47 192.168.1.4:55042 Requested GET /upload/
+오후 3:23:47 192.168.1.4:55046 Requested GET /?mode=jquery
+오후 3:23:49 192.168.1.4:55041 Requested GET /upload/trans_hangul_권준형.txt
+오후 3:23:49 192.168.1.4:55041 Fully downloaded - 463 @ 30.1 KB/s - /upload/trans_hangul_권준형.txt
+오후 3:24:03 192.168.1.4:55041 Requested GET /upload/
+오후 3:24:04 192.168.1.4:55041 Requested GET /upload/transhangle엄지우.txt
+오후 3:24:04 192.168.1.4:55041 Fully downloaded - 432 @ 21.1 KB/s - /upload/transhangle엄지우.txt
+오후 3:24:11 192.168.1.4:55041 Requested GET /upload/
+오후 3:24:42 192.168.1.4:55043 Requested GET /upload/
+오후 3:27:12 192.168.1.4:55050 Requested GET /upload/
+오후 3:27:12 192.168.1.4:55049 Requested GET /?mode=jquery
+오후 3:27:13 192.168.1.4:55051 Requested GET /upload/
+오후 3:27:13 192.168.1.4:55052 Requested GET /?mode=jquery
+오후 3:27:35 192.168.1.4:55054 Requested GET /upload/
+오후 3:28:02 192.168.1.17:59336 Requested GET /upload/
+오후 3:28:02 192.168.1.17:59337 Requested GET /?mode=jquery
+오후 3:28:08 192.168.1.4:55051 Requested GET /upload/?tpl=list&folders-filter=\&recursive
+오후 3:28:11 192.168.1.4:55054 Requested GET /upload/
+오후 3:28:14 192.168.1.17:59337 Requested GET /upload/transhangle엄지우.txt
+오후 3:28:14 192.168.1.17:59337 Fully downloaded - 432 @ 0B/s - /upload/transhangle엄지우.txt
+오후 3:28:16 192.168.1.4:55054 Requested POST /upload/?mode=archive&recursive
+오후 3:28:16 192.168.1.4:55054 Fully downloaded - 1.5 K @ 100.0 KB/s - /upload/?mode=archive&recursive
+오후 3:28:26 192.168.1.17:59337 Requested GET /upload/
+오후 3:28:38 192.168.1.4:55054 Requested GET /
+오후 3:28:38 192.168.1.4:55057 Requested GET /?mode=jquery
+오후 3:28:41 192.168.1.4:55061 Requested GET /
+오후 3:28:41 192.168.1.4:55054 Requested GET /?mode=jquery
+오후 3:28:44 192.168.1.17:59342 Requested GET /upload/
+오후 3:28:47 192.168.1.4:55060 Requested GET /
+오후 3:30:59 192.168.1.49:61808 Requested GET /
+오후 3:30:59 192.168.1.49:61807 Requested GET /?mode=jquery
+오후 3:31:00 192.168.1.49:61812 Requested GET /upload/
+오후 3:31:00 192.168.1.49:61807 Requested GET /?mode=jquery
+오후 3:31:12 192.168.1.49:61810 Requested GET /upload/transhangle엄지우.txt
+오후 3:31:12 192.168.1.49:61810 Fully downloaded - 432 @ 26.4 KB/s - /upload/transhangle엄지우.txt
+오후 3:31:29 192.168.1.49:61810 Requested GET /upload/
+오후 3:31:30 192.168.1.49:61810 Requested GET /upload/김성현.txt
+오후 3:31:31 192.168.1.49:61810 Fully downloaded - 1.5 K @ 94.4 KB/s - /upload/김성현.txt
+오후 3:32:38 192.168.1.49:61817 Requested GET /upload/
+오후 3:32:42 192.168.1.49:61817 Requested GET /upload/day2_workshop1_권준형.txt
+오후 3:32:42 192.168.1.49:61817 Fully downloaded - 1.2 K @ 73.6 KB/s - /upload/day2_workshop1_권준형.txt
+오후 3:32:57 192.168.1.49:61817 Requested GET /upload/
+오후 3:33:02 192.168.1.49:61831 Requested GET /upload/
+오후 3:34:22 192.168.1.50:60419 Requested GET /shared_dir/
+오후 3:34:27 192.168.1.50:60419 Requested GET /shared_dir/Python_Day1/?sort=t&rev=1
+오후 3:34:29 192.168.1.50:60419 Requested GET /shared_dir/Python_Day1/
+오후 3:34:29 192.168.1.50:60418 Requested GET /?mode=jquery
+오후 3:34:30 192.168.1.50:60418 Requested GET /
+오후 3:34:30 192.168.1.50:60419 Requested GET /?mode=jquery
+오후 3:34:31 192.168.1.50:60418 Requested GET /upload/
+오후 3:34:31 192.168.1.50:60420 Requested GET /?mode=jquery
+오후 3:34:39 192.168.1.50:60419 Uploading trans_hangul_노진서.txt
+오후 3:34:39 192.168.1.50:60419 Fully uploaded trans_hangul_노진서.txt - 942 @ 61.3 KB/s
+오후 3:34:39 192.168.1.50:60419 Requested POST /upload/
+오후 3:34:41 192.168.1.50:60418 Requested GET /upload/
+오후 3:34:43 192.168.1.50:60418 Requested GET /upload/?sort=t
+오후 3:34:43 192.168.1.50:60421 Requested GET /?mode=jquery
+오후 3:34:44 192.168.1.50:60419 Requested GET /upload/?sort=t&rev=1
+오후 3:34:45 192.168.1.50:60422 Requested GET /?mode=jquery
+오후 3:34:45 192.168.1.50:60421 Requested GET /upload/?sort=t
+오후 3:34:45 192.168.1.50:60420 Requested GET /?mode=jquery
+오후 3:34:50 192.168.1.50:60419 Requested GET /upload/trans_hangul_권준형.txt
+오후 3:34:50 192.168.1.50:60419 Fully downloaded - 463 @ 64.6 KB/s - /upload/trans_hangul_권준형.txt
+오후 3:34:52 192.168.1.50:60419 Requested GET /upload/?sort=t
+오후 3:35:01 192.168.1.60:52378 Uploading Day2_숫자_한글_김도이.txt
+오후 3:35:01 192.168.1.60:52378 Fully uploaded Day2_숫자_한글_김도이.txt - 656 @ 20.0 KB/s
+오후 3:35:01 192.168.1.60:52378 Requested POST /upload/
+오후 3:35:03 192.168.1.60:52379 Requested GET /upload/
+오후 3:35:03 192.168.1.60:52381 Requested GET /?mode=jquery
+오후 3:35:22 192.168.1.50:60419 Requested GET /upload/?sort=t
+오후 3:35:23 192.168.1.50:60419 Requested GET /upload/transhangle엄지우.txt
+오후 3:35:23 192.168.1.50:60419 Fully downloaded - 432 @ 28.1 KB/s - /upload/transhangle엄지우.txt
+오후 3:35:27 192.168.1.50:60419 Requested GET /upload/?sort=t
+오후 3:35:34 192.168.1.50:60419 Requested GET /upload/trans_hangul_노진서.txt
+오후 3:35:34 192.168.1.50:60419 Fully downloaded - 942 @ 57.5 KB/s - /upload/trans_hangul_노진서.txt
+오후 3:36:02 192.168.1.50:60419 Requested GET /upload/?sort=t
+오후 3:36:03 192.168.1.50:60419 Requested GET /upload/Day2_숫자_한글_김도이.txt
+오후 3:36:03 192.168.1.50:60419 Fully downloaded - 656 @ 42.7 KB/s - /upload/Day2_숫자_한글_김도이.txt
+오후 3:36:09 192.168.1.50:60419 Requested GET /upload/?sort=t
+오후 3:36:22 192.168.1.50:60425 Requested GET /upload/?sort=t
+오후 3:36:39 192.168.1.50:60427 Requested GET /upload/?sort=t
+오후 3:37:14 192.168.1.50:60430 Requested GET /upload/?sort=t
+오후 3:38:58 192.168.1.4:55117 Requested GET /shared_dir/
+오후 3:38:58 192.168.1.4:55116 Requested GET /?mode=jquery
+오후 3:39:00 192.168.1.4:55121 Requested GET /
+오후 3:39:00 192.168.1.4:55120 Requested GET /?mode=jquery
+오후 3:39:01 192.168.1.4:55120 Requested GET /upload/
+오후 3:39:01 192.168.1.4:55116 Requested GET /?mode=jquery
+오후 3:39:12 192.168.1.4:55118 Uploading transhangle엄지우(1).txt
+오후 3:39:12 192.168.1.4:55118 Fully uploaded transhangle엄지우(1).txt - 457 @ 14.4 KB/s
+오후 3:39:12 192.168.1.4:55118 Requested POST /upload/
+오후 3:39:13 192.168.1.4:55119 Requested GET /upload/
+오후 3:39:13 192.168.1.4:55120 Requested GET /?mode=jquery
+오후 3:39:17 192.168.1.14:52557 Requested GET /
+오후 3:39:17 192.168.1.14:52556 Requested GET /?mode=jquery
+오후 3:39:17 192.168.1.63:57930 Requested GET /upload/
+오후 3:39:18 192.168.1.14:52557 Requested GET /upload/
+오후 3:39:18 192.168.1.14:52561 Requested GET /?mode=jquery
+오후 3:39:19 192.168.1.63:57930 Requested GET /upload/
+오후 3:39:19 192.168.1.63:57934 Requested GET /?mode=jquery
+오후 3:39:22 192.168.1.4:55119 Requested GET /upload/transhangle엄지우(1).txt
+오후 3:39:22 192.168.1.4:55119 Fully downloaded - 457 @ 29.8 KB/s - /upload/transhangle엄지우(1).txt
+오후 3:39:23 192.168.1.63:57934 Requested GET /upload/trans_hangul_노진서.txt
+오후 3:39:23 192.168.1.63:57934 Fully downloaded - 942 @ 61.3 KB/s - /upload/trans_hangul_노진서.txt
+오후 3:39:31 192.168.1.4:55119 Requested GET /upload/
+오후 3:39:33 192.168.1.4:55119 Requested GET /upload/trans_hangul_노진서.txt
+오후 3:39:33 192.168.1.4:55119 Fully downloaded - 942 @ 61.3 KB/s - /upload/trans_hangul_노진서.txt
+오후 3:39:33 192.168.1.49:61898 Requested GET /upload/trans_hangul_권준형.txt
+오후 3:39:33 192.168.1.49:61898 Fully downloaded - 463 @ 28.3 KB/s - /upload/trans_hangul_권준형.txt
+오후 3:39:34 192.168.1.63:57960 Requested GET /upload/
+오후 3:39:40 192.168.1.4:55119 Requested GET /upload/
+오후 3:39:42 192.168.1.63:57960 Requested GET /
+오후 3:39:42 192.168.1.63:57962 Requested GET /?mode=jquery
+오후 3:39:43 192.168.1.4:55116 Requested GET /upload/
+오후 3:39:43 192.168.1.63:57974 Requested GET /upload/
+오후 3:39:43 192.168.1.63:57972 Requested GET /?mode=jquery
+오후 3:39:45 192.168.1.63:57960 Requested GET /
+오후 3:39:46 192.168.1.4:55117 Requested GET /upload/
+오후 3:39:46 192.168.1.63:57960 Requested GET /shared_dir/
+오후 3:39:46 192.168.1.63:57974 Requested GET /?mode=jquery
+오후 3:39:48 192.168.1.63:57970 Requested GET /shared_dir/Python_Day1/
+오후 3:39:48 192.168.1.63:57974 Requested GET /?mode=jquery
+오후 3:39:48 192.168.1.4:55117 Requested GET /upload/
+오후 3:39:51 192.168.1.4:55120 Requested GET /upload/
+오후 3:39:53 192.168.1.63:57968 Requested GET /shared_dir/
+오후 3:39:54 192.168.1.63:57968 Requested GET /shared_dir/R_Day1/
+오후 3:39:54 192.168.1.63:57962 Requested GET /?mode=jquery
+오후 3:39:56 192.168.1.63:57974 Requested GET /shared_dir/
+오후 3:39:58 192.168.1.4:55121 Requested GET /upload/
+오후 3:40:07 192.168.1.4:55121 Requested GET /upload/
+오후 3:40:28 192.168.1.63:58022 Requested GET /shared_dir/R_Day2/
+오후 3:40:28 192.168.1.63:58024 Requested GET /?mode=jquery
+오후 3:40:29 192.168.1.63:58022 Requested GET /shared_dir/
+오후 3:40:42 192.168.1.63:58048 Requested GET /shared_dir/R_Day3/
+오후 3:40:42 192.168.1.63:58050 Requested GET /?mode=jquery
+오후 3:40:51 192.168.1.63:58058 Requested GET /shared_dir/
+오후 3:40:52 192.168.1.63:58058 Requested GET /shared_dir/testconcorda.txt
+오후 3:40:52 192.168.1.63:58058 Fully downloaded - 355 @ 21.7 KB/s - /shared_dir/testconcorda.txt
+오후 3:40:54 192.168.1.63:58058 Requested GET /shared_dir/
+오후 3:41:09 192.168.1.50:60436 Requested GET /upload/?sort=t
+오후 3:41:09 192.168.1.50:60437 Requested GET /?mode=jquery
+오후 3:41:09 192.168.1.63:58096 Requested GET /shared_dir/
+오후 3:41:11 192.168.1.50:60439 Requested GET /upload/transhangle엄지우(1).txt
+오후 3:41:11 192.168.1.50:60439 Fully downloaded - 457 @ 27.9 KB/s - /upload/transhangle엄지우(1).txt
+오후 3:41:22 192.168.1.50:60439 Requested GET /upload/?sort=t
+오후 3:41:33 192.168.1.63:58118 Requested GET /shared_dir/R_day3.R
+오후 3:41:33 192.168.1.63:58118 Fully downloaded - 3.4 K @ 225.1 KB/s - /shared_dir/R_day3.R
+오후 3:41:44 192.168.1.50:60441 Requested GET /upload/?sort=t
+오후 3:41:48 192.168.1.63:58118 Requested GET /shared_dir/R_day2.R
+오후 3:41:48 192.168.1.63:58118 Fully downloaded - 3.8 K @ 237.1 KB/s - /shared_dir/R_day2.R
+오후 3:41:49 192.168.1.63:58118 Requested GET /shared_dir/R_day1.R
+오후 3:41:49 192.168.1.63:58118 Fully downloaded - 4.1 K @ 128.9 KB/s - /shared_dir/R_day1.R
+오후 3:41:50 192.168.1.63:58118 Requested GET /shared_dir/Koweps_hpc10_2015_beta1.sav
+오후 3:41:58 192.168.1.63:58144 Requested GET /shared_dir/
+오후 3:42:00 192.168.1.63:58118 Fully downloaded - 125.7 M @ 13.7 MB/s - /shared_dir/Koweps_hpc10_2015_beta1.sav
+오후 3:42:02 192.168.1.63:58150 Requested GET /shared_dir/Day1_Python.ipynb
+오후 3:42:02 192.168.1.63:58150 Fully downloaded - 18.2 K @ 1.1 MB/s - /shared_dir/Day1_Python.ipynb
+오후 3:42:18 192.168.1.63:58150 Requested GET /shared_dir/R_Day3/
+오후 3:42:18 192.168.1.63:58174 Requested GET /?mode=jquery
+오후 3:42:25 192.168.1.63:58150 Requested GET /shared_dir/
+오후 3:42:26 192.168.1.63:58150 Requested GET /shared_dir/R_Day3/
+오후 3:42:27 192.168.1.63:58176 Requested GET /?mode=jquery
+오후 3:42:31 192.168.1.63:58196 Requested GET /shared_dir/
+오후 3:43:10 192.168.1.63:58232 Requested GET /shared_dir/R_Day3/
+오후 3:43:10 192.168.1.63:58234 Requested GET /?mode=jquery
+오후 3:43:12 192.168.1.63:58232 Requested GET /shared_dir/
+오후 3:43:13 192.168.1.63:58232 Requested GET /shared_dir/R_Day3/
+오후 3:43:13 192.168.1.63:58244 Requested GET /?mode=jquery
+오후 3:43:14 192.168.1.63:58242 Requested GET /shared_dir/
+오후 3:43:16 192.168.1.63:58242 Requested GET /shared_dir/R_Day2/
+오후 3:43:16 192.168.1.63:58232 Requested GET /?mode=jquery
+오후 3:43:24 192.168.1.63:58232 Requested GET /shared_dir/R_Day2/Day2_권준형.txt
+오후 3:43:24 192.168.1.63:58232 Fully downloaded - 849 @ 51.8 KB/s - /shared_dir/R_Day2/Day2_권준형.txt
+오후 3:43:31 192.168.1.63:58264 Requested GET /shared_dir/R_Day2/
+오후 3:43:51 192.168.1.14:52618 Uploading trans_hangul_이문형.txt
+오후 3:43:51 192.168.1.14:52618 Fully uploaded trans_hangul_이문형.txt - 1.6 K @ 99.6 KB/s
+오후 3:43:51 192.168.1.14:52618 Requested POST /upload/
+오후 3:43:53 192.168.1.14:52620 Requested GET /upload/
+오후 3:43:53 192.168.1.14:52619 Requested GET /?mode=jquery
+오후 3:44:13 192.168.1.63:58302 Requested GET /shared_dir/R_Day2/
+오후 3:44:31 192.168.1.63:58342 Requested GET /shared_dir/
+오후 3:44:42 192.168.1.63:58342 Requested GET /shared_dir/R_Day2/
+오후 3:44:42 192.168.1.63:58354 Requested GET /?mode=jquery
+오후 3:44:43 192.168.1.63:58362 Requested GET /shared_dir/
+오후 3:44:45 192.168.1.63:58362 Requested GET /shared_dir/R_Day1/
+오후 3:44:45 192.168.1.63:58354 Requested GET /?mode=jquery
+오후 3:44:48 192.168.1.63:58354 Requested GET /shared_dir/R_Day1/Day1_이희선_0525.txt
+오후 3:44:49 192.168.1.63:58354 Fully downloaded - 781 @ 29.3 KB/s - /shared_dir/R_Day1/Day1_이희선_0525.txt
+오후 3:44:52 192.168.1.63:58354 Requested GET /shared_dir/R_Day1/
+오후 3:44:54 192.168.1.17:59416 Requested GET /upload/
+오후 3:44:54 192.168.1.17:59417 Requested GET /?mode=jquery
+오후 3:45:07 192.168.1.63:58386 Requested GET /shared_dir/R_Day1/Day1_김서정.txt
+오후 3:45:07 192.168.1.63:58386 Fully downloaded - 673 @ 41.1 KB/s - /shared_dir/R_Day1/Day1_김서정.txt
+오후 3:45:11 192.168.1.63:58386 Requested GET /shared_dir/R_Day1/
+오후 3:45:16 192.168.1.63:58386 Requested GET /shared_dir/
+오후 3:45:18 192.168.1.63:58386 Requested GET /shared_dir/Python_Day1/
+오후 3:45:18 192.168.1.63:58398 Requested GET /?mode=jquery
+오후 3:45:26 192.168.1.17:59416 Requested GET /upload/
+오후 3:45:32 192.168.1.63:58422 Requested GET /shared_dir/Python_Day1/baseball_권준형.txt
+오후 3:45:32 192.168.1.63:58422 Fully downloaded - 821 @ 50.1 KB/s - /shared_dir/Python_Day1/baseball_권준형.txt
+오후 3:45:33 192.168.1.17:59421 Requested GET /upload/
+오후 3:45:37 192.168.1.17:59421 Requested GET /upload/trans_hangul_이문형.txt
+오후 3:45:37 192.168.1.17:59421 Fully downloaded - 1.6 K @ 106.3 KB/s - /upload/trans_hangul_이문형.txt
+오후 3:45:51 192.168.1.17:59421 Requested GET /upload/
+오후 3:46:02 192.168.1.17:59431 Requested GET /upload/
+오후 3:46:03 192.168.1.63:58462 Requested GET /shared_dir/Python_Day1/
+오후 3:46:09 192.168.1.63:58462 Requested GET /shared_dir/Python_Day1/mystring_권준형.txt
+오후 3:46:09 192.168.1.63:58462 Fully downloaded - 1.2 K @ 38.6 KB/s - /shared_dir/Python_Day1/mystring_권준형.txt
+오후 3:46:29 192.168.1.63:58488 Requested GET /shared_dir/Python_Day1/
+오후 3:46:32 192.168.1.63:58488 Requested GET /
+오후 3:46:32 192.168.1.63:58490 Requested GET /?mode=jquery
+오후 3:46:33 192.168.1.63:58500 Requested GET /
+오후 3:46:33 192.168.1.63:58498 Requested GET /?mode=jquery
+오후 3:46:35 192.168.1.63:58500 Requested GET /upload/
+오후 3:46:35 192.168.1.63:58488 Requested GET /?mode=jquery
+오후 3:46:38 192.168.1.17:59430 Requested GET /upload/
+오후 3:47:15 192.168.1.63:58536 Requested GET /upload/
+오후 3:48:05 192.168.1.14:52633 Uploading doll + ihaveadream_이문형(수정).txt
+오후 3:48:05 192.168.1.14:52633 Fully uploaded doll + ihaveadream_이문형(수정).txt - 2.9 K @ 60.0 KB/s
+오후 3:48:05 192.168.1.14:52633 Requested POST /upload/
+오후 3:48:06 192.168.1.14:52634 Requested GET /upload/
+오후 3:48:06 192.168.1.14:52632 Requested GET /?mode=jquery
+오후 3:50:23 192.168.1.14:52645 Requested GET /upload/doll + ihaveadream_이문형.txt
+오후 3:50:23 192.168.1.14:52645 Fully downloaded - 2.8 K @ 199.6 KB/s - /upload/doll + ihaveadream_이문형.txt
+오후 3:50:25 192.168.1.14:52645 Requested GET /upload/
+오후 3:54:19 192.168.1.63:58924 Requested GET /upload/
+오후 3:54:20 192.168.1.63:58924 Requested GET /upload/
+오후 3:54:20 192.168.1.63:58926 Requested GET /?mode=jquery
+오후 3:54:23 192.168.1.63:58924 Requested GET /
+오후 3:54:23 192.168.1.63:58934 Requested GET /?mode=jquery
+오후 3:54:25 192.168.1.63:58926 Requested GET /shared_dir/
+오후 3:54:25 192.168.1.63:58924 Requested GET /?mode=jquery
+오후 3:54:28 192.168.1.63:58934 Requested GET /shared_dir/?sort=t
+오후 3:54:28 192.168.1.63:58940 Requested GET /?mode=jquery
+오후 3:54:33 192.168.1.63:58926 Requested GET /shared_dir/?sort=t&rev=1
+오후 3:54:33 192.168.1.63:58936 Requested GET /?mode=jquery
+오후 3:55:43 192.168.1.17:59485 Requested GET /upload/
+오후 3:55:43 192.168.1.17:59484 Requested GET /?mode=jquery
+오후 3:59:19 192.168.1.51:54093 Requested GET /
+오후 3:59:19 192.168.1.51:54094 Requested GET /?mode=jquery
+오후 3:59:21 192.168.1.51:54095 Requested GET /shared_dir/
+오후 3:59:21 192.168.1.51:54094 Requested GET /?mode=jquery
+오후 3:59:34 192.168.1.51:54094 Requested GET /shared_dir/
+오후 3:59:34 192.168.1.51:54093 Requested GET /?mode=jquery
+오후 3:59:34 192.168.1.51:54093 Requested GET /shared_dir/
+오후 3:59:34 192.168.1.51:54095 Requested GET /?mode=jquery
+오후 3:59:35 192.168.1.51:54095 Requested GET /shared_dir/
+오후 3:59:35 192.168.1.51:54094 Requested GET /?mode=jquery
+오후 3:59:36 192.168.1.51:54094 Requested GET /shared_dir/
+오후 3:59:36 192.168.1.51:54096 Requested GET /?mode=jquery
+오후 3:59:36 192.168.1.51:54094 Requested GET /shared_dir/
+오후 3:59:36 192.168.1.51:54096 Requested GET /?mode=jquery
+오후 3:59:37 192.168.1.51:54091 Requested GET /shared_dir/
+오후 3:59:37 192.168.1.51:54096 Requested GET /?mode=jquery
+오후 3:59:37 192.168.1.51:54096 Requested GET /shared_dir/
+오후 3:59:37 192.168.1.51:54093 Requested GET /?mode=jquery
+오후 3:59:37 192.168.1.51:54094 Requested GET /shared_dir/
+오후 3:59:37 192.168.1.51:54093 Requested GET /?mode=jquery
+오후 3:59:37 192.168.1.51:54092 Requested GET /shared_dir/
+오후 3:59:37 192.168.1.51:54093 Requested GET /?mode=jquery
+오후 3:59:38 192.168.1.51:54093 Requested GET /shared_dir/
+오후 3:59:38 192.168.1.51:54092 Requested GET /?mode=jquery
+오후 3:59:38 192.168.1.51:54092 Requested GET /shared_dir/
+오후 3:59:38 192.168.1.51:54095 Requested GET /?mode=jquery
+오후 3:59:38 192.168.1.51:54095 Requested GET /shared_dir/
+오후 3:59:39 192.168.1.51:54093 Requested GET /?mode=jquery
+오후 3:59:39 192.168.1.51:54091 Requested GET /shared_dir/
+오후 3:59:39 192.168.1.51:54093 Requested GET /?mode=jquery
+오후 3:59:39 192.168.1.51:54093 Requested GET /shared_dir/
+오후 3:59:39 192.168.1.51:54096 Requested GET /?mode=jquery
+오후 3:59:39 192.168.1.51:54096 Requested GET /shared_dir/
+오후 3:59:39 192.168.1.51:54093 Requested GET /?mode=jquery
+오후 3:59:39 192.168.1.51:54092 Requested GET /shared_dir/
+오후 3:59:40 192.168.1.51:54093 Requested GET /?mode=jquery
+오후 3:59:40 192.168.1.51:54093 Requested GET /shared_dir/
+오후 3:59:40 192.168.1.51:54094 Requested GET /?mode=jquery
+오후 3:59:40 192.168.1.51:54094 Requested GET /shared_dir/
+오후 3:59:40 192.168.1.51:54095 Requested GET /?mode=jquery
+오후 3:59:41 192.168.1.51:54094 Requested GET /shared_dir/
+오후 3:59:41 192.168.1.51:54091 Requested GET /?mode=jquery
+오후 3:59:41 192.168.1.51:54091 Requested GET /shared_dir/
+오후 3:59:41 192.168.1.51:54096 Requested GET /?mode=jquery
+오후 3:59:41 192.168.1.51:54093 Requested GET /shared_dir/
+오후 3:59:41 192.168.1.51:54095 Requested GET /?mode=jquery
+오후 3:59:41 192.168.1.51:54092 Requested GET /shared_dir/
+오후 3:59:41 192.168.1.51:54092 Requested GET /shared_dir/
+오후 3:59:42 192.168.1.51:54096 Requested GET /?mode=jquery
+오후 3:59:42 192.168.1.51:54094 Requested GET /shared_dir/
+오후 3:59:42 192.168.1.51:54096 Requested GET /?mode=jquery
+오후 3:59:42 192.168.1.51:54095 Requested GET /shared_dir/
+오후 3:59:42 192.168.1.51:54091 Requested GET /?mode=jquery
+오후 3:59:42 192.168.1.51:54093 Requested GET /shared_dir/
+오후 3:59:42 192.168.1.51:54091 Requested GET /?mode=jquery
+오후 3:59:42 192.168.1.51:54091 Requested GET /shared_dir/
+오후 3:59:42 192.168.1.51:54092 Requested GET /?mode=jquery
+오후 3:59:43 192.168.1.51:54091 Requested GET /shared_dir/
+오후 3:59:43 192.168.1.51:54092 Requested GET /?mode=jquery
+오후 3:59:43 192.168.1.51:54092 Requested GET /shared_dir/
+오후 3:59:43 192.168.1.51:54096 Requested GET /?mode=jquery
+오후 3:59:43 192.168.1.51:54091 Requested GET /shared_dir/
+오후 3:59:43 192.168.1.51:54095 Requested GET /?mode=jquery
+오후 3:59:43 192.168.1.51:54096 Requested GET /shared_dir/
+오후 3:59:43 192.168.1.51:54095 Requested GET /?mode=jquery
+오후 4:00:39 Check update: no new version
+오후 4:00:57 192.168.1.51:54100 Requested GET /shared_dir/
+오후 4:00:57 192.168.1.51:54099 Requested GET /?mode=jquery
+오후 4:00:57 192.168.1.51:54100 Requested GET /shared_dir/
+오후 4:00:57 192.168.1.51:54103 Requested GET /?mode=jquery
+오후 4:00:58 192.168.1.51:54103 Requested GET /shared_dir/
+오후 4:00:58 192.168.1.51:54101 Requested GET /?mode=jquery
+오후 4:00:59 192.168.1.51:54104 Requested GET /shared_dir/
+오후 4:00:59 192.168.1.51:54099 Requested GET /?mode=jquery
+오후 4:01:00 192.168.1.51:54101 Requested GET /shared_dir/
+오후 4:01:00 192.168.1.51:54099 Requested GET /?mode=jquery
+오후 4:01:02 192.168.1.51:54099 Requested GET /shared_dir/
+오후 4:01:02 192.168.1.51:54103 Requested GET /?mode=jquery
+오후 4:01:04 192.168.1.51:54103 Requested GET /shared_dir/
+오후 4:01:04 192.168.1.51:54100 Requested GET /?mode=jquery
+오후 4:01:09 192.168.1.51:54101 Requested GET /shared_dir/Python_Day1/
+오후 4:01:09 192.168.1.51:54100 Requested GET /?mode=jquery
+오후 4:01:12 192.168.1.51:54102 Requested GET /shared_dir/
+오후 4:01:22 192.168.1.51:54102 Requested GET /shared_dir/
+오후 4:01:22 192.168.1.51:54099 Requested GET /?mode=jquery
+오후 4:01:28 192.168.1.63:59322 Requested GET /shared_dir/
+오후 4:01:28 192.168.1.63:59324 Requested GET /?mode=jquery
+오후 4:01:29 192.168.1.63:59334 Requested GET /shared_dir/
+오후 4:01:29 192.168.1.63:59336 Requested GET /?mode=jquery
+오후 4:01:31 192.168.1.63:59336 Requested GET /
+오후 4:01:31 192.168.1.63:59344 Requested GET /?mode=jquery
+오후 4:01:33 192.168.1.63:59336 Requested GET /upload/
+오후 4:01:33 192.168.1.63:59340 Requested GET /?mode=jquery
+오후 4:01:41 192.168.1.49:62071 Requested GET /upload/
+오후 4:01:55 192.168.1.49:62074 Requested GET /upload/
+오후 4:02:05 192.168.1.49:62075 Requested GET /upload/
+오후 4:03:25 192.168.1.62:60671 Requested GET /shared_dir/
+오후 4:03:26 192.168.1.62:60670 Requested GET /?mode=jquery
+오후 4:03:35 192.168.1.62:60674 Requested GET /shared_dir/Python_Day1/
+오후 4:03:35 192.168.1.62:60671 Requested GET /?mode=jquery
+오후 4:03:39 192.168.1.62:60675 Requested GET /shared_dir/
+오후 4:03:42 192.168.1.62:60675 Requested POST /shared_dir/?mode=archive&recursive
+오후 4:03:42 192.168.1.62:60675 Fully downloaded - 487.5 K @ 5.1 MB/s - /shared_dir/?mode=archive&recursive
+오후 4:03:47 192.168.1.62:60675 Requested GET /shared_dir/Day1_Python.ipynb
+오후 4:03:47 192.168.1.62:60675 Fully downloaded - 18.2 K @ 1.2 MB/s - /shared_dir/Day1_Python.ipynb
+오후 4:03:48 192.168.1.62:60675 Requested GET /shared_dir/Day2_Python.ipynb
+오후 4:03:48 192.168.1.62:60675 Fully downloaded - 8.7 K @ 542.4 KB/s - /shared_dir/Day2_Python.ipynb
+오후 4:04:23 192.168.1.50:60471 Requested GET /upload/?sort=t
+오후 4:04:25 192.168.1.50:60471 Requested GET /upload/?sort=t&rev=1
+오후 4:04:27 192.168.1.50:60471 Requested GET /upload/?sort=t
+오후 4:04:29 192.168.1.50:60471 Requested GET /
+오후 4:04:29 192.168.1.50:60472 Requested GET /?mode=jquery
+오후 4:04:30 192.168.1.50:60476 Requested GET /shared_dir/
+오후 4:04:30 192.168.1.50:60471 Requested GET /?mode=jquery
+오후 4:04:36 192.168.1.50:60471 Requested GET /shared_dir/Python_Day1/
+오후 4:04:36 192.168.1.50:60472 Requested GET /?mode=jquery
+오후 4:04:41 192.168.1.50:60475 Requested GET /
+오후 4:04:41 192.168.1.50:60474 Requested GET /?mode=jquery
+오후 4:04:42 192.168.1.50:60471 Requested GET /shared_dir/
+오후 4:04:43 192.168.1.50:60474 Requested GET /?mode=jquery
+오후 4:04:54 192.168.1.50:60476 Requested GET /shared_dir/
+오후 4:04:54 192.168.1.50:60474 Requested GET /?mode=jquery
+오후 4:04:54 192.168.1.50:60474 Requested GET /shared_dir/
+오후 4:04:54 192.168.1.50:60476 Requested GET /?mode=jquery
+오후 4:04:55 192.168.1.50:60471 Requested GET /shared_dir/
+오후 4:04:55 192.168.1.50:60472 Requested GET /?mode=jquery
+오후 4:04:56 192.168.1.50:60475 Requested GET /shared_dir/
+오후 4:04:56 192.168.1.50:60472 Requested GET /?mode=jquery
+오후 4:04:57 192.168.1.50:60476 Requested GET /
+오후 4:04:57 192.168.1.50:60471 Requested GET /?mode=jquery
+오후 4:04:58 192.168.1.50:60476 Requested GET /upload/
+오후 4:04:58 192.168.1.50:60471 Requested GET /?mode=jquery
+오후 4:05:03 192.168.1.50:60475 Requested GET /upload/
+오후 4:05:03 192.168.1.50:60472 Requested GET /?mode=jquery
+오후 4:05:03 192.168.1.50:60473 Requested GET /
+오후 4:05:03 192.168.1.50:60471 Requested GET /?mode=jquery
+오후 4:05:04 192.168.1.51:54156 Requested GET /shared_dir/
+오후 4:05:04 192.168.1.51:54155 Requested GET /?mode=jquery
+오후 4:05:04 192.168.1.50:60473 Requested GET /shared_dir/
+오후 4:05:04 192.168.1.50:60471 Requested GET /?mode=jquery
+오후 4:05:06 192.168.1.51:54160 Requested GET /shared_dir/Day2_Python.ipynb
+오후 4:05:06 192.168.1.51:54160 Fully downloaded - 8.7 K @ 578.6 KB/s - /shared_dir/Day2_Python.ipynb
+오후 4:05:06 192.168.1.50:60471 Requested GET /shared_dir/Python_Day1/
+오후 4:05:06 192.168.1.50:60474 Requested GET /?mode=jquery
+오후 4:05:08 192.168.1.50:60472 Requested GET /shared_dir/
+오후 4:05:10 192.168.1.62:60705 Requested GET /shared_dir/
+오후 4:05:10 192.168.1.62:60704 Requested GET /?mode=jquery
+오후 4:05:46 192.168.1.3:60231 Requested GET /shared_dir/
+오후 4:05:46 192.168.1.3:60231 Requested GET /?mode=jquery
+오후 4:05:52 192.168.1.3:60231 Requested GET /
+오후 4:05:52 192.168.1.3:60227 Requested GET /?mode=jquery
+오후 4:05:54 192.168.1.3:60227 Requested GET /upload/
+오후 4:05:54 192.168.1.3:60231 Requested GET /?mode=jquery
+오후 4:05:55 192.168.1.3:60227 Requested GET /
+오후 4:05:55 192.168.1.3:60230 Requested GET /?mode=jquery
+오후 4:05:56 192.168.1.3:60228 Requested GET /shared_dir/
+오후 4:05:56 192.168.1.3:60228 Requested GET /?mode=jquery
+오후 4:05:58 192.168.1.3:60231 Requested GET /shared_dir/Python_Day1/
+오후 4:05:58 192.168.1.3:60228 Requested GET /?mode=jquery
+오후 4:06:01 192.168.1.3:60228 Requested GET /shared_dir/
+오후 4:06:01 192.168.1.3:60232 Requested GET /?mode=jquery
+오후 4:06:03 192.168.1.3:60232 Requested GET /
+오후 4:06:03 192.168.1.3:60229 Requested GET /?mode=jquery
+오후 4:06:06 192.168.1.3:60229 Requested GET /upload/
+오후 4:06:06 192.168.1.3:60229 Requested GET /?mode=jquery
+오후 4:06:07 192.168.1.3:60229 Requested GET /
+오후 4:06:07 192.168.1.3:60230 Requested GET /?mode=jquery
+오후 4:06:14 192.168.1.50:60479 Requested GET /shared_dir/
+오후 4:06:14 192.168.1.50:60480 Requested GET /?mode=jquery
+오후 4:06:16 192.168.1.3:60227 Requested GET /shared_dir/
+오후 4:06:16 192.168.1.3:60230 Requested GET /?mode=jquery
+오후 4:06:17 192.168.1.50:60480 Requested GET /shared_dir/Python_Day2/
+오후 4:06:17 192.168.1.50:60479 Requested GET /?mode=jquery
+오후 4:06:18 192.168.1.50:60484 Requested GET /shared_dir/Python_Day2/practice/
+오후 4:06:18 192.168.1.50:60479 Requested GET /?mode=jquery
+오후 4:06:21 192.168.1.62:60714 Requested GET /shared_dir/
+오후 4:06:21 192.168.1.62:60713 Requested GET /?mode=jquery
+오후 4:06:23 192.168.1.63:59618 Requested GET /upload/
+오후 4:06:23 192.168.1.3:60229 Requested GET /shared_dir/Python_Day2/
+오후 4:06:23 192.168.1.3:60229 Requested GET /?mode=jquery
+오후 4:06:23 192.168.1.14:52737 Requested GET /
+오후 4:06:23 192.168.1.14:52736 Requested GET /?mode=jquery
+오후 4:06:24 192.168.1.19:54061 Requested GET /
+오후 4:06:24 192.168.1.63:59618 Requested GET /
+오후 4:06:24 192.168.1.17:59533 Requested GET /
+오후 4:06:24 192.168.1.19:54061 Requested GET /?mode=jquery
+오후 4:06:24 192.168.1.3:60229 Requested GET /shared_dir/Python_Day2/practice/
+오후 4:06:24 192.168.1.3:60229 Requested GET /?mode=jquery
+오후 4:06:25 192.168.1.17:59533 Requested GET /shared_dir/
+오후 4:06:25 192.168.1.17:59532 Requested GET /?mode=jquery
+오후 4:06:25 192.168.1.14:52737 Requested GET /upload/
+오후 4:06:25 192.168.1.63:59618 Requested GET /shared_dir/
+오후 4:06:25 192.168.1.14:52741 Requested GET /?mode=jquery
+오후 4:06:25 192.168.1.63:59620 Requested GET /?mode=jquery
+오후 4:06:25 192.168.1.19:54063 Requested GET /shared_dir/
+오후 4:06:26 192.168.1.19:54063 Requested GET /?mode=jquery
+오후 4:06:26 192.168.1.49:62113 Requested GET /
+오후 4:06:26 192.168.1.49:62112 Requested GET /?mode=jquery
+오후 4:06:26 192.168.1.17:59532 Requested GET /shared_dir/Python_Day2/
+오후 4:06:26 192.168.1.17:59537 Requested GET /?mode=jquery
+오후 4:06:26 192.168.1.14:52737 Requested GET /
+오후 4:06:26 192.168.1.14:52740 Requested GET /?mode=jquery
+오후 4:06:27 192.168.1.49:62117 Requested GET /upload/
+오후 4:06:27 192.168.1.17:59534 Requested GET /shared_dir/Python_Day2/practice/
+오후 4:06:27 192.168.1.49:62113 Requested GET /?mode=jquery
+오후 4:06:27 192.168.1.17:59532 Requested GET /?mode=jquery
+오후 4:06:27 192.168.1.14:52737 Requested GET /shared_dir/
+오후 4:06:27 192.168.1.14:52741 Requested GET /?mode=jquery
+오후 4:06:28 192.168.1.62:60713 Requested POST /shared_dir/?mode=archive&recursive
+오후 4:06:28 192.168.1.62:60713 Fully downloaded - 22.0 K @ 0B/s - /shared_dir/?mode=archive&recursive
+오후 4:06:28 192.168.1.49:62112 Requested GET /
+오후 4:06:28 192.168.1.49:62117 Requested GET /?mode=jquery
+오후 4:06:29 192.168.1.63:59628 Requested GET /shared_dir/Python_Day2/
+오후 4:06:29 192.168.1.63:59618 Requested GET /?mode=jquery
+오후 4:06:29 192.168.1.50:60483 Requested GET /shared_dir/Python_Day2/
+오후 4:06:29 192.168.1.49:62117 Requested GET /shared_dir/
+오후 4:06:29 192.168.1.49:62115 Requested GET /?mode=jquery
+오후 4:06:29 192.168.1.14:52741 Requested GET /shared_dir/Python_Day2/
+오후 4:06:29 192.168.1.14:52740 Requested GET /?mode=jquery
+오후 4:06:30 192.168.1.50:60483 Requested GET /shared_dir/Python_Day2/practice/
+오후 4:06:30 192.168.1.14:52736 Requested GET /shared_dir/Python_Day2/practice/
+오후 4:06:30 192.168.1.14:52741 Requested GET /?mode=jquery
+오후 4:06:30 192.168.1.52:49224 Requested GET /shared_dir/
+오후 4:06:31 192.168.1.63:59620 Requested GET /shared_dir/Python_Day2/practice/
+오후 4:06:31 192.168.1.63:59630 Requested GET /?mode=jquery
+오후 4:06:31 192.168.1.3:60232 Requested GET /shared_dir/Python_Day2/
+오후 4:06:31 192.168.1.3:60232 Requested GET /?mode=jquery
+오후 4:06:32 192.168.1.3:60228 Requested GET /shared_dir/
+오후 4:06:32 192.168.1.3:60228 Requested GET /?mode=jquery
+오후 4:06:33 192.168.1.49:62113 Requested GET /shared_dir/Python_Day2/
+오후 4:06:33 192.168.1.49:62112 Requested GET /?mode=jquery
+오후 4:06:33 192.168.1.52:49224 Requested GET /shared_dir/
+오후 4:06:33 192.168.1.52:49225 Requested GET /?mode=jquery
+오후 4:06:34 192.168.1.49:62113 Requested GET /shared_dir/Python_Day2/practice/
+오후 4:06:34 192.168.1.49:62115 Requested GET /?mode=jquery
+오후 4:06:34 192.168.1.19:54062 Requested GET /shared_dir/Python_Day2/
+오후 4:06:34 192.168.1.19:54066 Requested GET /?mode=jquery
+오후 4:06:35 192.168.1.19:54063 Requested GET /shared_dir/Python_Day2/practice/
+오후 4:06:35 192.168.1.19:54063 Requested GET /?mode=jquery
+오후 4:06:39 192.168.1.52:49225 Requested GET /
+오후 4:06:39 192.168.1.52:49229 Requested GET /?mode=jquery
+오후 4:06:40 192.168.1.52:49226 Requested GET /upload/
+오후 4:06:40 192.168.1.52:49228 Requested GET /?mode=jquery
+오후 4:06:41 192.168.1.52:49229 Requested GET /
+오후 4:06:41 192.168.1.52:49226 Requested GET /?mode=jquery
+오후 4:06:41 192.168.1.14:52737 Requested GET /
+오후 4:06:41 192.168.1.14:52736 Requested GET /?mode=jquery
+오후 4:06:42 192.168.1.52:49229 Requested GET /shared_dir/
+오후 4:06:42 192.168.1.52:49226 Requested GET /?mode=jquery
+오후 4:06:53 192.168.1.52:49226 Requested GET /
+오후 4:06:53 192.168.1.52:49224 Requested GET /?mode=jquery
+오후 4:06:54 192.168.1.52:49226 Requested GET /shared_dir/
+오후 4:06:54 192.168.1.52:49224 Requested GET /?mode=jquery
+오후 4:07:03 192.168.1.52:49224 Requested GET /shared_dir/R_Day3/
+오후 4:07:03 192.168.1.52:49228 Requested GET /?mode=jquery
+오후 4:07:06 192.168.1.52:49227 Requested GET /shared_dir/
+오후 4:07:07 192.168.1.52:49227 Requested GET /shared_dir/Python_Day2/
+오후 4:07:07 192.168.1.52:49224 Requested GET /?mode=jquery
+오후 4:07:09 192.168.1.52:49226 Requested GET /shared_dir/Python_Day2/practice/
+오후 4:07:09 192.168.1.52:49227 Requested GET /?mode=jquery
+오후 4:07:23 192.168.1.66:53857 Requested GET /shared_dir/
+오후 4:07:23 192.168.1.66:53857 Requested GET /?mode=jquery
+오후 4:07:23 192.168.1.66:53857 Requested GET /shared_dir/
+오후 4:07:23 192.168.1.66:53858 Requested GET /?mode=jquery
+오후 4:07:25 192.168.1.66:53857 Requested GET /shared_dir/stopwords.txt
+오후 4:07:25 192.168.1.66:53857 Fully downloaded - 4.7 K @ 295.1 KB/s - /shared_dir/stopwords.txt
+오후 4:07:25 192.168.1.49:62116 Requested GET /shared_dir/Python_Day2/practice/day2_workshop1_권준형.txt
+오후 4:07:25 192.168.1.49:62116 Fully downloaded - 1.2 K @ 0B/s - /shared_dir/Python_Day2/practice/day2_workshop1_권준형.txt
+오후 4:07:27 192.168.1.49:62116 Requested GET /shared_dir/Python_Day2/practice/
+오후 4:07:31 192.168.1.49:62116 Requested POST /shared_dir/Python_Day2/practice/?mode=archive&recursive
+오후 4:07:31 192.168.1.49:62116 Fully downloaded - 22.0 K @ 1.3 MB/s - /shared_dir/Python_Day2/practice/?mode=archive&recursive
+오후 4:07:38 192.168.1.66:53857 Requested GET /shared_dir/
+오후 4:07:58 192.168.1.52:49226 Requested GET /shared_dir/Python_Day2/practice/trans_hangul_이문형.txt
+오후 4:07:58 192.168.1.52:49226 Fully downloaded - 1.6 K @ 0B/s - /shared_dir/Python_Day2/practice/trans_hangul_이문형.txt
+오후 4:08:05 192.168.1.52:49226 Requested GET /shared_dir/Python_Day2/practice/
+오후 4:08:14 192.168.1.52:49226 Requested GET /shared_dir/Python_Day2/practice/day2_workshop1_권준형.txt
+오후 4:08:14 192.168.1.52:49226 Fully downloaded - 1.2 K @ 73.6 KB/s - /shared_dir/Python_Day2/practice/day2_workshop1_권준형.txt
+오후 4:08:18 192.168.1.52:49226 Requested GET /shared_dir/Python_Day2/practice/
+오후 4:08:22 192.168.1.52:49226 Requested GET /shared_dir/Python_Day2/practice/Day2_숫자_한글_김도이.txt
+오후 4:08:22 192.168.1.52:49226 Fully downloaded - 656 @ 40.0 KB/s - /shared_dir/Python_Day2/practice/Day2_숫자_한글_김도이.txt
+오후 4:08:28 192.168.1.52:49226 Requested GET /shared_dir/Python_Day2/practice/
+오후 4:08:29 192.168.1.52:49226 Requested GET /shared_dir/Python_Day2/practice/doll + ihaveadream_이문형(수정).txt
+오후 4:08:29 192.168.1.52:49226 Fully downloaded - 2.9 K @ 81.7 KB/s - /shared_dir/Python_Day2/practice/doll + ihaveadream_이문형(수정).txt
+오후 4:08:30 192.168.1.52:49226 Requested GET /shared_dir/Python_Day2/practice/
+오후 4:08:40 192.168.1.52:49226 Requested GET /shared_dir/Python_Day2/practice/doll + ihaveadream_이문형.txt
+오후 4:08:40 192.168.1.52:49226 Fully downloaded - 2.8 K @ 174.7 KB/s - /shared_dir/Python_Day2/practice/doll + ihaveadream_이문형.txt
+오후 4:08:42 192.168.1.52:49226 Requested GET /shared_dir/Python_Day2/practice/
+오후 4:08:46 192.168.1.52:49226 Requested GET /shared_dir/Python_Day2/practice/김성현.txt
+오후 4:08:46 192.168.1.52:49226 Fully downloaded - 1.5 K @ 94.4 KB/s - /shared_dir/Python_Day2/practice/김성현.txt
+오후 4:08:48 192.168.1.52:49226 Requested GET /shared_dir/Python_Day2/practice/
+오후 4:09:47 192.168.1.52:49226 Requested GET /shared_dir/Python_Day2/practice/Day2_문자_김도이.txt
+오후 4:09:47 192.168.1.52:49226 Fully downloaded - 544 @ 11.3 KB/s - /shared_dir/Python_Day2/practice/Day2_문자_김도이.txt
+오후 4:09:51 192.168.1.52:49226 Requested GET /shared_dir/Python_Day2/practice/
+오후 4:09:54 192.168.1.60:52666 Uploading Day2_workshop_김도이.txt
+오후 4:09:54 192.168.1.60:52666 Fully uploaded Day2_workshop_김도이.txt - 698 @ 45.4 KB/s
+오후 4:09:54 192.168.1.60:52666 Requested POST /upload/
+오후 4:09:56 192.168.1.60:52667 Requested GET /upload/
+오후 4:09:56 192.168.1.60:52667 Requested GET /?mode=jquery
+오후 4:10:23 192.168.1.60:52669 Requested GET /
+오후 4:10:23 192.168.1.60:52666 Requested GET /?mode=jquery
+오후 4:10:24 192.168.1.60:52671 Requested GET /shared_dir/
+오후 4:10:24 192.168.1.60:52670 Requested GET /?mode=jquery
+오후 4:10:27 192.168.1.60:52669 Requested GET /shared_dir/Python_Day2/
+오후 4:10:27 192.168.1.60:52671 Requested GET /?mode=jquery
+오후 4:10:29 192.168.1.60:52666 Requested GET /shared_dir/Python_Day2/practice/
+오후 4:10:29 192.168.1.60:52670 Requested GET /?mode=jquery
+오후 4:10:36 192.168.1.60:52666 Requested GET /shared_dir/Python_Day2/practice/trans_hangul_권준형.txt
+오후 4:10:36 192.168.1.60:52666 Fully downloaded - 463 @ 30.1 KB/s - /shared_dir/Python_Day2/practice/trans_hangul_권준형.txt

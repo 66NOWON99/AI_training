@@ -1,0 +1,25 @@
+def solution(progresses, speeds):
+    answer = []
+
+    expected_days=[]
+    for i in range(len(progresses)):
+        days=1
+        while(progresses[i]+days*speeds[i]<100):
+            days+= 1       
+        expected_days.append(days)
+
+    max=expected_days[0]
+    count=0
+    while(expected_days):
+        if(max>=expected_days[0]):
+            count+=1
+        else:
+            max=expected_days[0]
+            answer.append(count)
+            count=1
+
+        expected_days.pop(0)
+        if(len(expected_days)==0):
+            answer.append(count)
+            
+    return answer

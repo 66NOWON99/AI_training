@@ -1,0 +1,15 @@
+import numpy as np
+
+def ecludDist(inA, inB):
+    distance = np.sqrt(np.sum((inA-inB)**2, 1))
+    return distance
+
+def dist(point, group):
+    dist_list = list(np.argsort(list(ecludDist(point, group))))    
+    return dist_list
+
+x = np.array([[0,0]])
+gr = np.array([[4,4],[3,3],[2,2],[1,1]])
+labels = np.array(['A','A','B','B'])
+k = 3
+labels[dist(x,gr)[:k]]

@@ -1,0 +1,6 @@
+#1.
+wikipedia main page에 있는 url이 다른 wiki page로 연결되는 것 50개 뽑기
+50개가 안되면 찾은 wiki page에서 url 추출해서 채우기
+
+#2.
+portal 50개 찾기

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>content_main.html</title>
+</head>
+<body>
+    <h1>토론하기</h1>
+
+    <!-- topic[0]: 오늘은 무엇을 먹을 것인가 -->
+    <h3>{{topic[0]}}</h3>
+    <hr/>
+    <a href="/topic_main">토론방 목록 보기</a><br/>
+    <form action="/add_content_pro" method="post">
+        <input type="hidden" name="topic_idx" value="{{topic_idx}}"/>
+        <!-- 서버로 정보를 보낼때 고정되있는 값을 보내고싶으면 hidden
+            사용자한테 안보이는 값-->
+        글 작성 : <input type="text" name="topic_content"/><br/>
+        <button type="submit">작성</button>
+    </form>
+    <hr/>
+    {% for content in content_list %}
+        <h3>{{content[0]}}</h3>
+    {% endfor %}
+    <!-- content[0]; 짜장면 먹어요 -->
+
+</body>
+</html>

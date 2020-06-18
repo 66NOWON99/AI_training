@@ -1,0 +1,47 @@
+from sklearn.preprocessing import LabelEncoder
+from sklearn.preprocessing import MinMaxScaler
+from sklearn.model_selection import train_test_split
+from sklearn.neighbors import KNeighborsClassifier
+import numpy as np
+import pandas as pd
+
+# load data
+heart = pd.read_csv("heart.csv", index_col=0)
+heart.head()
+
+# drop missing values
+heart.dropna(0,how='any',inplace=True)
+heart.isnull().sum()
+heart.info()
+
+# change categorical values into numerical values
+label_encoder= LabelEncoder()
+heart["ChestPain"] = label_encoder.fit_transform(heart["ChestPain"])
+heart["Thal"] = label_encoder.fit_transform(heart["Thal"])
+heart["AHD"] = label_encoder.fit_transform(heart["AHD"])
+heart.head()
+heart.info()
+
+
+# min-max scaling
+minmax = MinMaxScaler()
+features = [['Age', 'RestBP', 'Chol', 'Fbs', 'RestECG', 'MaxHR', 'ExAng', 'Oldpeak', 'Slope', 'Ca']]
+for feature in features:
+    heart[feature] = minmax.fit_transform(heart[feature])
+
+
+# train test split
+X = np.array(heart.iloc[:,:-1])
+y = np.array(heart.iloc[:,-1:]).ravel()
+
+trainData, testData, trainLabel, testLabel = train_test_split(X, y, random_state=0)
+
+
+# fit
+clf = KNeighborsClassifier(n_neighbors=15)
+clf.fit(trainData, trainLabel)
+
+# predict
+pred = clf.predict(testData)
+print("Test set prediction : {}".format(pred))
+print("Test set accuracy : {:.2f}".format(clf.score(testData, testLabel)))

@@ -1,0 +1,8 @@
+0528
+
+1.baseball
+2.str.replace logic
+3.str.find
+4.str.startswith
+5.str.endswith
+6.str.title

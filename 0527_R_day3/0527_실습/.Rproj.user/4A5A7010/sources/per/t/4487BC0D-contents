@@ -1,0 +1,97 @@
+#install.packages(ggplot2)
+#library(ggplot2)
+library(dplyr)
+heart<-read.csv("C:\\Users\\ilifo\\Desktop\\0526_R_day2\\Heart.csv",header = T,row.names="X",stringsAsFactors = T)
+
+
+my.rm.na <- function(df){
+  rmv <- c()
+  for( i in 1:length(df)){ #length// col개수
+    if (any(is.na(df[,i]))){  #col의 모든 행을 확인해서 any; 행이 하나라도 T면(is.na=T면) 값이 T가 된다.
+      df[,i]<-ifelse(is.na(df[,i]),mean(as.integer(df[,i]),na.rm=T ),df[,i])
+      #factor값을 int로 바꿈 as.integer
+    }
+  }
+  return (df) 
+} 
+
+#is.na(heart[,13]) #vector를 is.na에 넣으면 vector와 길이가 똑같은 논리형 vector가 return됨
+#heart[,13] #vector
+heart.new<-my.rm.na(heart)
+heart.new
+table(is.na(heart.new))
+
+
+v1<-c(T,F,T,T,F)
+v2<-1:5
+v1;v2
+
+v2[v1] <- 100
+v2
+ v2[!v1]<-10
+v2 
+tapply(v2,v1,sum)
+
+
+
+############################
+#데이터 시각화
+x<-c(2,5,8,5,7,10,11,3,4,7)
+y<-c(1:10)
+z<-c(3.5,2.2,1.5,4.6,6.9,3.5,2.2,1.5,4.6,6.9)
+
+plot(x,y,main="PLOT",sub="Test",xlab="x",ylab="y",type="n") 
+#type="l": 점들이 나타내는 순서대로 이어지는 것
+#type="s":계단형 (x축부터) S(y축부터)
+
+#index가 x의 값이됨/ 위의 x vector는 boundary가됨
+points(z,pch=1,cex=1) #type="n" , 동그라미
+points(z,pch=5,cex=1) #마름모
+points(z,pch=11,cex=1) #유다별
+#pch=점의 타입, cex=점의 크기
+
+boxplot(x,z)
+pie(x) #data는 도수(개수)->전체에 대한 비율로 표시
+barplot(x) #x=도수
+hist(x)#x=data자체. 해당 데이터가 몇 개 나왔는지 표시해줌
+#bias를 확인하려면 barplot보다 hist로 확인해야함.(histogram->정규분포처럼 종모양 곡선)
+
+#산점도
+a<-data.frame(x,y)
+pairs(a)
+
+library(MASS)
+a<-data.frame(x,y,z)
+parcoord(a)
+
+ggplot(data=mpg, aes(x=displ, y=hwy)) + geom_point() + xlim(3,6)+ylim(10,30)
+
+library(dplyr)
+mpg 
+mpg<-as.data.frame(mpg) #ggplot2
+str(mpg)#tibble->data.frame format
+df_mpg <- mpg %>%
+  group_by(drv)%>%
+  summarise(mean_hwy = mean(hwy))
+df_mpg
+
+ggplot(data=df_mpg, aes(x=drv, y=mean_hwy))+geom_col()
+ggplot(data=df_mpg, aes(x=reorder(drv,+mean_hwy), y=mean_hwy))+geom_col()
+
+
+install.packages("foreign")
+library(foreign)
+library(dplyr)
+library(ggplot2)
+library(readxl)
+
+raw_welfare <- read.spss(file="C:\\Users\\ilifo\\Desktop\\0527_R_day3\\Koweps_hpc10_2015_beta1.sav",to.data.frame=T)
+
+welfare <- raw_welfare
+welfare
+
+
+head(welfare)
+str(welfare)
+tail(welfare)
+View(welfare)

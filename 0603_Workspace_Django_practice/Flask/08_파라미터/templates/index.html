@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index.html</title>
+</head>
+<body>
+    <h1>파라미터 데이터</h1>
+
+<!--<a href="/test1?a1=100&a2=200&a3=300">get 요청</a><br/>
+    띄어쓰기가 유의미함; 값을 제대로 받기위해선 전부 붙여쓰기-->
+    <a href="/test1?a1=100&a2=200&a3=300">get 요청</a><br/>
+<!--?를 기준 왼쪽:요청주소, 오른쪽:서버로 보내는 데이터(a1:이름,100:값);
+여러개의 데이터는 &로 묶어서 보낼 수 있다-->
+
+    <!--  input 태그의 name 속성이 데이터의 이름이 된다  -->
+    <form action="/test2" method="post">
+        data1 : <input type="text" name="v1"/><br/>
+        data2 : <input type="text" name="v2"/><br/>
+        data3 : <input type="text" name="v3"/><br/>
+
+        <button type="submit">post 요청</button>
+    </form>
+
+    <hr/>
+
+    <a href="/test3?data1=100&data2=200&data3=300">get 요청 test3</a><br/>
+    <!--  input 태그의 name 속성이 데이터의 이름이 된다  -->
+    <hr/>
+    <form action="/test3" method="post">
+        data1 : <input type="text" name="data1"/><br/>
+        data2 : <input type="text" name="data2"/><br/>
+        data3 : <input type="text" name="data3"/><br/>
+
+        <button type="submit">post 요청 test3</button>
+    </form>
+</body>
+</html>

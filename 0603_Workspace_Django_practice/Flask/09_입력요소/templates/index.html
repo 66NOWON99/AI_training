@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index.html</title>
+</head>
+<body>
+    <h1>입력 요소들</h1>
+
+    <form action="/test1" method="post">
+        <!-- name 속성이 데이터의 이름이 된다 -->
+        <!-- text : 한줄 입력 요소 -->
+        text : <input type="text" name="data1"/><br/>
+        <!-- password : 비밀번호 입력 요소 -->
+        password : <input type="password" name="data2"/><br/>
+        <!-- textarea : 여러줄 입력요소
+            내려쓰면 textarea안에 빈칸이들어가버림. 코드를 한줄로만 써야함-->
+        textarea : <textarea name="data3"></textarea><br/>
+        <!-- select : 제시된 항목 중에 하나를 선택할 수 있다 -->
+        <!-- 사용자가 선택한 option 태그의 value 값이 전달된다 -->
+        select : <select name="data4">
+                    <option value="1">항목1</option>
+                    <option value="2">항목2</option>
+                    <option value="3">항목3</option>
+                    <option value="4">항목4</option>
+                    <option value="5">항목5</option>
+                </select>
+                <br/>
+
+        <!-- multi select : select에서 여러 항목을 선택할 수 있다 -->
+        <!--  선택한 항목의 개수만큼 같은 이름으로 여러개가 전달된다.
+        (data5라는 이름의 데이터가 여러개 전달됨; data5가 여러개)-->
+        multi select : <select name="data5" multiple="multiple">
+                        <option value="1">항목1</option>
+                        <option value="2">항목2</option>
+                        <option value="3">항목3</option>
+                        <option value="4">항목4</option>
+                        <option value="5">항목5</option>
+                    </select>
+                 <br/>
+
+        <!-- radio : name이 같은 것 중에 하나만 선택된다.
+                     제시된 항목중에 무조건 한 개가 선택되어야함
+                       선택 된 데이터의 value 값이 넘어온다-->
+        <input type="radio" name="data6" value="r1" checked="checked">라디오1<br/>
+        <input type="radio" name="data6" value="r1">라디오2<br/>
+        <input type="radio" name="data6" value="r1">라디오3<br/>
+
+        <!-- checkbox : 0개 이상이 선택된다(radio와의 주된 차이).
+                    같은 이름으로 다수가 전달될 수 있다.   서로 독립적. 연관성x-->
+        <input type="checkbox" name="data7" value="c1">체크박스 1<br/>
+        <input type="checkbox" name="data7" value="c2">체크박스 2<br/>
+        <input type="checkbox" name="data7" value="c3">체크박스 3<br/>
+
+
+        <!--  -->
+        <button type="submit">확인</button>
+    </form>
+</body>
+</html>

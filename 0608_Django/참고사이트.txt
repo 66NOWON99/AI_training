@@ -1,0 +1,13 @@
+https://www.kaggle.com/
+
+장고 공부하기 좋은 사이트
+http://pythonstudy.xyz/
+
+데이터사이언스스쿨
+https://datascienceschool.net/
+
+다 모여있는 사이트
+https://www.tutorialspoint.com/index.htm
+
+HTML, CSS, JavaScript 등 클라이언트 쪽 공부하기 좋은 사이트
+https://www.w3schools.com/

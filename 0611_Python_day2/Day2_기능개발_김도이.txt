@@ -1,0 +1,17 @@
+def solution(progresses, speeds):
+    from math import ceil #올림 임포트
+    answer = [] 
+    lst = [] #걸린 날짜를 담을 리스트
+    for i in range(0,len(speeds)):   
+        lst.append(ceil((100 - progresses[i])/speeds[i])) #걸린 날짜 어펜드
+    for i in range(0,len(lst)-1): 
+        if lst[i]> lst[i+1]: #뒤의 것보다 크면 
+            lst[i+1] = lst[i] #뒤의 값을 앞의 것으로 바꿈
+    day = set(lst) #중복 제거
+    day = list(day) #다시 리스트로 
+    day.sort()  #오름차순 정렬
+    for i in day:   
+        answer.append(lst.count(i)) #날짜의 개수 세서 어펜드
+    return answer
+
+

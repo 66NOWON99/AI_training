@@ -1,0 +1,34 @@
+#숫자입력:6785
+#출력:육천칠백팔십오
+num2str={"1":"일","2":"이","3":"삼","4":"사","5":"오","6":"육","7":"칠","8":"팔","구":"9"}
+placenum={"1":"일","2":"십","3":"백","4":"천","5":"만"}
+l=[1,2,3,4,5]
+def trans_hangul(num):
+    ret_st = ""
+    ### write here ###
+    if(num<100000):
+        lst=[]
+        for i in str(num):
+            lst.append(i)
+        
+        place=int(len(lst))
+        
+        index=0
+        print(place,type(place))
+        while(index<place):
+            print(lst[index])
+            if (place-index)>1 :
+                ret_st=ret_st+str(num2str.get(lst[index]))+str(placenum.get(str(place-index)))
+                                                               
+
+            else:
+                ret_st=ret_st+num2str.get(lst[index])
+
+            index=index+1
+            
+    
+    
+    ##################
+    return ret_st
+    
+trans_hangul(12345)  

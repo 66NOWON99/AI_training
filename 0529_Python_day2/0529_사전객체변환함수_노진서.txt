@@ -1,0 +1,59 @@
+# 단어와 각 단어의 등장횟수(최소 횟수 이상)을 사전 객체로 반환하는 함수를 만들자:
+# 	parameter: ihaveadream.txt, stopwords.txt, minimum number
+# 	-case sensitive x
+# 	-punctuation x
+# 	-stopwords.txt word not included
+
+
+
+
+#make listMaker which helps to make list containing words in text file
+def listMaker(text):
+    f=open(text)
+    lines=f.readlines()
+    f.close()
+
+    total=[]
+
+    punct=['.',':',',','!',' ','\n']
+    for line in lines:
+        words=line.split(' ')
+        for word in words:
+            for p in punct:
+                if p in word:
+                    word=word[:word.find(p)]
+            total.append(word.lower())
+
+    return total
+
+
+
+##define wordCounter which is goal function
+
+def wordCounter(text,stop,minNum):
+    #make text to list, allow redundancy
+    list=listMaker(text)
+    
+    stop_list=listMaker(stop)
+    
+    #find unique
+    unique=[]
+    for w in list:
+        if w not in stop_list:
+            unique.append(w)
+            
+    dict={}
+    for i in unique:
+        if list.count(i) > minNum:
+            dict[i]=list.count(i)
+   
+
+
+    return dict
+
+
+
+#try
+dream="C:\\Users\\ILIFO-017\\Desktop\\CSLee\\0529_Python_day2\\ihaveadream.txt"
+stop="C:\\Users\\ILIFO-017\\Desktop\\CSLee\\0529_Python_day2\\stopwords.txt"
+print(wordCounter(dream,stop,3))

@@ -1,0 +1,46 @@
+import numpy as np
+
+labels = ['A','B','A','A']#,'C']
+
+def my_entropy(data):
+    
+    entropy=0
+    total = len(data)
+    a=0
+    b=0
+    for i in data:
+        if i == 'A':
+            a+=1
+        else:
+            b+=1
+            
+    entropy = -1*a/total*np.log(a/total) +  (-1)*b/total*np.log(b/total)
+            
+    print(a/total, b/total)
+            
+    
+    
+    return entropy
+
+my_entropy(labels)
+
+
+labels = ['A','B','B','A','C','C','C','C']
+import numpy as np
+# from math import log
+def my_entropy(data):
+    entropy = 0
+    dict = {}
+    for da in data:
+        try:
+            dict[da] +=1
+        except:
+            dict[da] =1
+    
+    class_n = len(dict.keys())
+    for key in dict.keys():
+#         entropy+= -((dict[key]/len(data))* np.log10(dict[key]/len(data)))
+        entropy-= ((dict[key]/len(data))* np.log10(dict[key]/len(data)))
+    return entropy
+
+my_entropy(labels)

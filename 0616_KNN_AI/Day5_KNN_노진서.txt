@@ -1,0 +1,52 @@
+import pandas as pd
+import numpy as np
+heart = pd.read_csv("heart.csv", index_col=0)
+
+heart.dropna(0,how='any',inplace=True)
+heart.isnull().sum()
+
+from sklearn.model_selection import train_test_split
+X = heart.iloc[:,:-1]
+y = heart.iloc[:,-1:]
+
+
+map1 = {
+    'No' : 0,
+    'Yes' : 1
+}
+heart['AHD'] = heart['AHD'].map(map1)
+heart['AHD'].value_counts()
+y = heart.iloc[:,-1:]
+
+heart['Thal'].value_counts()
+map2 = {
+    'normal' : 0,
+    'reversable' : 1,
+    'fixed' : 2
+}
+heart['Thal'] = heart['Thal'].map(map2)
+heart['Thal'].value_counts()
+
+heart['ChestPain'].value_counts()
+map3 = {
+    'asymptomatic' : 0,
+    'nonanginal' : 1,
+    'nontypical' : 2,
+    'typical' : 3
+}
+heart['ChestPain'] =heart['ChestPain'].map(map3)
+heart['ChestPain'].value_counts()
+
+X = heart.iloc[:,:-1]
+
+
+
+
+trainData, testData, trainLabel, testLabel = train_test_split(X, y, random_state=0)
+
+from sklearn.neighbors import KNeighborsClassifier
+clf = KNeighborsClassifier(n_neighbors=15)
+clf.fit(trainData, trainLabel)
+
+print("테스트 세트 예측: {}".format(clf.predict(testData)))
+print("테스트 세트 정확도: {:.2f}".format(clf.score(testData,testLabel)))
