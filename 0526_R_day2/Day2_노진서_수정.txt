@@ -1,0 +1,34 @@
+#ht -> heart 
+#df[i,j]=mean(row)->df[i,j]=mean(row,na.rm=T)
+
+#1
+my.rm.na <- function(df){
+  for( i in 1:nrow(df)){
+    if (any(is.na(df[i,]))){ 
+      for(j in 1:ncol(df)){
+        if(is.na(df[i,j])==TRUE){
+          row<-df[-i,j]
+          df[i,j]=mean(row,na.rm=T)}
+      
+      }
+    }
+  }
+  return (df)
+}
+
+ht.new<-my.rm.na(heart)
+table(is.na(ht.new))
+
+#2
+tapply(heart$Chol,list(heart$AHD,heart$Sex),mean)
+
+
+##3
+heart%>%filter(heart$ChestPain=="typical"&heart$Chol>mean(heart$Chol))%>%select(ChestPain,Chol,AHD)
+
+#4
+x<-heart%>%filter(heart$Age>mean(heart$Age))
+x$AHD.N.Y<-ifelse(x$AHD=="Yes",1,0)
+x
+x<-x[,-c(2:13)]
+x

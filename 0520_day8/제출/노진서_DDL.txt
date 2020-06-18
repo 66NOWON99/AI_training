@@ -1,0 +1,619 @@
+
+exec sp_addtype Domain_1069
+	, "VARCHAR2(10)", "NULL"
+go
+
+exec sp_addtype 가입경로내용
+	, "VARCHAR2(20)", "NULL"
+go
+
+exec sp_addtype 개수
+	, "numeric(10)", "NULL"
+go
+
+exec sp_addtype 갱신횟수
+	, "numeric(7)", "NULL"
+go
+
+exec sp_addtype 거래은행코드
+	, "VARCHAR2(10)", "NULL"
+go
+
+exec sp_addtype 결재방법
+	, "VARCHAR2(120)", "NULL"
+go
+
+exec sp_addtype 계약번호
+	, "VARCHAR2(13)", "NULL"
+go
+
+exec sp_addtype 계약여부
+	, "varchar(4)", "NULL"
+go
+
+exec sp_addtype 계약일자
+	, "VARCHAR2(8)", "NULL"
+go
+
+exec sp_addtype 계좌번호
+	, "numeric(10)", "NULL"
+go
+
+exec sp_addtype 구매가격
+	, "numeric(10)", "NULL"
+go
+
+exec sp_addtype 구매포인트
+	, "numeric(10,2)", "NULL"
+go
+
+exec sp_addtype 도서구분
+	, "VARCHAR2(10)", "NULL"
+go
+
+exec sp_addtype 도서명
+	, "VARCHAR2(40)", "NULL"
+go
+
+exec sp_addtype 도서번호
+	, "VARCHAR2(10)", "NULL"
+go
+
+exec sp_addtype 도서분야
+	, "VARCHAR2(40)", "NULL"
+go
+
+exec sp_addtype 발행일자
+	, "VARCHAR2(8)", "NULL"
+go
+
+exec sp_addtype 배송방법
+	, "VARCHAR2(120)", "NULL"
+go
+
+exec sp_addtype 배송실적
+	, "numeric(10)", "NULL"
+go
+
+exec sp_addtype 배송업체전화번호
+	, "VARCHAR2(18)", "NULL"
+go
+
+exec sp_addtype 배송업체주소
+	, "VARCHAR2(120)", "NULL"
+go
+
+exec sp_addtype 배송일시
+	, "varchar(14)", "NULL"
+go
+
+exec sp_addtype 배송종류
+	, "VARCHAR2(40)", "NULL"
+go
+
+exec sp_addtype 배송지전화번호
+	, "VARCHAR2(18)", "NULL"
+go
+
+exec sp_addtype 배송지주소
+	, "VARCHAR2(120)", "NULL"
+go
+
+exec sp_addtype 분납
+	, "numeric(10)", "NULL"
+go
+
+exec sp_addtype 생일일자
+	, "VARCHAR2(8)", "NULL"
+go
+
+exec sp_addtype 역내위치
+	, "VARCHAR2(120)", "NULL"
+go
+
+exec sp_addtype 원가
+	, "numeric(10)", "NULL"
+go
+
+exec sp_addtype 이전계약내용
+	, "VARCHAR2(120)", "NULL"
+go
+
+exec sp_addtype 일괄정산
+	, "numeric(10)", "NULL"
+go
+
+exec sp_addtype 일주문총액
+	, "numeric(10)", "NULL"
+go
+
+exec sp_addtype 일책주문수
+	, "numeric(10)", "NULL"
+go
+
+exec sp_addtype 임시등록번호
+	, "VARCHAR2(10)", "NULL"
+go
+
+exec sp_addtype 장바구니
+	, "VARCHAR2(40)", "NULL"
+go
+
+exec sp_addtype 재고
+	, "numeric(10)", "NULL"
+go
+
+exec sp_addtype 저자
+	, "VARCHAR2(40)", "NULL"
+go
+
+exec sp_addtype 적용할인율
+	, "numeric(10,2)", "NULL"
+go
+
+exec sp_addtype 전자메일
+	, "VARCHAR2(40)", "NULL"
+go
+
+exec sp_addtype 전해주는말
+	, "VARCHAR2(40)", "NULL"
+go
+
+exec sp_addtype 전화번호
+	, "VARCHAR2(18)", "NULL"
+go
+
+exec sp_addtype 정가
+	, "numeric(10)", "NULL"
+go
+
+exec sp_addtype 정산담당자
+	, "VARCHAR2(40)", "NULL"
+go
+
+exec sp_addtype 정산번호
+	, "VARCHAR2(10)", "NULL"
+go
+
+exec sp_addtype 정산일자
+	, "VARCHAR2(8)", "NULL"
+go
+
+exec sp_addtype 주문번호
+	, "VARCHAR2(10)", "NULL"
+go
+
+exec sp_addtype 주문일자
+	, "VARCHAR2(8)", "NULL"
+go
+
+exec sp_addtype 주민등록번호
+	, "VARCHAR2(13)", "NULL"
+go
+
+exec sp_addtype 주소
+	, "VARCHAR2(120)", "NULL"
+go
+
+exec sp_addtype 지하철사업자명
+	, "VARCHAR2(40)", "NULL"
+go
+
+exec sp_addtype 지하철사업자번호
+	, "VARCHAR2(10)", "NULL"
+go
+
+exec sp_addtype 지하철상점전화번호
+	, "VARCHAR2(18)", "NULL"
+go
+
+exec sp_addtype 지하철역
+	, "VARCHAR2(40)", "NULL"
+go
+
+exec sp_addtype 창고종류
+	, "VARCHAR2(120)", "NULL"
+go
+
+exec sp_addtype 최저가비율
+	, "numeric(10,2)", "NULL"
+go
+
+exec sp_addtype 출판사명
+	, "VARCHAR2(40)", "NULL"
+go
+
+exec sp_addtype 출판사사업자번호
+	, "VARCHAR2(10)", "NULL"
+go
+
+exec sp_addtype 출판사전화번호
+	, "VARCHAR2(18)", "NULL"
+go
+
+exec sp_addtype 출판사주소
+	, "VARCHAR2(120)", "NULL"
+go
+
+exec sp_addtype 취미명
+	, "VARCHAR2(40)", "NULL"
+go
+
+exec sp_addtype 택배사업자번호
+	, "VARCHAR2(10)", "NULL"
+go
+
+exec sp_addtype 택배월정산금액
+	, "numeric(10)", "NULL"
+go
+
+exec sp_addtype 특별배송조건
+	, "VARCHAR2(8)", "NULL"
+go
+
+exec sp_addtype 회원번호
+	, "VARCHAR2(10)", "NULL"
+go
+
+exec sp_addtype 회원종류
+	, "VARCHAR2(8)", "NULL"
+go
+
+exec sp_addtype 휴대폰번호
+	, "VARCHAR2(18)", "NULL"
+go
+
+CREATE TABLE 계약상태
+( 
+	RENW_NUM             갱신횟수 ,
+	CONT_YN              계약여부 ,
+	P_CONT               이전계약내용 ,
+	CONT_NUM             계약번호  NOT NULL ,
+	PUB_BUS_NM           출판사사업자번호  NOT NULL ,
+	BK_CD                거래은행코드  NOT NULL 
+)
+go
+
+ALTER TABLE 계약상태
+	ADD CONSTRAINT XPK계약상태 PRIMARY KEY  CLUSTERED (CONT_NUM ASC,PUB_BUS_NM ASC,BK_CD ASC)
+go
+
+CREATE TABLE 계약서
+( 
+	CONT_NUM             계약번호  NOT NULL ,
+	PUB_NM               출판사명 ,
+	CONT_DT              계약일자 ,
+	LST_RT               최저가비율 ,
+	PUB_BUS_NM           출판사사업자번호  NOT NULL ,
+	BK_CD                거래은행코드  NOT NULL 
+)
+go
+
+ALTER TABLE 계약서
+	ADD CONSTRAINT XPK계약서 PRIMARY KEY  CLUSTERED (CONT_NUM ASC,PUB_BUS_NM ASC,BK_CD ASC)
+go
+
+CREATE TABLE 도서정보
+( 
+	BOOK_NUM             도서번호  NOT NULL ,
+	BOOK_NM              도서명 ,
+	BOOK_GR              도서구분 ,
+	AUTHOR               저자 ,
+	PUB_NM               출판사명 ,
+	BOOK_PB_DT           발행일자 ,
+	COST                 정가 ,
+	APP_DIST_RT          적용할인율 ,
+	LIST_PR              원가 ,
+	SHIP_NUM             주문번호  NOT NULL 
+)
+go
+
+ALTER TABLE 도서정보
+	ADD CONSTRAINT XPK도서정보 PRIMARY KEY  CLUSTERED (BOOK_NUM ASC,SHIP_NUM ASC)
+go
+
+CREATE TABLE 배송업체
+( 
+	SHIP_BUS_NUM         택배사업자번호  NOT NULL ,
+	SHIP_COMP_HNUM       배송업체전화번호 ,
+	SHIP_COMP_ADR        배송업체주소 ,
+	SHIP_NUM             주문번호  NOT NULL ,
+	SHIP_DT              배송일시 ,
+	OR_ADR               배송지주소 ,
+	OR_PNUM              배송지전화번호 ,
+	OR_WY                배송종류 
+)
+go
+
+ALTER TABLE 배송업체
+	ADD CONSTRAINT XPK배송업체 PRIMARY KEY  CLUSTERED (SHIP_BUS_NUM ASC,SHIP_NUM ASC)
+go
+
+CREATE TABLE 배송용역비
+( 
+	SHIP_PRF             배송실적 ,
+	SPEC_SHIP_COND       특별배송조건 ,
+	M_BUS_NUM            지하철사업자번호  NOT NULL ,
+	SHIP_NUM             주문번호  NOT NULL ,
+	SHIP_BUS_NUM         택배사업자번호  NOT NULL 
+)
+go
+
+ALTER TABLE 배송용역비
+	ADD CONSTRAINT XPK배송용역비 PRIMARY KEY  CLUSTERED (M_BUS_NUM ASC,SHIP_BUS_NUM ASC)
+go
+
+CREATE TABLE 배송정산
+( 
+	CAL_NUM              정산번호  NOT NULL ,
+	CAL_DT               정산일자 ,
+	CAL_PR               정산담당자 ,
+	SHIP_MTH_TA          택배월정산금액 ,
+	M_BUS_NUM            지하철사업자번호  NOT NULL ,
+	SHIP_BUS_NUM         택배사업자번호  NOT NULL ,
+	TT_CAL               일괄정산 ,
+	INST_CAL             분납 
+)
+go
+
+ALTER TABLE 배송정산
+	ADD CONSTRAINT XPK배송정산 PRIMARY KEY  CLUSTERED (CAL_NUM ASC)
+go
+
+CREATE TABLE 부회원
+( 
+	TMP_MEM_NUM          임시등록번호  NOT NULL ,
+	SUB_PTH              가입경로내용 ,
+	회원번호             회원번호  NOT NULL ,
+	RRNUM                주민등록번호 ,
+	ADR                  주소 ,
+	HNUM                 전화번호 ,
+	MAIL                 전자메일 ,
+	PNUM                 휴대폰번호 ,
+	PAY_MTD              결재방법 ,
+	PNT                  구매포인트 ,
+	SHP_BSK              장바구니 ,
+	MEM_SRT              회원종류 
+)
+go
+
+ALTER TABLE 부회원
+	ADD CONSTRAINT XPK부회원 PRIMARY KEY  CLUSTERED (TMP_MEM_NUM ASC,회원번호 ASC)
+go
+
+CREATE TABLE 신간서적
+( 
+	BOOK_NM              도서명 ,
+	BOOK_PB_DT           발행일자 ,
+	BOOK_NUM             도서번호  NOT NULL ,
+	SHIP_NUM             주문번호  NOT NULL 
+)
+go
+
+ALTER TABLE 신간서적
+	ADD CONSTRAINT XPK신간서적 PRIMARY KEY  CLUSTERED (BOOK_NUM ASC,SHIP_NUM ASC)
+go
+
+CREATE TABLE 재고현황
+( 
+	BOOK_GR              도서분야 ,
+	STC_SRT              창고종류 ,
+	STCK                 재고 ,
+	BOOK_NUM             도서번호  NOT NULL ,
+	SHIP_NUM             주문번호  NOT NULL 
+)
+go
+
+ALTER TABLE 재고현황
+	ADD CONSTRAINT XPK재고현황 PRIMARY KEY  CLUSTERED (BOOK_NUM ASC,SHIP_NUM ASC)
+go
+
+CREATE TABLE 정회원
+( 
+	HBY                  취미명 ,
+	BDT                  생일일자 ,
+	회원번호             회원번호  NOT NULL ,
+	RRNUM                주민등록번호 ,
+	ADR                  주소 ,
+	HNUM                 전화번호 ,
+	MAIL                 전자메일 ,
+	PNUM                 휴대폰번호 ,
+	PAY_MTD              결재방법 ,
+	PNT                  구매포인트 ,
+	SHP_BSK              장바구니 ,
+	MEM_SRT              회원종류 
+)
+go
+
+ALTER TABLE 정회원
+	ADD CONSTRAINT XPK정회원 PRIMARY KEY  CLUSTERED (회원번호 ASC)
+go
+
+CREATE TABLE 주문목록
+( 
+	BUY_PR               구매가격 ,
+	CT                   개수 ,
+	BOOK_NM              도서명 ,
+	SHIP_NUM             주문번호  NOT NULL 
+)
+go
+
+ALTER TABLE 주문목록
+	ADD CONSTRAINT XPK주문목록 PRIMARY KEY  CLUSTERED (SHIP_NUM ASC)
+go
+
+CREATE TABLE 주문서양식
+( 
+	OR_DT                주문일자 ,
+	OR_ADR               배송지주소 ,
+	OR_PNUM              배송지전화번호 ,
+	OR_WY                배송방법 ,
+	PAY_WY               결재방법 ,
+	CMT                  전해주는말 ,
+	SHIP_NUM             주문번호  NOT NULL ,
+	회원번호             회원번호  NOT NULL ,
+	TMP_MEM_NUM          임시등록번호  NOT NULL 
+)
+go
+
+ALTER TABLE 주문서양식
+	ADD CONSTRAINT XPK주문서양식 PRIMARY KEY  CLUSTERED (SHIP_NUM ASC)
+go
+
+CREATE TABLE 지하철상점
+( 
+	M_BUS_NUM            지하철사업자번호  NOT NULL ,
+	TR_BUS_NM            지하철사업자명 ,
+	TR_STR_HNUM          지하철상점전화번호 ,
+	TR_ST                지하철역 ,
+	TR_LOC               역내위치 ,
+	SHIP_NUM             주문번호  NOT NULL ,
+	SHIP_DT              배송일시 ,
+	OR_ADR               배송지주소 ,
+	OR_PNUM              배송지전화번호 ,
+	OR_WY                배송종류 
+)
+go
+
+ALTER TABLE 지하철상점
+	ADD CONSTRAINT XPK지하철상점 PRIMARY KEY  CLUSTERED (M_BUS_NUM ASC,SHIP_NUM ASC)
+go
+
+CREATE TABLE 집계내역
+( 
+	DAY_TA               일주문총액 ,
+	DAY_SHIP_NUM         일책주문수 ,
+	택배월정산금액       택배월정산금액 
+)
+go
+
+CREATE TABLE 출판사
+( 
+	PUB_BUS_NM           출판사사업자번호  NOT NULL ,
+	PUB_NM               출판사명 ,
+	PUB_PNUM             출판사전화번호 ,
+	PUB_ADR              출판사주소 ,
+	ACCT                 계좌번호 ,
+	BK_CD                거래은행코드  NOT NULL ,
+	LST_RT               최저가비율 
+)
+go
+
+ALTER TABLE 출판사
+	ADD CONSTRAINT XPK출판사 PRIMARY KEY  CLUSTERED (PUB_BUS_NM ASC,BK_CD ASC)
+go
+
+CREATE TABLE 출판사_도서정보
+( 
+	PUB_BUS_NM           출판사사업자번호  NOT NULL ,
+	BK_CD                거래은행코드  NOT NULL ,
+	BOOK_NUM             도서번호  NOT NULL ,
+	SHIP_NUM             주문번호  NOT NULL 
+)
+go
+
+ALTER TABLE 출판사_도서정보
+	ADD CONSTRAINT XPK출판사_도서정보 PRIMARY KEY  CLUSTERED (PUB_BUS_NM ASC,BK_CD ASC,BOOK_NUM ASC,SHIP_NUM ASC)
+go
+
+
+ALTER TABLE 계약상태
+	ADD CONSTRAINT R_8 FOREIGN KEY (CONT_NUM,PUB_BUS_NM,BK_CD) REFERENCES 계약서(CONT_NUM,PUB_BUS_NM,BK_CD)
+		ON DELETE NO ACTION
+		ON UPDATE NO ACTION
+go
+
+
+ALTER TABLE 계약서
+	ADD CONSTRAINT R_59 FOREIGN KEY (PUB_BUS_NM,BK_CD) REFERENCES 출판사(PUB_BUS_NM,BK_CD)
+		ON DELETE NO ACTION
+		ON UPDATE NO ACTION
+go
+
+
+ALTER TABLE 도서정보
+	ADD CONSTRAINT R_79 FOREIGN KEY (SHIP_NUM) REFERENCES 주문목록(SHIP_NUM)
+		ON DELETE NO ACTION
+		ON UPDATE NO ACTION
+go
+
+
+ALTER TABLE 배송업체
+	ADD CONSTRAINT R_23_0 FOREIGN KEY (SHIP_NUM) REFERENCES 주문서양식(SHIP_NUM)
+		ON DELETE NO ACTION
+		ON UPDATE NO ACTION
+go
+
+
+ALTER TABLE 배송용역비
+	ADD CONSTRAINT R_52 FOREIGN KEY (M_BUS_NUM,SHIP_NUM) REFERENCES 지하철상점(M_BUS_NUM,SHIP_NUM)
+		ON DELETE NO ACTION
+		ON UPDATE NO ACTION
+go
+
+ALTER TABLE 배송용역비
+	ADD CONSTRAINT R_53 FOREIGN KEY (SHIP_BUS_NUM,SHIP_NUM) REFERENCES 배송업체(SHIP_BUS_NUM,SHIP_NUM)
+		ON DELETE NO ACTION
+		ON UPDATE NO ACTION
+go
+
+
+ALTER TABLE 배송정산
+	ADD CONSTRAINT R_14 FOREIGN KEY (M_BUS_NUM,SHIP_BUS_NUM) REFERENCES 배송용역비(M_BUS_NUM,SHIP_BUS_NUM)
+		ON DELETE NO ACTION
+		ON UPDATE NO ACTION
+go
+
+
+ALTER TABLE 신간서적
+	ADD CONSTRAINT R_38 FOREIGN KEY (BOOK_NUM,SHIP_NUM) REFERENCES 도서정보(BOOK_NUM,SHIP_NUM)
+		ON DELETE NO ACTION
+		ON UPDATE NO ACTION
+go
+
+
+ALTER TABLE 재고현황
+	ADD CONSTRAINT R_39 FOREIGN KEY (BOOK_NUM,SHIP_NUM) REFERENCES 도서정보(BOOK_NUM,SHIP_NUM)
+		ON DELETE NO ACTION
+		ON UPDATE NO ACTION
+go
+
+
+ALTER TABLE 주문목록
+	ADD CONSTRAINT R_55 FOREIGN KEY (SHIP_NUM) REFERENCES 주문서양식(SHIP_NUM)
+		ON DELETE NO ACTION
+		ON UPDATE NO ACTION
+go
+
+
+ALTER TABLE 주문서양식
+	ADD CONSTRAINT R_31_0 FOREIGN KEY (회원번호) REFERENCES 정회원(회원번호)
+		ON DELETE NO ACTION
+		ON UPDATE NO ACTION
+go
+
+ALTER TABLE 주문서양식
+	ADD CONSTRAINT R_31_0 FOREIGN KEY (TMP_MEM_NUM,회원번호) REFERENCES 부회원(TMP_MEM_NUM,회원번호)
+		ON DELETE NO ACTION
+		ON UPDATE NO ACTION
+go
+
+
+ALTER TABLE 지하철상점
+	ADD CONSTRAINT R_23_0 FOREIGN KEY (SHIP_NUM) REFERENCES 주문서양식(SHIP_NUM)
+		ON DELETE NO ACTION
+		ON UPDATE NO ACTION
+go
+
+
+ALTER TABLE 출판사_도서정보
+	ADD CONSTRAINT R_11 FOREIGN KEY (PUB_BUS_NM,BK_CD) REFERENCES 출판사(PUB_BUS_NM,BK_CD)
+		ON DELETE NO ACTION
+		ON UPDATE NO ACTION
+go
+
+ALTER TABLE 출판사_도서정보
+	ADD CONSTRAINT R_50 FOREIGN KEY (BOOK_NUM,SHIP_NUM) REFERENCES 도서정보(BOOK_NUM,SHIP_NUM)
+		ON DELETE NO ACTION
+		ON UPDATE NO ACTION
+go

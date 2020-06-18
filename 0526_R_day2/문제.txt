@@ -1,0 +1,4 @@
+Day2_이름.txt 제출
+1.my.rm.na 함수를 수정, 결측치인 경우 해당 항목의 평균값으로 대체하는 함수를 만들기
+2.heart에서AHD 와 Sex별로Chol 평균값을 구하시오
+3.heart에서 ChestPain이 "typical"인 사람 중에 chol이 평균보다 높은 사람의 AHD 유무를 보이시오

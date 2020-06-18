@@ -1,0 +1,35 @@
+fl2000<-read.table("fl2000.txt",header=T) #header=T : 첫 라인은 header 표시
+fl2000 #2000년대 플로리다 투표 수 (bush, gore만 관심이있음, 마지막 column 투표합 추가, row: 후보 별 합 추가)
+#Day1_NOHJINSEO.txt
+#summary(fl2000)
+
+df<-data.frame(fl2000[1:7])
+df
+#tfl2000=t(fl2000)
+#fl2000
+#library(dplyr)
+
+
+
+library(readxl)
+
+rowsum<-c(fl2000$Bush + fl2000$Gore+fl2000$Browne+fl2000$Nader+ fl2000$Harris+fl2000$Hagelin+fl2000$Buchanan+fl2000$McReynolds+fl2000$Phillips+fl2000$Moorehead+fl2000$Chote+fl2000$McCarthy)
+df<-cbind(df,rowsum)
+
+
+colsum=c(length(df),length(df), sum(df$columns),sum(df$under),sum(df$over),sum(df$Bush),sum(df$Gore),sum(df$rowsum))
+df<-rbind(df,colsum)
+
+############################################################################################################
+#df$rowsum <- fl2000$Bush+ fl2000$Gore+fl2000$
+#sum(tfl2000[])
+#names(fl2000)
+#sum(fl2000[3:4])
+#fl2000[1:2]
+
+#df%>% mutate(sum = fl2000$Bush + fl2000$Gore+fl2000$Browne+fl2000$Nader+ fl2000$Harris+fl2000$Hagelin+fl2000$Buchanan+fl2000$McReynolds+fl2000$Phillips+fl2000$Moorehead+fl2000$Chote+fl2000$McCarthy)%>% 
+  #fl2000[6:17]
+
+#rsum=df%>%sum(df$Bush)%>%
+#df%>%select(Bush)
+#df
