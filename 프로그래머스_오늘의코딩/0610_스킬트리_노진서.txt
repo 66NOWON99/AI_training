@@ -1,0 +1,13 @@
+def solution(skill, skill_trees):
+    answer = 0
+
+    for skills in skill_trees:
+        temp="" 
+        for one in skills:
+            if one in skill:
+                temp=temp+str(one)
+        
+        print(temp, str(skill))
+        if temp==str(skill)[0:len(temp)]:
+            answer=answer+1
+    return answer
