@@ -1,0 +1,15 @@
+visual code에서 한글추가하기
+
+:C:\Users\ILIFO-017\anaconda3\Lib\site-packages\pytagcloud\fonts
+에 원하는 한글 폰트를 복붙하고
+fonts.json 들어가서
+
+리스트 안에 
+{
+		"name": "Korean",
+		"ttf": "HMFMMUEX.ttf",
+		"web": "http://fonts.googleapis.com/css?family=Nobile"
+	},
+
+를 추가한다.
+name과 ttf 형식을 알맞게 변환해준다.

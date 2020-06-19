@@ -11,3 +11,45 @@
 	a = 4;
 	모든 변수가 참조형이다. - 주소만을 갖는다
 	직관적
+
+
+검색 theme- default light
+	zoom
+
+{"red":"빨간색", "green":"초록색","blue":"파란색"}
+
+[
+
+  {"product_name":"갤럭시 S 휴대폰", "product_model":"Model1010","price":"1,200,000"}
+  {"product_name":"선풍기", "product_model":"Model1010","price":"1,200,000"}
+  {"product_name":"캐리어 에어콘", "product_model":"Model1010","price":"1,200,000"}
+    
+]
+
+data.product_name
+data['product_name']
+
+data[0].product_name
+data[0]['product_name']
+
+{
+  "salesman":"홍길동";
+  "product" : "
+	      [
+		  {"product_name":"갤럭시 S 휴대폰", "product_model":"Model1010","price":"1,200,000"}
+  		  {"product_name":"선풍기", "product_model":"Model1010","price":"1,200,000"}
+  		  {"product_name":"캐리어 에어콘", "product_model":"Model1010","price":"1,200,000"}
+	      ]
+}
+
+   Ajax
+	장고나 플라스크에서는 python의 dic 과 list 타입 사용해서 데이터, html을
+	파일을 결합해서 출력 - 랜더링(rendering)
+
+
+ <xml>
+   <root>
+       <product>
+
+json : json파싱
+beautiful: html 파싱
