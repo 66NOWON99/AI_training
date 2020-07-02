@@ -1,0 +1,8 @@
+0622
+프로젝트 구상 & title_link() method 구축 시작
+아이콘(symbol) 구상
+
+0623
+프로젝트 발표용 시각화 완료 (민또)
+https://app.site123.com/manager/wizard.php?w=3803066#
+title_link() method 완료

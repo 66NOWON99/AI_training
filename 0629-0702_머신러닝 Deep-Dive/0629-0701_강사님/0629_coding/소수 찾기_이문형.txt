@@ -1,0 +1,41 @@
+import itertools
+
+def solution(numbers):
+    list_ = []
+    answer = 0
+    
+    for i in range(len(numbers)):
+        list_.append(numbers[i])
+    
+    list_rev = []
+    for L in range(2**len(numbers)):
+        temp = []
+        for subset in itertools.permutations(list_, L):  #2**n가지 경우의 수 튜플 형태로 가져옴
+            if temp.count(subset) == 0:
+                temp.append(subset)
+        list_2 = []
+        for i in temp:
+            num_ = ''
+            for j in range(len(i)):
+                num_ = num_ + i[j]
+            list_2.append(num_)
+        list_rev.append(list_2)
+    
+    new_list = []  #중복 제거하여, 모든 경우의 수를 리스트에 저장
+    for i in range(len(list_rev)):
+        for j in range(len(list_rev[i])):
+            if len(list_rev[i][j]) != 0 and new_list.count(int(list_rev[i][j])) == 0:
+                new_list.append(int(list_rev[i][j]))
+                
+    check = 0 #소수가 아니면 check값 증가
+    for i in range(len(new_list)):
+        if new_list[i] == 0 or new_list[i] == 1:
+            check = check + 1
+        else: 
+            for j in range(2, new_list[i]):
+                if new_list[i]%j == 0:
+                    check = check + 1
+                    break
+    answer = len(new_list) - check
+
+    return answer

@@ -1,0 +1,31 @@
+from pandas.io.parsers import read_csv
+
+data = read_csv('ex1.txt', sep='\t', header=None)
+xy = np.array(data, dtype=np.float32)
+
+x_data = xy[:,:-1]
+y_data = xy[:,-1]
+ 
+#연산 그래프 그리는 것 
+with tf.Graph().as_default():
+    x = tf.placeholder(tf.float32, shape=[None,2]) #예제는 몇 개인지 모름, x는 독립변수
+    y = tf.placeholder(tf.float32, shape=None) #예제의 갯수만큼 넘어옴
+    
+    w = tf.Variable([[0,0]], dtype=tf.float32, name='weight')
+    b = tf.Variable(0, dtype=tf.float32, name='bias')
+    
+    y_hat = tf.matmul(w,tf.transpose(x)) #예측하려는 값
+    
+    loss = tf.reduce_mean(tf.square(y-y_hat)) #y-y_hat 잔차의 제곱의 평균이 최소가 되는 w, b를 구하려는 것 
+    
+    optimizer = tf.train.GradientDescentOptimizer(learning_rate = 0.0005)
+    train = optimizer.minimize(loss)
+    
+    init = tf.global_variables_initializer()
+    with tf.Session() as sess:
+        sess.run(init) #메모리에 올라가면 초기화 시켜줘야함 약속임
+        for step in range(10000): #점진적으로 찾아 들어가는 횟수
+            sess.run(train, feed_dict={x:x_data, y:y_data})
+            if (step % 500 == 0):
+                print(step, sess.run([w]))
+        print(step, sess.run([w]))

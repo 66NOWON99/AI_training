@@ -1,0 +1,7 @@
+1.concrete의 strength를 예측하는 모델 - Neural Network로 만들기
+
+다중 classification
+softmax : logistics를 변형해서 다중 class 구분 & layer없음
+2.softmax& NN
+
+NN: Softmax에 layer를 둔것(?)

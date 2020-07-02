@@ -1,0 +1,39 @@
+
+import pandas as pd
+df = pd.DataFrame(np.loadtxt('ex1.txt', dtype='float'))
+x_data = df[[1]].values
+y_data= df[[2]].values
+
+
+with tf.Graph().as_default():
+    #연산을 수행할 그릇을 만들어준다
+    x = tf.placeholder(tf.float32, shape=[None,1])
+    y = tf.placeholder(tf.float32, shape = None)
+    
+    #초기값 0세팅
+    w = tf.Variable([[0]], dtype=tf.float32, name ='weight')
+    b = tf.Variable(1, dtype=tf.float32, name ='bias')
+    #예측하려는 수식
+    y_hat = tf.matmul(w, tf.transpose(x)) + b
+    
+    #내가 예측하는 값과 예측하려는 수식의 차의 최소갑을 구하려함
+    loss = tf.reduce_mean(tf.square(y-y_hat))
+    #cost = tf.Variable(loss,dtype = tf.float32,name= 'cost')
+   
+    optimizer = tf.train.GradientDescentOptimizer(learning_rate=0.001)
+    train = optimizer.minimize(loss)
+    
+    init = tf.global_variables_initializer()
+    
+    
+    #텐서플로우 플렛폼에 올려서 계산을 해준다
+    with tf.Session() as sess:
+        #초기화는 필수
+        sess.run(init)
+        
+        for step in range(1000):
+            sess.run(train, feed_dict={x:np.array(x_data), y:np.array(y_data)})
+            if(step % 5 ==0):
+                print(step,sess.run([ w]))
+        print(step,sess.run([w]))
+            

@@ -1,0 +1,34 @@
+def solution(p):
+    count_L = 0
+    count_R = 0
+    u = ''
+    v = ''
+    result = ''
+    if len(p) == 0:
+        return p
+    for i in range(len(p)):
+        if p[i] == '(':
+            count_L += 1
+            u += p[i]
+        else:
+            count_R += 1
+            u += p[i]
+        if count_L == count_R:
+            v = p[i+1:len(p)]
+            break
+    if u[0] == '(':
+        result += u
+        result += solution(v)
+    else:
+        tmp = '('
+        tmp += solution(v)
+        tmp += ')'
+        u = list(u[1:-1])
+        for i in range(len(u)):
+            if u[i] == '(':
+                u[i] = ')'
+            elif u[i] == ')':
+                u[i] = '('
+        tmp += ''.join(u)
+        result += tmp
+    return result

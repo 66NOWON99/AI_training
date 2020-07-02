@@ -1,0 +1,51 @@
+##concrete의 strength를 예측하는 모델 - Neural Network로 만들기
+
+import tensorflow as tf
+import numpy as np
+from sklearn.preprocessing import MinMaxScaler
+
+#concrete.csv불러옴
+
+xy = np.loadtxt('concrete.csv', delimiter=',', dtype=np.float32,skiprows=1)
+# x_data = xy[:,0:-1] #마지막 열을 제외한 데이터 추출
+# y_data = xy[:,[-1]] # 마지막 열만 추출 (2차원 형식)
+scaler = MinMaxScaler()
+x_data = scaler.fit_transform(xy[:,0:-1])
+y_data = scaler.fit_transform(xy[:,[-1]])
+
+X = tf.placeholder(tf.float32, shape=[None, 8])
+Y = tf.placeholder(tf.float32, shape=[None, 1])
+
+W1 = tf.Variable(tf.random_normal([8,13]), name='weight')
+b1 = tf.Variable(tf.random_normal([13]), name='bias')
+layer1 = tf.sigmoid(tf.matmul(X,W1) + b1)
+
+W2 = tf.Variable(tf.random_normal([13,10]), name='weight')
+b2 = tf.Variable(tf.random_normal([10]), name='bias')
+layer2 = tf.sigmoid(tf.matmul(layer1,W2) + b2)
+
+W3 = tf.Variable(tf.random_normal([10,1]), name='weight')
+b3 = tf.Variable(tf.random_normal([1]), name='bias')
+hypothesis = tf.sigmoid(tf.matmul(layer2,W3) + b3)
+
+# cost = -tf.reduce_mean(Y * tf.log(hypothesis) + (1 - Y) * tf.log(1 - hypothesis))
+cost = tf.reduce_mean(tf.square(Y - hypothesis))
+train = tf.train.GradientDescentOptimizer(learning_rate=0.05).minimize(cost)
+# predicted = tf.cast(hypothesis > 0.5, dtype=tf.float32)
+# accuracy = tf.reduce_mean(tf.cast(tf.equal(predicted, Y), dtype=tf.float32))
+
+with tf.Session() as sess:
+    sess.run(tf.global_variables_initializer())
+    
+    for step in range(30001):
+        cost_val, _ = sess.run([cost, train], feed_dict={X:x_data, Y:y_data})
+        if step % 6000 == 0:
+            print(step, cost_val)
+    
+#result
+# 0 0.2507736
+# 6000 0.020384379
+# 12000 0.017219357
+# 18000 0.015716227
+# 24000 0.014711652
+# 30000 0.013899976

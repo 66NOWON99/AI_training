@@ -1,0 +1,50 @@
+def D (p):			 ## 판별식 :  올바르거나 공백이면 1 // 아니면 0을 리턴
+    stack = []
+    for l in p:
+        if l == "(":stack.append(l)
+        else:
+            try:stack.pop()
+            except IndexError:
+                return 0
+                break
+    return 1  
+
+def seperate(p,start,end):	 ## 분리 :  인덱스 분리
+    return p[start+1:end+1]
+
+def task(u,v):		 ## 병합 :  올바른 문자열 병합과정
+    temp = "("+v+")"
+    temp_list = list(u)
+    temp_list.pop()
+    del temp_list[0]
+    for l in temp_list:
+        if l == "(" : temp=temp+")"
+        else : temp=temp+"("
+    print(temp)
+    return temp
+
+def solution(p):
+    l_count,r_count = 0,0
+    idx_list = []
+    for i, l in enumerate(p):
+        if l == "(":l_count+=1
+        else : r_count+=1
+        if l_count==r_count:idx_list.append(i)
+    idx_list.sort(reverse=True)
+    print(idx_list)
+    task_num = len(idx_list)
+    test=[]
+    for i in range(0,task_num):
+        try:
+            test.insert(0,seperate(p,idx_list[i+1],idx_list[i]))
+        except IndexError:
+            test.insert(0,seperate(p,-1,idx_list[i]))
+    test.append('')
+    while (test):
+        try : 
+            v = test.pop()
+            u = test.pop()
+            if D(u)!=1:test.append(task(u,v))
+            else: test.append(u+v)
+        except IndexError:
+            return v

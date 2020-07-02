@@ -1,0 +1,47 @@
+from itertools import permutations
+
+def check(c):
+    print("c",c)
+    char =""
+    for i in range(len(c)):
+        char+=c[i]
+    char = int(char)
+    #print(char)
+    for i in range(2,char+1):
+        if(char%i is 0):
+            break
+    #print(i)
+    #print(char)
+    if char == i:
+        print(char, i)
+        print(char,"냠")
+        return 1     
+    return 0
+def solution(numbers):
+    answer = 0
+    lst = []
+    lst2 = []
+    cnt =0 
+    tmp=[]
+    for i in range(1,len(numbers)+1):
+        lst.append(set(permutations(numbers,i)))
+    
+    #print("1 = ",lst)
+    for i in lst:
+        lst2.append(list(i))
+    lst.clear()  
+    #print("2 = ",lst2)
+    for i in range(len(lst2)):
+        for j in range(len(lst2[i])):
+            if(lst2[i][j][0] is not '0'):
+                lst.append(lst2[i][j])
+            
+    while True:
+        if(cnt == len(lst)):
+            break
+        tmp = list(lst[cnt])
+        answer+=check(tmp)
+        tmp.clear()
+        cnt+=1
+    return answer
+solution("7843")

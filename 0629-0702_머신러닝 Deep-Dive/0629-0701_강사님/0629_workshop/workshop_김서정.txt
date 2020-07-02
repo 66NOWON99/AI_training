@@ -1,0 +1,30 @@
+import numpy as np
+import pandas as pd
+import tensorflow as tf
+
+df = pd.DataFrame(np.loadtxt('ex1.txt', dtype='float'))
+xArr = df[[0,1]].values
+yArr = df[[2]].values
+
+with tf.Graph().as_default():  #그래프 실행
+    x=tf.placeholder(tf.float32, shape=[None,2])  # 독립변수   [? x 2]
+    y=tf.placeholder(tf.float32, shape=None)      # 종속변수   
+    w=tf.Variable([[0,0]],dtype=tf.float32, name='weight')  #가중치(구해야되는 값)
+    b=tf.Variable(1,dtype=tf.float32, name='bias')           #bias값(구해야 되는 값)
+    #loss=tf.Variable(tf.zeros([1.,2.]),name='loss')
+    
+    y_hat=tf.matmul(w,tf.transpose(x))  # y^=ax+b
+    loss=tf.reduce_mean(tf.square(y-y_hat)) # (y-y^)*(y-y^)이 최소인 값이 loss에 들어감
+    
+    optimizer=tf.train.GradientDescentOptimizer(learning_rate=0.05)   #GradientDescent 기법 사용
+    train=optimizer.minimize(loss)   #GradientDescent의 최소값인 값이 train에 들어감(접선의 기울기가 0에 가장 가까울 때)  #이때, train의 형태는무엇?
+    
+    init=tf.global_variables_initializer()
+    with tf.Session() as sess:
+        sess.run(init)   #일상의 습관, 약속같은 문장임.(실행합니다~의 뜻)
+        for step in range(1000):   #100번 반복
+            sess.run(train, feed_dict={x:xArr,y:yArr})  #x_data,y_data가 씨 
+            if (step%50==0):
+                print(step,sess.run([w]))
+            
+    #print(step,sess.run([w,b]))

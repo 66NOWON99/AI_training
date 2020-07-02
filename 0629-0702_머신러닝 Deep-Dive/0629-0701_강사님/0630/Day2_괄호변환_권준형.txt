@@ -1,0 +1,77 @@
+def rightBracket(p):
+
+    stack = []
+    check = True
+    for br in p:
+
+        if br == '(':
+            if len(stack) == 0 or stack[-1] == '(':
+                stack.append(br)
+
+        if br == ')':
+            if len(stack) == 0:
+                check = False
+                break
+            if stack[-1] == '(':
+                stack.pop()
+
+    if len(stack) != 0:
+        check = False
+    
+    return check
+
+def balancedBracketIdx(p):
+    rbr, lbr = 0, 0
+
+    for i in range(len(p)):
+        if p[i] == '(':
+            rbr += 1
+        elif p[i] == ')':
+            lbr += 1
+
+        if rbr == lbr:
+            idx = i
+            break
+            
+    return idx
+
+def reversedBracket(p):
+    bstr = ""
+
+    for br in p:
+        if br == "(":
+            bstr += ")"
+        else:
+            bstr += "("
+    
+    return bstr
+
+def solution(p):
+    if p == "":
+        return p
+    
+    if rightBracket(p):
+        return p
+    
+    idx = balancedBracketIdx(p)
+    u, v = p[:idx+1], p[idx+1:]
+    
+    if rightBracket(u):
+        rightV = solution(v)
+
+        result = u + rightV
+        
+    else:
+        bstr = "("
+        rightV = solution(v)
+            
+        bstr += rightV
+        bstr += ")"
+            
+        u = u[1:-1]
+        u = reversedBracket(u)
+        bstr += u
+            
+        result = bstr
+            
+    return result

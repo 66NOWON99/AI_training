@@ -1,0 +1,62 @@
+data = pd.read_csv("./concrete.csv", sep=",", header=0)
+data.head
+
+data.dtypes
+
+def feture_scaling(df, scaling_strategy="min-max", column=None):
+    if column == None:
+        column = [column_name for column_name in df.columns]
+    for column_name in column:
+        if scaling_strategy == "min-max":
+            df[column_name] = ( df[column_name] - df[column_name].min() ) /\
+                            (df[column_name].max() - df[column_name].min()) 
+        elif scaling_strategy == "z-score":
+            df[column_name] = ( df[column_name] - \
+                               df[column_name].mean() ) /\
+                            (df[column_name].std() )
+    return df
+
+feture_scaling(data,column=["cement","slag","ash","water","superplastic","coarseagg","fineagg","age","strength"])
+data.head
+
+# x 피쳐에 bias 없는 경우
+x_data = data[["cement","slag","ash","water","superplastic","coarseagg","fineagg","age"]]
+print(x_data.shape)
+y_data = data["strength"]
+print(y_data.shape)
+
+with tf.Graph().as_default():
+    tf.set_random_seed(777) # seed 값 고정, seed 값 변경하면서 초기 starting point를 찾아야 함.
+
+    x = tf.placeholder(tf.float32, shape=[None,8]) #예제의 갯수는 상관없음 x feature 갯수만 3개로 고정
+    y = tf.placeholder(tf.float32, shape=None)
+    
+    w = tf.Variable([[0,0,0,0,0,0,0,0]], dtype=tf.float32, name='weight') #가중치,오차 초기값 0
+    b = tf.Variable(0, dtype=tf.float32, name='bias')
+    
+    y_hat = tf.matmul(w, tf.transpose(x)) + b
+    
+    loss = tf.reduce_mean(tf.square(y - y_hat)) #잔차 제곱의 평균, 학습되는 기준이므로 loss function이 굉장히 중요함
+    
+    optimizer = tf.train.GradientDescentOptimizer(learning_rate=0.05) #1e-5
+    
+    #이 파라미터 값으로는 0.016637076 [array([[ 0.6536229 ,  0.4649519 ,  0.2191435 , -0.23394956,  0.11720921, 0.07742927,  0.10014841,  0.5179478 ]], dtype=float32), -0.06339345]이 근사 최적해임
+    # MLR의 hyper parameter = learning rate, epoch
+    
+    train = optimizer.minimize(loss)
+    
+    init = tf.global_variables_initializer()
+    with tf.Session() as sess:
+        sess.run(init)
+        cost_history = []
+        for step in range(100000): #epoch = 100000
+            cost, hypothesis, _ = sess.run([loss, y_hat, train], feed_dict={x:x_data, y:y_data}) # cost 값도 출력하게함, train은 필요없으니 _로 선언
+            cost_history.append(cost)
+            if(step % 5000 == 0):
+                print(step, cost, sess.run([w, b]))
+        print(step, cost, sess.run([w, b]))
+        
+        # print("Your score will be ", sess.run(y_hat, feed_dict={x:[[60,70,110],[90,100,80]]}))
+        
+        plt.plot(cost_history)
+        plt.show()

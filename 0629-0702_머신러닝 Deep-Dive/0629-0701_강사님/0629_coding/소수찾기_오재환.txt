@@ -1,0 +1,39 @@
+from itertools import permutations
+def solution(numbers):
+    tmp_lst = []
+    for i in range(len(numbers)):
+        tmp_lst.append(int(numbers[i]))
+    c_lst = []
+    for i in range(1, len(numbers)+1):
+        c_lst.extend(list(set(permutations(tmp_lst, i))))
+    
+    check = []
+    for i in range(len(c_lst)):
+        tmp = list(c_lst[i])
+        st = ''
+        for j in range(len(tmp)):
+            st += str(tmp[j])
+        check.append(int(st))
+        check = list(set(check))
+        
+    tmp_lst.sort(reverse=True)
+    max_num = ''
+    for j in range(len(tmp_lst)):
+        max_num += str(tmp_lst[j])
+    max_num = int(max_num)+1
+    
+    sieve = [True] * max_num
+    
+    m = int(max_num ** 0.5)
+    for i in range(2, m + 1):
+        if sieve[i] == True:
+            for j in range(i+i, max_num, i):
+                sieve[j] = False
+                
+    num_lst = [i for i in range(2, max_num) if sieve[i] == True]
+    
+    count = 0
+    for x in range(len(check)):
+        if check[x] in num_lst:
+            count += 1
+    return count

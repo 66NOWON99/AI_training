@@ -1,0 +1,49 @@
+def split(p):
+    cnt=0
+    check =0;
+    idx = 0
+    u=''
+    v=''
+    a=''
+    
+    #u, v 나누기
+    if len(p) == 0:
+        return ""
+    while  True:
+        if cnt < 0:
+            check = -1
+        
+        if p[idx] == "(":
+            cnt+=1
+            print("cnt =",cnt)
+            u+=p[idx]
+            idx+=1
+        elif p[idx] == ')':
+            cnt-=1
+            u+=p[idx]
+            idx+=1
+        
+        if cnt == 0:
+            break;    
+    
+    v=p[idx:len(p)+1]
+    ############################   
+    if check == -1:
+        a+='('
+        a = a+split(v)
+        a+=')'
+        u = u[1:len(u)-1]
+        for i in range(len(u)):
+            if u[i] == '(':
+                a+= ')'
+            elif u[i] ==')':
+                a+='('
+        return a
+    else:
+        if len(v) == 0:
+            return u
+        return  u + split(v)
+def solution(p):
+    answer = ''
+    answer+=split(p)
+    return answer

@@ -1,0 +1,45 @@
+def Rev(s):
+    ans=''
+    for i in s:
+        if i=='(':
+            ans+=')'
+        else:
+            ans+='('
+    return ans
+
+def solution(p):
+    if p=='':
+        return ''
+    
+    answer = ''
+    while(p):
+        left=0
+        right=0
+        u=''
+        v=''
+        flag=True
+        for i in range(len(p)):
+            if p[i]=='(':
+                left+=1
+            elif p[i]==')':
+                if left==0:
+                    flag=False
+                right+=1
+                
+            if (left==right) & (left!=0):
+                u=p[:i+1]
+                v=p[i+1:]
+                break
+        
+        if(flag==False):   #u가 올바른 괄호문자열이 아니라면
+            k=solution(v)
+            u=u[1:len(u)-1]  #앞뒤제거
+            u=Rev(u)        #괄호방향반대로
+            u='('+k+')'+u
+            answer+=u
+            break
+            
+        answer+=u
+        p=v
+
+    return answer

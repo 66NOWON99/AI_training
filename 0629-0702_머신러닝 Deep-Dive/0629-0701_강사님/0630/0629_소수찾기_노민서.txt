@@ -1,0 +1,20 @@
+from itertools import permutations
+
+def solution(numbers):
+    answer = set()
+    maximum = 10000000
+    prime_list = [False, False] + [True] * maximum
+    for idx, num in enumerate(prime_list):
+        if num:
+            k = idx*2
+            while k <= maximum:
+                prime_list[k] = False
+                k += idx
+    for i in range(1, len(numbers)+1):
+        perm = permutations(list(numbers),i)
+        for i in list(perm):
+            num = int("".join(list(i)))
+            if prime_list[num]:
+                answer.add(num)
+                
+    return len(answer)

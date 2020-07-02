@@ -1,0 +1,73 @@
+# # of ( = # of ) = 균형잡힌
+# 균형잡힌 and (()) 꼴 = 올바른
+import sys
+sys.setrecursionlimit(1000000)
+
+def solution(p):
+    p_ = str(p)
+    answer = ''
+    u_ = ''
+    v_ = ''
+    count1_ = 0
+    count2_ = 0
+    check = 0
+    check_2 = 0
+    correct = 0
+    sum_ = 0
+    switch_1 = 0
+    correct_2 = 0
+    sum_2 = 0
+    switch_2 = 0
+    
+    if p == '':
+        #print("case1")
+        return ''
+    
+    p_rev = str(p)
+    if p[0] == '(':
+        switch_1 = 1
+        p_ = p_.replace('()','')
+        while len(p_) != 0 and len(p_rev) != len(p_):
+            p_rev = str(p_)
+            p_ = p_.replace('()','')
+            
+    if switch_1 == 1 and p_ == '':
+        #print("case2")
+        return p
+    
+    for i in range(len(p)):
+        if p[i] == '(':
+            count1_ = count1_ + 1
+        else:
+            count2_ = count2_ + 1
+        if count1_ == count2_:
+            u_ = u_ + p[:i+1]
+            v_ = v_ + p[i+1:]
+            break
+            
+    u_2 = str(u_)
+    u_rev = str(u_)
+    if u_[0] == '(':
+        switch_2 = 1
+        u_2 = u_2.replace('()','')
+        while len(u_2) != 0 and len(u_rev) != len(u_2):
+            u_rev = str(u_2)
+            u_2 = u_2.replace('()','')
+    
+    if switch_2 == 1 and u_2 == '':
+        #print("case3")
+        return u_ + solution(v_)
+    
+    u_rev = str(u_[1:-1])
+    u_new = ''
+    
+    for i in range(len(u_rev)):
+        if u_rev[i] == '(':
+            u_new = u_new + ')'
+        else:
+            u_new = u_new + '('  
+    
+    #print("case4")        
+    answer = answer + '(' + solution(v_) + ')' + u_new
+    #print("case5")
+    return answer
